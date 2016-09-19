@@ -92,7 +92,7 @@ La mayor de:
 - Lenguaje de los ordenadores
 - La globalización de la información
 - Sectores laborales de las /TIC/
-- La brecha diginal
+- La brecha digital
 
 ** /Hardware/
 - /Hardware/ básico
