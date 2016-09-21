@@ -131,7 +131,7 @@ Idea: ¿puedo configurar una máquina de computación para realizar una tarea di
 - Uso de tarjetas perforadas y cintas magnéticas
 
 
-| [[file:data/valvulas.png]] | [[file:data/screenshot-20160921-163158.png]] |
+| [[file:data/valvulas.png]] | [[file:data/transistor.png]]                 |
 
 *** Tercera generación
 - Invención del circuito integrado
