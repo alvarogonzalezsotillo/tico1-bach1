@@ -1,0 +1,160 @@
+#+include: "../common/header.org"
+#+Title: Nuevas tecnologías en la sociedad
+#+REVEAL_THEME: serif
+
+
+* Las /TIC/
+    :PROPERTIES:
+    :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico-1/apuntes/1/data/
+    :END:
+
+- ¿Qué son?
+- ¿Cuáles son?
+- ¿Son *nuevas*?
+
+** Ejemplos
+- Realidad aumentada
+- Comercio electrónico
+- Consultas médicas /online/
+- Bancos /online/
+- /Youtubers/
+- Juegos /online/
+- Domótica
+- Códigos /QR/
+
+** Preguntas
+- ¿Qué dispositivos /TIC/ tienes a tu disposición?
+- Busca en /Google Images/ los siguientes computadores:
+  - HP 48
+  - Amstrad CPC 464
+  - Palm Pilot V
+  - ¿Cuál es el más potente? (memoria, resolución de pantalla)
+  - ¿Cuál crees que es más moderno?
+  - ¿Crees que alguno no es una computadora?
+
+** Preguntas
+- ¿Qué significa *informática*?
+- ¿Qué significa *computación*?
+
+** /Hardware/ y /Software/
+- /Hardware/ son las partes físicas de un computadora
+- /Software/ es la configuración del /Hardware/. Puede incluir:
+  - Programas
+  - Datos
+
+- Pregunta: El fichero /explorer.exe/ ¿es un programa o unos datos?
+
+
+* Historia de la informática
+- ¿Desde cuándo crees que el ser humano almacena y trata información?
+- ¿Desde cuándo crees que el ser humano realiza cálculos complejos?
+
+** Cálculo e información en la edad antigua
+- Astronomía
+- Cálculo griego
+- Ábaco chino
+- /Ruedas calendáricas/ mayas
+
+[[file:data/calendario-inca.png]]
+
+
+** Primeros procedimientos de computación
+- al-Jwārizmī
+- Algoritmo de Euclides
+- Criba de Eratóstenes
+- Raiz cuadrada babilónica
+- Método de Newton
+
+** Primeras máquinas de computación
+- Huesos de Napier
+  - https://es.wikipedia.org/wiki/%C3%81baco_neperiano
+- La pascalina de Pascal
+  - https://es.wikipedia.org/wiki/Pascalina
+- La calculadora universal de Leibniz
+  - http://paginaspersonales.deusto.es/airibar/Ed_digital/INF/Intro/Calc_universal.html
+
+[[file:data/pascalina.png]]
+
+** Programación
+Idea: ¿puedo configurar una máquina de computación para realizar una tarea distinta?
+
+- Telares
+  - Tejer es una tarea repetitiva
+  - El color de cada hilo lo marcan unas tarjetas perforadas (datos)
+- Máquina analítica de Charles Babbage
+  - https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica
+  - No llegó a construirse por limitaciones técnicas
+    - Era puramente mecánica, como un mecanismo de relojería
+  - Diseñada como un ordenador moderno
+  - Basada en tarjetas perforadas
+
+- Investiga: [[https://es.wikipedia.org/wiki/Ada_Lovelace#M.C3.A1quina_anal.C3.ADtica_de_Charles_Babbage][¿Quién fue Ada Augusta Byron?]]
+
+** Electrónica
+- Máquina de Hollerith
+  - Realizó el censo de EEUU en 1890
+- La electrónica hizo técnicamente posible la construcción de un computador
+
+** Evolución de los ordenadores
+- Se reconocen 4 generaciones
+  - Los límites son difusos
+  - Se definen /a posteriori/
+
+*** Primera generación
+- Uso de relés, sustituidos rápidamente por válvulas de vacío
+- *Colossus*
+  - Alan Turing, Reino Unido, 1943
+  - Descifrar /enigma/
+
+- *Mark-I*
+  - IBM, EEUU, 1944
+  - Cálculos científicos/militares
+  
+[[file:data/colosus.png]]
+
+
+#+REVEAL: split
+
+- *UNIVAC*
+  - 1951
+  - Censo de los EEUU
+
+- *IBM 701*
+  - 1953
+  - Fines comerciales  
+
+*** Segunda generación
+- Invención del transistor en 1947
+  - Sustituye a la válvula de vacío
+    - Más fiable, menos gasto energético, más pequeño, más barato
+- Uso de tarjetas perforadas y cintas magnéticas
+
+
+| [[file:data/valvulas.png]] | [[file:data/screenshot-20160921-163158.png]]     |
+
+*** Tercera generación
+- Invención del circuito integrado
+  - Los componentes (transistores) se agrupan en una sola pastilla (mismo sustrato)
+  - Comienza la /miniaturización/
+- Uso de discos magnéticos en lugar de cintas
+- *IBM 360*
+  - 1965
+
+[[file:data/cinta-magnetica.png]]
+
+  
+*** Cuarta generación
+- Invernción del microprocesador
+  - Consecuencia de una mayor integración y miniaturización
+
+
+* El lenguaje de los ordenadores
+
+
+* La globalización de la información
+
+* Nuevos sectores laborales
+
+* La brecha digital
+
+* Tendencias en las /TIC/

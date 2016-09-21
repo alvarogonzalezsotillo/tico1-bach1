@@ -1,4 +1,11 @@
 #+attr_latex: :width 1pt :placement [H]
+#+LATEX_HEADER_EXTRA: \usepackage{letltxmacro}
+#+LATEX_HEADER_EXTRA: \LetLtxMacro{\originalincludegraphics}{\includegraphics}
+#+LATEX_HEADER_EXTRA: \renewcommand{\includegraphics}[2][]{\IfFileExists{#2.pdf}{\originalincludegraphics[#1]{#2.pdf}}{\originalincludegraphics[#1]{#2}}}
+
+   :PROPERTIES:
+   :ATTACH_DIR: ./attach/
+   :END:
 [[file:../common/background.png]]
 #+AUTHOR: Álvaro González Sotillo
 #+EMAIL: alvaro.gonzalezsotillo@educa.madrid.org
