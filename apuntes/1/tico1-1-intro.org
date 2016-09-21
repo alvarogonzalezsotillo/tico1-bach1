@@ -4,7 +4,6 @@
 
 # https://marsupial.blinklearning.com/coursePlayer/librodigital_html.php?idclase=15936659&idcurso=393209#
 
-
 * Las /TIC/
     :PROPERTIES:
     :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico-1/apuntes/1/data/
