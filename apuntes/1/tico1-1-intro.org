@@ -157,7 +157,15 @@ Idea: ¿puedo configurar una máquina de computación para realizar una tarea di
     - 1976
 
 *** Internet
-- 
+- Evolucionó desde *ARPANET*, una red con orígenes militares
+[[file:data/arpanet.png]]
+#+REVEAL: split
+[[file:data/internet-europa.png]]
+
+#+REVEAL: split
+[[file:data/red-jerarquica.png]]
+ 
+http://www.chrisharrison.net/projects/InternetMap/
 
 *** ¿Quinta generación?
     :PROPERTIES:
