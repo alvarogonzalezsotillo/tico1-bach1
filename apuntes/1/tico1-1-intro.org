@@ -3,12 +3,12 @@
 #+REVEAL_THEME: serif
 
 # https://marsupial.blinklearning.com/coursePlayer/librodigital_html.php?idclase=15936659&idcurso=393209#
-
-* Las /TIC/
     :PROPERTIES:
-    :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico-1/apuntes/1/data/
+    :ATTACH_DIR: ./1/data/
     :ATTACH_DIR_INHERIT: t
     :END:
+
+* Las /TIC/
 
 
 - ¿Qué son?
@@ -19,6 +19,8 @@
 - Realidad aumentada
 - Comercio electrónico
 - Consultas médicas /online/
+- Aprendizaje a distancia
+- Trabajo a distancia
 - Bancos /online/
 - /Youtubers/
 - Juegos /online/
@@ -192,9 +194,7 @@ http://www.chrisharrison.net/projects/InternetMap/
 - ¿Qué es la singularidad? Completa la línea temporal con tu visión futura de la informática
 
 * El lenguaje de los ordenadores
-  :PROPERTIES:
-  :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico-1/apuntes/1/data/
-  :END:
+
 - Desde el punto de vista del usuario
   - Interfaces de comandos
   - Interfaces gráficas
@@ -387,9 +387,6 @@ Para todos los efectos, los sitios web son aplicaciones
   - Blogs, Wikis, portales
 
 ** /E-Bussines/
-   :PROPERTIES:
-   :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico-1/apuntes/1/data/
-   :END:
 - Transacciones de compra-venta por Internet
 - Ventajas
   - Deslocalización del punto de compra-venta
@@ -402,9 +399,52 @@ Para todos los efectos, los sitios web son aplicaciones
 
   
   
-  
+*** Tipos de /ecommerce/  
+- *B2C* /Business to customer/: Empresas ofrecen sus productos y servicios a los consumidores. Es el tipo de comercio más visible
+  - Amazon
+- *B2B* /Business to Business/: Las transacciones se hacen entre empresas, por ejemplo, entre una empresa y sus proveedores
+- *C2C* /Customer to customer/: Entre consumidores, como en los sitios de venta de segunda mano
+  - EBay
+
 
 
 * La brecha digital
+- /Digital divide/
+- La separación que existe entre personas / ciudades / países que utilizan tecnologías de la información y la comunicación y las que las usan, por
+  - Falta acceso a las mismas
+  - Falta de conocimiento acerca de su uso
 
-* Tendencias en las /TIC/
+- No aparece solo entre países ricos y pobres
+  - Diferencias de renta dentro de un mismo país 
+  - Diferencias de formación
+
+** Causas de la brecha digital
+   :PROPERTIES:
+   :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico-1/apuntes/1/data/
+   :END:
+- Infraestructura
+  - Telefonía fija y móvil
+- Accesibilidad
+  - Precio elevado de los servicios o dispositivos
+
+** Dos brechas
+1. Primera brecha digital
+   -  Debida a la *falta de acceso* a los recursos e infraestructuras
+2. Segunda brecha digital
+   -  Debida a la *falta de capacidad* y habilidad en el uso de los recursos e infraestructuras
+
+#+REVEAL: split
+[[file:data/impacto-tic.png]]
+
+
+*** Preguntas
+- Realiza un listado de los recursos TIC que utilizas (tanto en casa como en el instituto), y aquellos que están a tu disposición pero no utilizas
+- Determina cuál es el impacto de las TIC en tu vida diaria
+- Utiliza el [[http://www.itu.int/net4/ITU-D/idi/2015/][índice de desarrollo de las TIC]] para:
+  - Determinar el lugar de España a nivel mundial, y respecto a países de la Unión Europea
+  - Comparar con otros países cercanos (Portugal, Francia...) el número de líneas de móvil y de hogares conectados a Internet
+- ¿Qué es la iniciativa *OLPC* y cómo pretende disminuir la brecha digital?
+
+
+
+
