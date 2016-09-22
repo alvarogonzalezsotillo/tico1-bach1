@@ -71,12 +71,10 @@
 - Método de Newton
 
 ** Primeras máquinas de computación
-- Huesos de Napier
-  - https://es.wikipedia.org/wiki/%C3%81baco_neperiano
-- La pascalina de Pascal
-  - https://es.wikipedia.org/wiki/Pascalina
-- La calculadora universal de Leibniz
-  - http://paginaspersonales.deusto.es/airibar/Ed_digital/INF/Intro/Calc_universal.html
+- [[https://es.wikipedia.org/wiki/%25C3%2581baco_neperiano][Ábaco]]
+- [[https://es.wikipedia.org/wiki/%25C3%2581baco_neperiano][Huesos de Napier]]
+- [[https://es.wikipedia.org/wiki/Pascalina][La pascalina de Pascal]]
+- [[http://paginaspersonales.deusto.es/airibar/Ed_digital/INF/Intro/Calc_universal.html][La calculadora universal de Leibniz]]
 
 [[file:data/pascalina.png]]
 
@@ -208,8 +206,8 @@ http://www.chrisharrison.net/projects/InternetMap/
 
 
 ** Números
-- Estamos acostrumbrados a un sistema de numeración decimal
-  - Tenemos 10 símbolos para los números
+- Estamos acostrumbrados a un sistema de numeración *decimal*
+  - Tenemos *10* símbolos para los números
   - cuando llegamos al último, añadimos un acarreo
 
 - ¿Cuántos /símbolos/ podemos representar con el voltaje de los circuitos?
@@ -410,7 +408,7 @@ Para todos los efectos, los sitios web son aplicaciones
 
 * La brecha digital
 - /Digital divide/
-- La separación que existe entre personas / ciudades / países que utilizan tecnologías de la información y la comunicación y las que las usan, por
+- La separación que existe entre personas / ciudades / países que utilizan tecnologías de la información y la comunicación y las que no las usan, por
   - Falta acceso a las mismas
   - Falta de conocimiento acerca de su uso
 
@@ -445,7 +443,7 @@ Para todos los efectos, los sitios web son aplicaciones
   - Comparar con otros países cercanos (Portugal, Francia...) el número de líneas de móvil y de hogares conectados a Internet
 - ¿Qué es la iniciativa *OLPC* y cómo pretende disminuir la brecha digital?
 
-
+  
 
 * Referencias
 - Tecnologías de la Información y la Comunicación (I)
