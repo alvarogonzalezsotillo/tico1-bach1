@@ -2,14 +2,14 @@
 #+Title: Nuevas tecnologías en la sociedad
 #+REVEAL_THEME: serif
 
-# https://marsupial.blinklearning.com/coursePlayer/librodigital_html.php?idclase=15936659&idcurso=393209#
+
+
     :PROPERTIES:
     :ATTACH_DIR: ./1/data/
     :ATTACH_DIR_INHERIT: t
     :END:
 
 * Las /TIC/
-
 
 - ¿Qué son?
 - ¿Cuáles son?
@@ -447,4 +447,13 @@ Para todos los efectos, los sitios web son aplicaciones
 
 
 
+* Referencias
+- Tecnologías de la Información y la Comunicación (I)
+  - Irene Rodil Jiménez; Manuel Pedro Blázquez Merino
+  - Editorial Bruño
+- [[https://marsupial.blinklearning.com/coursePlayer/librodigital_html.php?idclase=15936659&idcurso=393209#][Capítulo del libro de texto]] (ofrecido gratuitamente por Bruño)
+- [[https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/1/tico1-1-intro.html][Estas diapositivas]]
+  - Y su [[https://github.com/alvarogonzalezsotillo/tico1-bach1/blob/gh-pages/apuntes/0/tico1-0-contenidos-criterios-evaluacion.org][código fuente]]
 
+
+ 
