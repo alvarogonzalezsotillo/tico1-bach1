@@ -8,7 +8,9 @@
 * Las /TIC/
     :PROPERTIES:
     :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico-1/apuntes/1/data/
+    :ATTACH_DIR_INHERIT: t
     :END:
+
 
 - ¿Qué son?
 - ¿Cuáles son?
@@ -230,11 +232,179 @@ http://www.chrisharrison.net/projects/InternetMap/
 ------
 Intenta completar esta tabla hasta 11111_{(2}
 
+** Prefijos SI y prefijos binarios
 
+|   | Sistema Internacional (decimal) |       | ISO/IEC 80000-13 (binario) |         |
+|---+---------------------------------+-------+----------------------------+---------|
+|   | Múltiplo (símbolo)              |    SI | Múltiplo (símbolo)         | ISO/IEC |
+|---+---------------------------------+-------+----------------------------+---------|
+| / | <                               |     > | <                          |       > |
+|   | kilobyte (kB)                   |  10^3 | kibibyte (KiB)             |    2^10 |
+|   | megabyte (MB)                   |  10^6 | mebibyte (MiB)             |    2^20 |
+|   | gigabyte (GB)                   |  10^9 | gibibyte (GiB)             |    2^30 |
+|   | terabyte (TB)                   | 10^12 | tebibyte (TiB)             |    2^40 |
+|   | petabyte (PB)                   | 10^15 | pebibyte (PiB)             |    2^50 |
+|   | exabyte (EB)                    | 10^18 | exbibyte (EiB)             |    2^60 |
+|   | zettabyte (ZB)                  | 10^21 | zebibyte (ZiB)             |    2^70 |
+|   | yottabyte (YB)                  | 10^24 | yobibyte (YiB)             |    2^80 |
+
+*** Contar con otras bases
+
+- ¿Cuántos KiB son 53kB?  
+- ¿Es más grande un disco de 1000MiB o uno de 1024MB?
+- ¿Cuántos PIN distintos puede tener una tarjeta bancaria?
+- ¿Cuántos números puedo expresar en un byte?
+- Más difícil: ¿Cuántas matrículas de automóvil hay?
+
+** De binario a decimal 
+- Cada dígito binario tiene el valor de una potencia de 2
+- Se suman sus valores
+
+   
+|   | Dígitos binarios     |   0 |  1 |  0 |  0 | 1 | 1 | 0 |  1 |
+|---+----------------------+-----+----+----+----+---+---+---+----|
+| / |                      |   < |  < |  < |  < | < | < | < | <> |
+|   | Valor de la posición | 128 | 64 | 32 | 16 | 8 | 4 | 2 |  1 |
+|   | Valor en este número |   0 | 64 |  0 |  0 | 8 | 4 | 0 |  1 |
+|---+----------------------+-----+----+----+----+---+---+---+----|
+| / |                      |   < |    |    |    |   |   |   |  > |
+|   | Suma total           |  77 |    |    |    |   |   |   |    |
+#+TBLFM: @6$3=vsum(@4$3..@4$10)
+
+
+- Calcula el valor decimal de:
+  - 1100101_{(2}
+  - 01101101_{(2}
+  - 100100100_{(2}
+- Ampliación: Haz una [[file:data/binario.xls][hoja excel]] que permita hacer las cuentas anteriores
+
+*** Otras bases numéricas
+- El binario es cómodo para los circuitos, pero no para las personas
+- A medio camino entre el binario y el decimal, se encuentran:
+  - Números octales (base 8)
+  - Números hexadecimales (base 16)
+
+- Pasa a decimal (Ojo, uno tiene trampa):
+  - 10F0_{(16}
+  - 1070_{(8}
+  - ABCDEFG_{(16}
+  - 1080_{(8}
+
+** ¿Cómo representa un ordenador la información no numérica?
+- El ordenador solo sabe manejar números 
+- Podemos asignar un *código* para cada cosa a representar
+- En el caso de texto, asignamos un número a cada letra
+  - Código ASCII y ASCII extendido
+  - Código EBCDIC
+  - Código UNICODE
+
+[[file:data/ascii-table.gif]]
+
+*** Código UNICODE en Windows
+- Utiliza la utilidad /charmap/ para conocer el número asociado a los caracteres:
+  - A
+  - a
+  - 9
+  - ~
+- Descubre cómo insertar cualquier caracter en Windows, conociendo su número asociado
 
 * La globalización de la información
 
+- Sociedad de la información
+  - Frizt Machlup, 1962
+
+- Sociedad del conocimiento
+  - Peter F. Drucker, 1969
+
+¿Qué diferencias hay entre información y conocimiento?
+
+¿Vivimos en un mundo de información globalizada?
+
+¿Vivimos en un mundo de conocimiento globalizado?
+
+** Globalización
+La capacidad distribución de información ha progresado junto con la civilización. Algunos de sus hitos son:
+- Lenguaje
+- Escritura
+- Imprenta
+- Medios de transporte
+- Medios de telecomunicación
+- Internet
+ 
+
+
+** Problemas para globalizar el conocimiento
+- Información repetitiva en muchas fuentes
+- Sobrecarga de información
+  - La información se genera a ritmos muy altos
+  - Es complicado separar la información útil del resto
+- Veracidad de la información
+  - No todas las fuentes son igual de fiables
+
+
 * Nuevos sectores laborales
+
+
+
+** Industria de /hardware/
+- Supercomputadores, /mainframes/, minicomputadores.
+- La verdadera explosión surgió con los microcomputadores (PC)
+  - Un segundo impulso han sido los /smartphones/
+- No hay que olvidar:
+  - Redes de comunicación: Fibra óptica, coaxial...
+  - Equipos de comunicación: Antenas, routers, switches...
+  - Satélites
+
+** Industria del /software/
+- Aplicaciones para usuarios:
+  - Productos licenciados: /Microsoft Office/
+  - Productos /Freemium/: /Pokemon Go/
+- Aplicaciones de uso propio:
+  - Departamento de informática de la empresa
+- Empresas de servicios:
+  - /Outsourcing/
+  - Consultoría
+  - Mantenimiento informático
+  - Seguridad informática
+  - /Cloud computing/
+
+Para todos los efectos, los sitios web son aplicaciones
+
+** Redes sociales
+- /Comunity manager/
+  - Si no estás en Internet, no existes
+  - Encargado de la presencia pública de una empresa
+  - Se puede ver como un canal más del /marketing/ y la publicidad
+- /SEO/
+  - Search Engine Optimization
+  - Mejora las páginas web para tener mayor importancia en buscadores
+    - Mejor diseño
+    - Mayor claridad
+    - Mayor interrelación con otras páginas
+- /SEM/
+  - Search Engine Optimization
+  - Como el /SEO/, pero pagando por los anuncios
+- Gestor de contenidos digitales
+  - Blogs, Wikis, portales
+
+** /E-Bussines/
+   :PROPERTIES:
+   :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico-1/apuntes/1/data/
+   :END:
+- Transacciones de compra-venta por Internet
+- Ventajas
+  - Deslocalización del punto de compra-venta
+  - Aumento de la gama de productos 
+  - Reducción de costes
+  - Economía de escala (mercado global)
+  - /Marketing/ personalizado
+
+[[file:data/evolucion-ecommerce.png]]
+
+  
+  
+  
+
 
 * La brecha digital
 
