@@ -46,9 +46,7 @@
 - /Software/ es la configuración del /Hardware/. Puede incluir:
   - Programas
   - Datos
-
 - Pregunta: El fichero /explorer.exe/ ¿es un programa o unos datos?
-
 
 * Historia de la informática
 - ¿Desde cuándo crees que el ser humano almacena y trata información?
