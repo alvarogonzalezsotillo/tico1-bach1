@@ -1,0 +1,62 @@
+#+include: "../common/header.org"
+#+Title: /Hardware/ y componentes físicos
+#+REVEAL_THEME: serif
+
+
+
+    :PROPERTIES:
+    :ATTACH_DIR: ./1/data/
+    :ATTACH_DIR_INHERIT: t
+    :END:
+
+* Tipos de ordenador
+- Tabletas
+  - Apple
+  - Android
+- Smartphones
+  - Básicamente el mismo que las Tabletas
+- /PC/
+  - Portátiles
+  - /Ultrabooks/
+  - Sobremesa
+
+En esta unidad trataremos de los /PC/ de sobremesa
+
+* Componentes básicos
+- Procesador
+  - Unidad de control */UC/*
+  - Unidad aritmético-lógica */ALU/*
+- Memoria principal
+- Dispositivos de 
+  - Entrada
+  - Salida
+  - Entrada/salida
+- /Buses/
+- Caja
+- Fuente de alimentación
+- Placa base
+- Ventiladores
+
+** Caja
+Carcasa que protege y organiza el resto de Componentes
+- Chasis
+- Cubiertas laterales
+- Panel frontal
+- Bahías para unidades
+- Trasera
+
+** Fuente de alimentación
+- Transforman la corriente de la red para que pueda ser utilizada por los componentes
+  - Alterna --> continua 
+  - 220/110V --> 5/12V
+- Colaboran con la ventilación de la caja  
+
+* Referencias
+- Tecnologías de la Información y la Comunicación (I)
+  - Irene Rodil Jiménez; Manuel Pedro Blázquez Merino
+  - Editorial Bruño
+- [[https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/1/tico1-1-intro.html][Estas diapositivas]]
+  - Y su [[https://github.com/alvarogonzalezsotillo/tico1-bach1/blob/gh-pages/apuntes/0/tico1-0-contenidos-criterios-evaluacion.org][código fuente]]
+
+
+ 
