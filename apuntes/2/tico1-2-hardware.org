@@ -59,13 +59,9 @@ Carcasa que protege y organiza el resto de Componentes
 - Unidades
   - *Bit*: Unidad mínima de información
   - *Byte*: 8 bits. Suele ser la unidad mínima que manejan las instrucciones del orderador
-  - *Palabra*: Unidad que maneja el /Hardware/ del ordenador
-    - Arquitecturas de 16 bits, 32 bits, 64 bits...
-    - Debería coincidir la arquitectura del S.O.
-
+  - Múltiplos del byte
+  
 #+REVEAL: split
-- Múltiplos del byte
-
 |   | Sistema Internacional (decimal) |       | ISO/IEC 80000-13 (binario) |         |
 |---+---------------------------------+-------+----------------------------+---------|
 |   | Múltiplo (símbolo)              |    SI | Múltiplo (símbolo)         | ISO/IEC |
@@ -80,29 +76,105 @@ Carcasa que protege y organiza el resto de Componentes
 |   | zettabyte (ZB)                  | 10^21 | zebibyte (ZiB)             |    2^70 |
 |   | yottabyte (YB)                  | 10^24 | yobibyte (YiB)             |    2^80 |
 
-** Características de las memorias
+*** Características de las memorias
 - Velocidad
   - De lectura 
   - De escritura
 - Precio por /MegaByte/
 - Tamaño máximo
 - Consumo de electricidad
+- Acceso aleatorio
 - *Volátil* o *permanente*
 
 
-** Jerarquía de memoria 
+*** Jerarquía de memoria 
 - No todos los tipos de memoria pueden usarse para todo
 - Lo ideal sería
   - No volátil
   - Muy grande
   - Muy rápida
   - Bajo precio
-- Para intentar conseguir estas características,[[https://es.wikipedia.org/wiki/Jerarqu%25C3%25ADa_de_memoria][ se mezclan diferentes tipos de memoria]]
+- Para intentar conseguir estas características, [[https://es.wikipedia.org/wiki/Jerarqu%25C3%25ADa_de_memoria][se mezclan diferentes tipos de memoria]]
 
 #+reveal: split
 [[file:Jerarquia_memoria.png]]  
 -----
 Investiga la velocidad típica de cada nivel de memoria, su tamaño y precio por MegaByte
+
+*** Registros
+- Son unos pocos datos almacenados directamente en el procesador.
+  - Cada registro tiene un nombre: =EAX=, =EBX=, =SI=, =PC=...
+- Las instrucciones del procesador solo pueden manejar directamente estos datos
+- Ejemplo:
+  - Una calculadora típica tiene dos o tres registros: operando 1, operando 2, resultado 
+
+*** Memoria principal
+    :PROPERTIES:
+    :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico1-bach1/apuntes/2/
+    :END:
+- El procesador accede a esta memoria para
+  - Mover valores de memoria a un registro
+  - Mover el valor de un registro a una posición de memoria
+- La memoria tiene muchas posiciones o /celdas/
+  - Cada posición se identifica con un número
+- *Palabra*: Unidad que maneja el /Hardware/ del ordenador
+  - Arquitecturas de 16 bits, 32 bits, 64 bits...
+  - Debería coincidir la arquitectura del S.O.
+
+#+REVEAL: split
+- En los PC, la memoria depende de
+  - La capacidad máxima de la placa base (/buses/)
+  - Tecnología de la placa base:
+    - SDR, DDR, DDR2, DDR3, DDR4...
+    - Velocidad del /bus/ (MegaHercios)
+  - Formato físico de la memoria
+    - SODIMM
+    - [[https://es.wikipedia.org/wiki/DIMM][DIMM]], con diferente número de contactos
+      - 168, 184, 240, 288...
+
+#+REVEAL: split
+| SODIMM | DIMM (184 pines)|
+| [[file:sodimm.jpg]]       |   [[file:dimm.png]]   |
+
+[[file:slots-memoria.jpg]]
+
+-----
+¿Qué capacidad de memoria tiene tu ordenador? ¿Qué tipo de memoria tiene? ¿Cuánto te costaría ampliar la memoria hasta el máximo de tu placa base?
+
+Puedes utilizar [[http://eu.crucial.com/eur/en/memory-info][http://eu.crucial.com/eur/en/memory-info]] (recuerda no instalar nada)
+
+*** Memoria /cache/
+- Es una memoria intermedia entre los registros y la memoria principal
+- Está en la misma pastilla que el procesador, para ganar velocidad
+- Cuando el procesador necesita un dato de memoria:
+  1. Si está en la /cache/, lo lee de allí (rápido)
+  2. Si no está, la /cache/ lee un bloque entero de la memoria principal
+  3. Una vez leido ese bloque, el procesador lee los datos de la /cache/
+  4. Se ahorra tiempo porque es más rápido leer un bloque de memoria principal que bytes sueltos
+- Los programas no son /conscientes/ de que hay una memoria /cache/
+- Los procesadores pueden incluir más de un nivel de /cache/
+  - Level 1 (/L1/), Level 2 (/L2/)
+  - La /L1/ es la más cercana al procesador
+
+** Unidad central de proceso (/CPU/)
+- Interpreta las órdenes de la que se componen los programas
+- Controla el resto de componentes del ordenador
+- Se compone de:
+  - Registros
+  - Unidad aritmético-lógica (/ALU/)
+  - Unidad de control (/CU/)
+  - Reloj
+
+*** /ALU/  
+- Es la *calculadora* del procesador
+- Es capaz de realizar operaciones básicas como
+  - Sumar, restar, multiplicar, dividir 
+    - Con números enteros o "reales"
+  - Comparar números: >, <, =...
+  - Operaciones lógicas: Y lógico, O lógico, NO lógico...
+- Suele contar con varios registros. Al menos tiene
+  - Dos operandos
+  - Un resultado
 
 
 * Referencias
@@ -113,4 +185,5 @@ Investiga la velocidad típica de cada nivel de memoria, su tamaño y precio por
   - Y su [[https://github.com/alvarogonzalezsotillo/tico1-bach1/blob/gh-pages/apuntes/0/tico1-0-contenidos-criterios-evaluacion.org][código fuente]]
 
 
+ 
  
