@@ -1347,29 +1347,29 @@ html:-moz-full-screen-ancestor {
 <style type="text/css">
 /**
  * A simple theme for reveal.js presentations, similar
- * to the default theme. The accent color is brown.
+ * to the default theme. The accent color is darkblue.
  *
- * This theme is Copyright (C) 2012-2013 Owen Versteeg, http://owenversteeg.com - it is MIT licensed.
+ * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+ * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-.reveal a {
-  line-height: 1.3em; }
-
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #F0F1EB;
-  background-color: #F0F1EB; }
+  background: #fff;
+  background-color: #fff; }
 
 .reveal {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-family: "Lato", sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: #000; }
 
 ::selection {
   color: #fff;
-  background: #26351C;
+  background: rgba(0, 0, 0, 0.99);
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -1387,8 +1387,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #383D3D;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  color: #000;
+  font-family: "News Cycle", Impact, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -1552,20 +1552,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #51483D;
+  color: #00008B;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #8b7c69;
+  color: #0000f1;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #25211c; }
+  background: #00003f; }
 
 /*********************************************
  * IMAGES
@@ -1587,7 +1587,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #51483D;
+  border-color: #00008B;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -1595,31 +1595,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #51483D; }
+  border-right-color: #00008B; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #51483D; }
+  border-left-color: #00008B; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #51483D; }
+  border-bottom-color: #00008B; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #51483D; }
+  border-top-color: #00008B; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #8b7c69; }
+  border-right-color: #0000f1; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #8b7c69; }
+  border-left-color: #0000f1; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #8b7c69; }
+  border-bottom-color: #0000f1; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #8b7c69; }
+  border-top-color: #0000f1; }
 
 /*********************************************
  * PROGRESS BAR
@@ -1628,7 +1628,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #51483D;
+  background: #00008B;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -1639,7 +1639,7 @@ body {
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title"><i>Hardware</i> y componentes físicos</h1><h2 class="author">Álvaro González Sotillo</h2><p class="date">Created: 2016-09-29 jue 11:44</p>
+<section id="sec-title-slide"><h1 class="title"><i>Hardware</i> y componentes físicos</h1><h2 class="author">Álvaro González Sotillo</h2><p class="date">Created: 2016-09-29 jue 18:58</p>
 </section>
 <section id="table-of-contents">
 <div id="table-of-contents">
@@ -1654,8 +1654,8 @@ body {
 <li><a href="#/slide-orgheadline22">6. Placa base</a></li>
 <li><a href="#/slide-orgheadline28">7. Unidad central de proceso (<i>CPU</i>)</a></li>
 <li><a href="#/slide-orgheadline37">8. Periféricos</a></li>
-<li><a href="#/slide-orgheadline42">9. Dispositivos de almacenamiento</a></li>
-<li><a href="#/slide-orgheadline43">10. Referencias</a></li>
+<li><a href="#/slide-orgheadline43">9. Dispositivos de almacenamiento</a></li>
+<li><a href="#/slide-orgheadline44">10. Referencias</a></li>
 </ul>
 </div>
 </div>
@@ -5227,6 +5227,11 @@ Busca en Internet datos acerca de la memoria <i>cache</i> que incluyen los proce
 </ul></li>
 
 </ul>
+
+<hr  />
+<p>
+¿Cómo puede saberse si una conexión <i>USB</i> es <b>3.0</b>?
+</p>
 
 <div class="slide-footer"></div>
 </section>
@@ -25098,6 +25103,9 @@ EN MEMORIA    MEMORIA
 <ul>
 <li><i>Scaner</i></li>
 <li>Micrófono</li>
+<li>Mandos de juego</li>
+<li>Lectores de código de barras</li>
+<li>Cámara</li>
 
 </ul>
 
@@ -25168,6 +25176,17 @@ EN MEMORIA    MEMORIA
 <h3 id="orgheadline34"><span class="section-number-3">8.6</span> Otros periféricos de salida</h3>
 <ul>
 <li>Altavoces</li>
+<li>Impresoras 3D
+<ul>
+<li>Compactación: Capas de polvo se compactan o se unen con resina</li>
+<li>Adición: Un plástico se funde y se añade por capas 
+<ul>
+<li>Más baratas, pero de peor calidad final</li>
+
+</ul></li>
+<li>Estereolitografía: Un láser solidifica resina líquida</li>
+
+</ul></li>
 
 </ul>
 
@@ -25201,6 +25220,7 @@ EN MEMORIA    MEMORIA
 <li>DVI</li>
 <li>HDMI</li>
 <li>RJ45</li>
+<li>Bluetooth / Wifi / NFC</li>
 
 </ul></li>
 
@@ -25215,9 +25235,9 @@ Realiza una presentación en la identifiques todos los puertos externos de tu or
 </section>
 </section>
 <section>
-<section id="slide-orgheadline42">
+<section id="slide-orgheadline43">
 <div class="slide-header"></div>
-<h2 id="orgheadline42"><span class="section-number-2">9</span> Dispositivos de almacenamiento</h2>
+<h2 id="orgheadline43"><span class="section-number-2">9</span> Dispositivos de almacenamiento</h2>
 <ul>
 <li>Son periféricos de entrada/salida</li>
 <li>Parte baja de la jerarquía de memoria
@@ -25268,9 +25288,9 @@ Realiza una presentación en la identifiques todos los puertos externos de tu or
 
 <div class="slide-footer"></div>
 </section>
-<section id="slide-orgheadline39">
+<section id="slide-orgheadline40">
 <div class="slide-header"></div>
-<h3 id="orgheadline39"><span class="section-number-3">9.2</span> Unidades <i>SSD</i></h3>
+<h3 id="orgheadline40"><span class="section-number-3">9.2</span> Unidades <i>SSD</i></h3>
 <ul>
 <li><i>Solid Disk Drive</i></li>
 <li>Se conectan como un disco duro</li>
@@ -25289,9 +25309,20 @@ Realiza una presentación en la identifiques todos los puertos externos de tu or
 
 <div class="slide-footer"></div>
 </section>
-<section id="slide-orgheadline40">
+<section id="slide-orgheadline39">
 <div class="slide-header"></div>
-<h3 id="orgheadline40"><span class="section-number-3">9.3</span> <i>Pen Drive</i></h3>
+<h4 id="orgheadline39"><span class="section-number-4">9.2.1</span> Preguntas</h4>
+<ul>
+<li>Comprueba la diferencia de precio entre una unidad <i>SSD</i> de 1TByte y una unidad de disco convencional de la misma capacidad</li>
+<li>¿Qué es un disco <b>híbrido</b> <i>SSHD</i>?</li>
+
+</ul>
+
+<div class="slide-footer"></div>
+</section>
+<section id="slide-orgheadline41">
+<div class="slide-header"></div>
+<h3 id="orgheadline41"><span class="section-number-3">9.3</span> <i>Pen Drive</i></h3>
 <ul>
 <li>Tecnología de memoria simiar a los <i>SSD</i></li>
 <li>Se conectan de forma externa</li>
@@ -25302,9 +25333,9 @@ Realiza una presentación en la identifiques todos los puertos externos de tu or
 
 <div class="slide-footer"></div>
 </section>
-<section id="slide-orgheadline41">
+<section id="slide-orgheadline42">
 <div class="slide-header"></div>
-<h3 id="orgheadline41"><span class="section-number-3">9.4</span> <i>CD</i>, <i>DVD</i>, <i>BD</i></h3>
+<h3 id="orgheadline42"><span class="section-number-3">9.4</span> <i>CD</i>, <i>DVD</i>, <i>BD</i></h3>
 <ul>
 <li><i>Compact Disk</i>
 <ul>
@@ -26054,13 +26085,15 @@ zx4kCMiMtryia1Ug/9k=" />
 
 </ul>
 
+
+
 <div class="slide-footer"></div>
 </section>
 </section>
 <section>
-<section id="slide-orgheadline43">
+<section id="slide-orgheadline44">
 <div class="slide-header"></div>
-<h2 id="orgheadline43"><span class="section-number-2">10</span> Referencias</h2>
+<h2 id="orgheadline44"><span class="section-number-2">10</span> Referencias</h2>
 <ul>
 <li>Tecnologías de la Información y la Comunicación (I)
 <ul>
@@ -26068,9 +26101,9 @@ zx4kCMiMtryia1Ug/9k=" />
 <li>Editorial Bruño</li>
 
 </ul></li>
-<li><a href="https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/1/tico1-1-intro.html">Estas diapositivas</a>
+<li><a href="https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/2/tico1-2-hardware.html">Estas diapositivas</a>
 <ul>
-<li>Y su <a href="https://github.com/alvarogonzalezsotillo/tico1-bach1/blob/gh-pages/apuntes/0/tico1-0-contenidos-criterios-evaluacion.org">código fuente</a></li>
+<li>Y su <a href="https://github.com/alvarogonzalezsotillo/tico1-bach1/blob/gh-pages/apuntes/2/tico1-2-hardware.org">código fuente</a></li>
 
 </ul></li>
 
@@ -26080,7 +26113,6 @@ zx4kCMiMtryia1Ug/9k=" />
 </section>
 </div>
 </div>
-IES Rosa Chacel
 <script>
 ﻿/*! head.core - v1.0.2 */
 (function(n,t){"use strict";function r(n){a[a.length]=n}function k(n){var t=new RegExp(" ?\\b"+n+"\\b");c.className=c.className.replace(t,"")}function p(n,t){for(var i=0,r=n.length;i<r;i++)t.call(n,n[i],i)}function tt(){var t,e,f,o;c.className=c.className.replace(/ (w-|eq-|gt-|gte-|lt-|lte-|portrait|no-portrait|landscape|no-landscape)\d+/g,"");t=n.innerWidth||c.clientWidth;e=n.outerWidth||n.screen.width;u.screen.innerWidth=t;u.screen.outerWidth=e;r("w-"+t);p(i.screens,function(n){t>n?(i.screensCss.gt&&r("gt-"+n),i.screensCss.gte&&r("gte-"+n)):t<n?(i.screensCss.lt&&r("lt-"+n),i.screensCss.lte&&r("lte-"+n)):t===n&&(i.screensCss.lte&&r("lte-"+n),i.screensCss.eq&&r("e-q"+n),i.screensCss.gte&&r("gte-"+n))});f=n.innerHeight||c.clientHeight;o=n.outerHeight||n.screen.height;u.screen.innerHeight=f;u.screen.outerHeight=o;u.feature("portrait",f>t);u.feature("landscape",f<t)}function it(){n.clearTimeout(b);b=n.setTimeout(tt,50)}var y=n.document,rt=n.navigator,ut=n.location,c=y.documentElement,a=[],i={screens:[240,320,480,640,768,800,1024,1280,1440,1680,1920],screensCss:{gt:!0,gte:!1,lt:!0,lte:!1,eq:!1},browsers:[{ie:{min:6,max:11}}],browserCss:{gt:!0,gte:!1,lt:!0,lte:!1,eq:!0},html5:!0,page:"-page",section:"-section",head:"head"},v,u,s,w,o,h,l,d,f,g,nt,e,b;if(n.head_conf)for(v in n.head_conf)n.head_conf[v]!==t&&(i[v]=n.head_conf[v]);u=n[i.head]=function(){u.ready.apply(null,arguments)};u.feature=function(n,t,i){return n?(Object.prototype.toString.call(t)==="[object Function]"&&(t=t.call()),r((t?"":"no-")+n),u[n]=!!t,i||(k("no-"+n),k(n),u.feature()),u):(c.className+=" "+a.join(" "),a=[],u)};u.feature("js",!0);s=rt.userAgent.toLowerCase();w=/mobile|android|kindle|silk|midp|phone|(windows .+arm|touch)/.test(s);u.feature("mobile",w,!0);u.feature("desktop",!w,!0);s=/(chrome|firefox)[ \/]([\w.]+)/.exec(s)||/(iphone|ipad|ipod)(?:.*version)?[ \/]([\w.]+)/.exec(s)||/(android)(?:.*version)?[ \/]([\w.]+)/.exec(s)||/(webkit|opera)(?:.*version)?[ \/]([\w.]+)/.exec(s)||/(msie) ([\w.]+)/.exec(s)||/(trident).+rv:(\w.)+/.exec(s)||[];o=s[1];h=parseFloat(s[2]);switch(o){case"msie":case"trident":o="ie";h=y.documentMode||h;break;case"firefox":o="ff";break;case"ipod":case"ipad":case"iphone":o="ios";break;case"webkit":o="safari"}for(u.browser={name:o,version:h},u.browser[o]=!0,l=0,d=i.browsers.length;l<d;l++)for(f in i.browsers[l])if(o===f)for(r(f),g=i.browsers[l][f].min,nt=i.browsers[l][f].max,e=g;e<=nt;e++)h>e?(i.browserCss.gt&&r("gt-"+f+e),i.browserCss.gte&&r("gte-"+f+e)):h<e?(i.browserCss.lt&&r("lt-"+f+e),i.browserCss.lte&&r("lte-"+f+e)):h===e&&(i.browserCss.lte&&r("lte-"+f+e),i.browserCss.eq&&r("eq-"+f+e),i.browserCss.gte&&r("gte-"+f+e));else r("no-"+f);r(o);r(o+parseInt(h,10));i.html5&&o==="ie"&&h<9&&p("abbr|article|aside|audio|canvas|details|figcaption|figure|footer|header|hgroup|main|mark|meter|nav|output|progress|section|summary|time|video".split("|"),function(n){y.createElement(n)});p(ut.pathname.split("/"),function(n,u){if(this.length>2&&this[u+1]!==t)u&&r(this.slice(u,u+1).join("-").toLowerCase()+i.section);else{var f=n||"index",e=f.indexOf(".");e>0&&(f=f.substring(0,e));c.id=f.toLowerCase()+i.page;u||r("root"+i.section)}});u.screen={height:n.screen.height,width:n.screen.width};tt();b=0;n.addEventListener?n.addEventListener("resize",it,!1):n.attachEvent("onresize",it)})(window);

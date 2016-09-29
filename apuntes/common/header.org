@@ -40,4 +40,4 @@
 #+REVEAL_ROOT: ../common/reveal.js
 #+OPTIONS: reveal_single_file:t
 #+REVEAL_INIT_SCRIPT: width: '100%'
-#+REVEAL_POSTAMBLE: IES Rosa Chacel 
+

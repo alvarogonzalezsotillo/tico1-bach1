@@ -1,6 +1,6 @@
 #+include: "../common/header.org"
 #+Title: /Hardware/ y componentes físicos
-#+REVEAL_THEME: serif
+#+REVEAL_THEME: simple
 
 
 
@@ -230,6 +230,9 @@ Busca en Internet datos acerca de la memoria /cache/ que incluyen los procesador
   - Originalmente diseñado para vídeo y audio
   - Incluye también comunicación bidireccional de control (/AV Link/) y alimentación
 
+-----
+¿Cómo puede saberse si una conexión /USB/ es *3.0*?
+
 * Placa base
 - Comunica todos los elementos del ordenador
 - Es el factor que limita la capacidad de expansión de un ordenador
@@ -403,6 +406,9 @@ Busca en Internet datos acerca de la memoria /cache/ que incluyen los procesador
 ** Otros periféricos de entrada
 - /Scaner/
 - Micrófono
+- Mandos de juego
+- Lectores de código de barras
+- Cámara
 
 ** Monitor
 - Matriz de puntos que forma imágenes
@@ -434,6 +440,11 @@ Busca en Internet datos acerca de la memoria /cache/ que incluyen los procesador
 
 ** Otros periféricos de salida
 - Altavoces
+- Impresoras 3D
+  - Compactación: Capas de polvo se compactan o se unen con resina
+  - Adición: Un plástico se funde y se añade por capas 
+    - Más baratas, pero de peor calidad final
+  - Estereolitografía: Un láser solidifica resina líquida
 
 ** Periféricos de entrada/salida
 - Realizan ambas funciones simultáneamente
@@ -452,6 +463,7 @@ Busca en Internet datos acerca de la memoria /cache/ que incluyen los procesador
   - DVI
   - HDMI
   - RJ45
+  - Bluetooth / Wifi / NFC
 
 -----
 Realiza una presentación en la identifiques todos los puertos externos de tu ordenador, especificando datos como su función típica y velocidad
@@ -491,6 +503,10 @@ Realiza una presentación en la identifiques todos los puertos externos de tu or
   - Más resistentes a los golpes
   - Teóricamente, menor tiempo de vida útil
 
+*** Preguntas
+- Comprueba la diferencia de precio entre una unidad /SSD/ de 1TByte y una unidad de disco convencional de la misma capacidad
+- ¿Qué es un disco *híbrido* /SSHD/?
+
 ** /Pen Drive/
 - Tecnología de memoria simiar a los /SSD/
 - Se conectan de forma externa
@@ -520,12 +536,14 @@ Realiza una presentación en la identifiques todos los puertos externos de tu or
 - Calcula cuántos CD se necesitan para almacenar la información de un DVD de doble capa
 - Calcula cuántos CD se necesitan para almacenar la información de un BlueRay
 
+  
+
 * Referencias
 - Tecnologías de la Información y la Comunicación (I)
   - Irene Rodil Jiménez; Manuel Pedro Blázquez Merino
   - Editorial Bruño
-- [[https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/1/tico1-1-intro.html][Estas diapositivas]]
-  - Y su [[https://github.com/alvarogonzalezsotillo/tico1-bach1/blob/gh-pages/apuntes/0/tico1-0-contenidos-criterios-evaluacion.org][código fuente]]
+- [[https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/2/tico1-2-hardware.html][Estas diapositivas]]
+  - Y su [[https://github.com/alvarogonzalezsotillo/tico1-bach1/blob/gh-pages/apuntes/2/tico1-2-hardware.org][código fuente]]
 
 
  
