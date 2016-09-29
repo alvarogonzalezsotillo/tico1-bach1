@@ -377,6 +377,149 @@ Busca en Internet datos acerca de la memoria /cache/ que incluyen los procesador
 
 
 
+
+* Periféricos
+- Entrada
+- Salida
+- Entrada/salida
+
+** Ratón
+- Dispositivo apuntador
+- Dispone de 
+  - 1, 2, 3 (e incluso más) botones
+  - Rueda de /scroll/
+- Los dispositivos /touchpad/ son equivalentes
+
+** Teclado
+- Permite introducir texto en el ordenador
+- Incluye teclas especiales que indican órdenes (o funciones)
+  - Teclados no estándar incluyen teclas para navegadores, música, volumen...
+
+-----
+- ¿Para qué sirve la tecla /pausa-inter/?
+- ¿Qué hace la tecla /bloq-desp/?
+- ¿Que hace la tecla /impr-pant/?
+
+** Otros periféricos de entrada
+- /Scaner/
+- Micrófono
+
+** Monitor
+- Matriz de puntos que forma imágenes
+  - /CRT/: Los "cabezones", en deshuso
+  - /LCD/ o /LED/: Planos, más ligeros, menor consumo de electricidad
+- Características
+  - Factor de forma: 16:9, 4:3...
+  - Tamaño: Diagonal en pulgadas (2,54cm)
+  - Resolución: Número de puntos de la matriz, especificado como /columnas/ x /filas/
+- Hay monitores táctiles, que son dispositivos de entrada y salida
+-----
+- ¿Cuál es la resolución de tu monitor?
+- ¿Cuál es su tamaño y factor de forma?
+- ¿Cuál es el tamaño de cada "puntito" (/pixel/)?
+
+** Impresoras
+- Papel
+  - Continuo
+  - Folios
+- Color o blanco y negro
+- Tecnologías
+  - Matriciales: algunos bancos
+  - Inyección: Baratas (domésticas). Cartuchos de tinta.
+  - Láser: Profesionales. Necesitan tóner (caro pero duradero)
+  - Térmica: cajeros automáticos, tickets de compra
+  - Sublimación: Ceras de distintos colores, para fotografía profesional
+- Multifunción
+  - Agrupan varios periféricos (impresora, escáner, fax)
+
+** Otros periféricos de salida
+- Altavoces
+
+** Periféricos de entrada/salida
+- Realizan ambas funciones simultáneamente
+- Conexión de red
+- Fax
+- Almacenamiento externo: Discos, memorias USB
+
+** Conexiones de los periféricos
+- Los periféricos se conectan a puertos externos
+  - PS/2
+  - USB
+  - FireWire
+  - ThunderBolt
+  - Minijack
+  - VGA
+  - DVI
+  - HDMI
+  - RJ45
+
+-----
+Realiza una presentación en la identifiques todos los puertos externos de tu ordenador, especificando datos como su función típica y velocidad
+
+* Dispositivos de almacenamiento
+- Son periféricos de entrada/salida
+- Parte baja de la jerarquía de memoria
+  - Más lentos
+  - Menor coste por MegaByte
+  - Mayor capacidad
+  - No volátiles
+- Tecnologías
+  - Magnéticos
+  - Estado sólido
+  - Ópticos
+
+** Discos duros
+- Uno o varios discos magnéticos apilados
+- Los cabezales magnéticos se mueven y los discos giran, de forma que puede accederse a todo el disco
+- Externos
+  - USB, eSATA, FireWire
+- Internos
+  - IDE, SCSI, SATA, SAS
+- Tamaño
+  - Sobremesa: 3.5'' 
+  - Portátiles: 2.5''
+  - Netbooks: 1.8''
+
+** Unidades /SSD/
+- /Solid Disk Drive/
+- Se conectan como un disco duro
+- La placa base y el procesador no los distingue de un disco duro
+- Internamente, tienen una memoria /flash/
+  - Más cara y pequeña
+  - Más rápida
+  - Menor consumo (no hay partes móviles)
+  - Más resistentes a los golpes
+  - Teóricamente, menor tiempo de vida útil
+
+** /Pen Drive/
+- Tecnología de memoria simiar a los /SSD/
+- Se conectan de forma externa
+- Cómodos y simples de utilizar
+- Más lentos que los discos
+
+** /CD/, /DVD/, /BD/
+- /Compact Disk/
+  - Disco reflectante de 12cm
+  - La información se graba como "agujeros", que se leen con un láser
+  - 700MBytes aproximadamente
+  - CD-ROM: Sólo lectura
+  - CD-R: Escribible una vez
+  - CD-RW: Reescribible (un número limitado de veces)
+- DVD
+  - Evolución del CD
+  - Posibilidad de doble cara
+  - Posibilidad de doble capa (por cada cara)
+  - 4.87GByte por capa
+
+#+reveal: split
+- BD (/Blue Ray Disk)
+  - 25 GByte
+[[file:blu-ray-works.jpg]]
+  
+#+reveal: split
+- Calcula cuántos CD se necesitan para almacenar la información de un DVD de doble capa
+- Calcula cuántos CD se necesitan para almacenar la información de un BlueRay
+
 * Referencias
 - Tecnologías de la Información y la Comunicación (I)
   - Irene Rodil Jiménez; Manuel Pedro Blázquez Merino
