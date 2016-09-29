@@ -54,6 +54,19 @@ Carcasa que protege y organiza el resto de Componentes
 -----
 ¿Qué son las fuentes /SFX/ y las /TFX/?
 
+
+** Refrigeración
+- Los circuitos electrónicos generan calor
+- Y dejan de funcionar a altas temperaturas
+- Elementos pasivos:
+  - Disipadores (radiadores)
+- Elementos activos
+  - Ventiladores
+  - Refrigeración líquida
+
+-----
+¿Qué es la pasta térmica?
+
 ** Memoria 
 - Almacena la información
 - Unidades
@@ -152,17 +165,46 @@ Puedes utilizar [[http://eu.crucial.com/eur/en/memory-info][http://eu.crucial.co
   3. Una vez leido ese bloque, el procesador lee los datos de la /cache/
   4. Se ahorra tiempo porque es más rápido leer un bloque de memoria principal que bytes sueltos
 - Los programas no son /conscientes/ de que hay una memoria /cache/
+
+#+reveal: split
 - Los procesadores pueden incluir más de un nivel de /cache/
-  - Level 1 (/L1/), Level 2 (/L2/)
-  - La /L1/ es la más cercana al procesador
+  - Level 1 (/L1/): 
+    - La /L1/ es la más cercana al procesador
+    - La más rápida, pequeña y cara 
+    - Suelen estar separados los datos de las instruccciones
+    - Suelen ser propias de cada /core/ (ver más adelante)
+  - Level 2 (/L2/): 
+    - Suelen compartirse por todos los /core/
+  - /L3/: No todos los procesadores la incluyen
+- Algunas placas base incluyen también una caché 
+  - Compartida por todos los microprocesadores
+
+-----
+Busca en Internet datos acerca de la memoria /cache/ que incluyen los procesadores /i7-4790k/ y /a10-7850k/
+
+** /Buses/ de comunicación
+- Conjunto de cables que llevan información desde un componente del ordenador a otro 
+  - Entre componentes de la placa base
+  - Internos del microprocesador
+- Velocidad del /bus/
+  - Velocidad de reloj (*frecuencia*): 100MHz, 1GHz...
+  - Cantidad de información simultánea (*anchura*): 32 bits, 128 bits...
+- Tipos
+  - /Bus/ de *datos*: Se envía el valor de los datos
+  - /Bus/ de *direcciones*: Se especifica de qué posición deben transferirse los datos
+  - /Bus/ de *control*: Se indica si se deben recibir datos para escribirlos, o enviarlos a otro componente
+
+
 
 ** Unidad central de proceso (/CPU/)
+- Es un sinónomo de *procesador*
 - Interpreta las órdenes de la que se componen los programas
 - Controla el resto de componentes del ordenador
 - Se compone de:
   - Registros
   - Unidad aritmético-lógica (/ALU/)
   - Unidad de control (/CU/)
+
   - Reloj
 
 *** /ALU/  
@@ -175,6 +217,58 @@ Puedes utilizar [[http://eu.crucial.com/eur/en/memory-info][http://eu.crucial.co
 - Suele contar con varios registros. Al menos tiene
   - Dos operandos
   - Un resultado
+
+*** /CU/
+- Organiza el resto de componentes del procesador
+- Realiza continuamente el *[[https://es.wikipedia.org/wiki/Ciclo_de_instrucci%25C3%25B3n][ciclo de instrucción]]*
+[[file:ciclo-instruccion.png]]
+
+*** Ejemplo de código máquina
+#+begin_src assembler
+  DIRECCIÓN     CONTENIDO DE LA         SIGNIFICADO DE LA INSTRUCCIÓN
+  EN MEMORIA    MEMORIA                 
+
+  403933:       41 83 c4 01             add    $0x1,%r12d
+  403937:       49 81 c5 a1 00 00 00    add    $0xa1,%r13
+  40393e:       41 81 fc 1a 00 02 00    cmp    $0x2001a,%r12d
+  403945:       48 89 05 fc 6d 21 00    mov    %rax,0x216dfc(%rip)        # 61a748 <stderr+0xf8>
+  40394c:       75 9d                   jne    4038eb <__sprintf_chk@plt+0x105b>
+  40394e:       4c 39 f0                cmp    %r14,%rax
+  403951:       0f 82 76 ff ff ff       jb     4038cd <__sprintf_chk@plt+0x103d>
+  403957:       48 85 c0                test   %rax,%rax
+  40395a:       0f 85 a1 f9 ff ff       jne    403301 <__sprintf_chk@plt+0xa71>
+  403960:       e9 fc 09 00 00          jmpq   404361 <__sprintf_chk@plt+0x1ad1>
+  403965:       45 84 ed                test   %r13b,%r13b
+  403968:       0f 85 86 f9 ff ff       jne    4032f4 <__sprintf_chk@plt+0xa64>
+  40396e:       83 3d db 77 21 00 00    cmpl   $0x0,0x2177db(%rip)        # 61b150 <stderr+0xb00>
+  403975:       0f 84 92 fe ff ff       je     40380d <__sprintf_chk@plt+0xf7d>
+  40397b:       c7 05 c3 77 21 00 04    movl   $0x4,0x2177c3(%rip)        # 61b148 <stderr+0xaf8>
+#+end_src
+
+
+*** Procesador /VS/ Microprocesador
+- El procesador es la parte central del ordenador (/ALU/, /UC/...)
+- Un microprocesador es un procesador encapsulado en una sola pastilla de silicio
+- Desde la tercera generación de ordenadores, todos los procesadores son *micro*procesadores 
+
+*** Multinúcleo / Multihilo
+- Multiprocesador
+  - Existen placas base en las que se puede conectar más de un microprocesador
+  - Estos comparten la memoria principal y los periféricos
+- Multinúcleo (/multicore/)
+  - Originalmente, un procesador solo tenía una /ALU/ y una /UC/
+  - Actualmente, la miniaturización consigue que haya más de una /ALU/ y /UC/ en un solo microprocesador
+- Multihilo (/hyperthreading/)
+  - Originalmente, un /core/ ejecutaba un único proceso
+  - Actualmente, un /core/ puede ejecutar dos procesos, intercalando sus instrucciones
+  - Cada /core/ simula ser dos /core/
+#+reveal: split
+- Otras configuraciones
+  - Varias /CU/ que comparten una /ALU/
+  - Varios procesadores que comparten la /cache/
+  - Varios procesadores que comparten la /cache/ /L2/
+  -...
+
 
 
 * Referencias
