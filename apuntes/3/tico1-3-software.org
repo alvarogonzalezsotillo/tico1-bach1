@@ -25,6 +25,41 @@
   - /Freemium/
 
 
+* Licencias
+
+- Contratos o acuerdos legales que se establecen entre los usuarios de /software/ y su autor
+- Describen 
+  - Las condiciones de uso
+  - Derechos y obligaciones de ambas partes
+
+- En el /software/ comercial, cada compañía define su contrato
+
+-------
+¿Conoces las [[https://www.facebook.com/legal/terms][condiciones de uso]] de Facebook?
+
+¿Conoces las [[https://www.google.com/policies/terms/][condiciones de uso]] de Google?
+
+** /Free software foundation/
+
+** Licencias de /software/ libre
+- GPL
+- LGPL
+- AGPL
+- BSD
+- MPL
+- MIT
+- CC
+
+
+* Sistemas operativos
+
+
+* Evolución de los sistemas operativos
+
+* Funciones de los sistemas operativos
+
+** Sistema de ficheros
+
 
 * Referencias
 - Tecnologías de la Información y la Comunicación (I)
