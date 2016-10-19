@@ -1,0 +1,38 @@
+#+include: "../common/header.org"
+#+Title: /Software/ e interfaz con el usuario
+#+REVEAL_THEME: simple
+
+* Introducción
+
+
+- El /software/ son los componententes lógicos de un sistema informático.
+  - Elementos intangibles
+  - Incluye: programas, configuración, documentación, datos
+
+* Tipos de /software/
+
+** Según su funcionalidad
+- *De sistema*:
+- *De aplicación*:
+- *De programación*:
+
+** Según sus limitaciones de uso
+- */Software/ libre*:
+- */Software/ propietario*:
+  - Comercial (de pago):
+  - /Freeware/
+  - /Shareware/
+  - /Freemium/
+
+
+
+* Referencias
+- Tecnologías de la Información y la Comunicación (I)
+  - Irene Rodil Jiménez; Manuel Pedro Blázquez Merino
+  - Editorial Bruño
+- [[https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/3/tico1-3-software.html][Estas diapositivas]]
+  - Y su [[https://github.com/alvarogonzalezsotillo/tico1-bach1/blob/gh-pages/apuntes/3/tico1-3-software.org][código fuente]]
+
+
+ 
+ 

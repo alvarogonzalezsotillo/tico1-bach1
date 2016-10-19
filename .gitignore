@@ -1,1 +1,7 @@
 bruño
+*.aux
+*.log
+*.tex
+*.out
+*.synctex.gz
+*.toc
