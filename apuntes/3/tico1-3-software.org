@@ -12,50 +12,202 @@
 * Tipos de /software/
 
 ** Según su funcionalidad
-- *De sistema*:
-- *De aplicación*:
-- *De programación*:
+- *De sistema*: Relacionado con la gestión del software
+- *De aplicación*: Cubre las necesidades de los usuarios
+- *De programación*: Permite La creación de nuevo /software/ (programas)
+
+*** /Software/ de sistema
+Es todo el /software/ dedicado a gestionar el /hardware/ y otro /software/. En el fondo, *no realiza una tarea realmente útil al usuario*, simplemente mantiene a punto el ordenador.
+- Sistema operativo
+- Herramientas de diagnóstico
+- Utilidades
+- Controladores de dispositivo
+
+*** /Software/ de aplicación
+El el /software/ por el que el usuario utiliza el ordenador, y resuelven un problema concreto:
+- Gestión empresarial
+- Educación
+- Telecomunicaciones
+- Ingeniería
+Algunos ejemplos de /software/ de aplicación son:
+- Procesadores de texto
+- Editores de imágenes
+- Navegadores
+- Sistemas gestores de bases de datos
+- Automatizaciones industriales
+- Mensajerías
+
+*** /Software/ de programación
+Sirven para crear el resto del /software/
+- Editores de texto
+- Compiladores
+- Enlazadores
+- Depuradores
+- IDE
+
+*** Clasifica los siguientes programas según su funcionalidad
+- Windows 10
+- LibreOffice
+- Gimp
+- CyanogenMod
+- Avast 
+- Eclipse
+- Scratch
+
+
 
 ** Según sus limitaciones de uso
-- */Software/ libre*:
-- */Software/ propietario*:
-  - Comercial (de pago):
-  - /Freeware/
-  - /Shareware/
-  - /Freemium/
+- */Software/ libre*: Pueden utilizarse, copiarse, distribuirse y modificarse por el usuario
+  - Para poder modificarse, debe incluirse el *código fuente*
+  - Esto no quiere decir que no tenga /copyright/
+- */Software/ propietario*: El autor intenta monetizar su esfuerzo, por lo que limita las posibilidades del usuario
+  - *Comercial* (de pago): Compra de licencia obligatoria para el uso del /software/
+  - */Freeware/*: Gratis, pero sin derechos como la redistribución o el código fuente
+  - */Adware/*: Gratis, pero el programa muestra publicidad
+  - */Shareware/*: Gratis para su evaluación, necesita una compra de licencia para su uso continuado
+  - */Freemium/*: Gratis en versión limitada, necesita una compra de licencia para aumentar su funcionalidad
+
+*** ¿Qué tipo de /software/ tienes instalado en el teléfono?
+- Un voluntario deja que el profesor haga una lista de las aplicaciones instaladas en su teléfono
+  - Y si no hay voluntario, las del teléfono del profesor
+- ¿Qué tipo de /software/ (según sus limitaciones y condiciones de uso) son esos programas?
+
 
 
 * Licencias
 
 - Contratos o acuerdos legales que se establecen entre los usuarios de /software/ y su autor
 - Describen 
-  - Las condiciones de uso
+  - Las condiciones de uso (de las que ya hemos hablado)
   - Derechos y obligaciones de ambas partes
 
 - En el /software/ comercial, cada compañía define su contrato
-
+- En el /software/ libre, existen varias licencias disponibles (aunque cada autor puede definir otras)
 -------
 ¿Conoces las [[https://www.facebook.com/legal/terms][condiciones de uso]] de Facebook?
 
 ¿Conoces las [[https://www.google.com/policies/terms/][condiciones de uso]] de Google?
 
-** /Free software foundation/
+** /Free Software Foundation/
+- Fundada en 1985 por [[https://es.wikipedia.org/wiki/Richard_Stallman][Richard Stallman]] (entre otros)
+- Promueve el /software/ libre
+- Licencia *GPL* y *LGPL*
+- Sistema operativo *GNU*
+- Su filosofía no es amigable con las empresas
+  - La /Open Source Initiative/ intenta conjugar la libertad con la monetización del /software/
+
+| [[file:Free_Software_Foundation_logo_and_wordmark.svg]] |   | [[file:open-source-initiative.png]] |
 
 ** Licencias de /software/ libre
-- GPL
-- LGPL
-- AGPL
-- BSD
-- MPL
-- MIT
-- CC
+- *GPL*: Licencia pública general
+  - Mantiene el /copyright/ de los autores
+  - Obliga a que cualquier /software/ que incluya o use un componente GPL sea a su vez GPL
+  - Es una licencia *contagiosa*
+- *LGPL*: Licencia pública general reducida
+  - Similar a GPL, pero sin la parte contagiosa
+- *AGPL*: Licencia pública general de Affero
+  - Como GPL, pero obliga a distribuir el /software/ que utilize un componente AGPL.
+#+REVEAL: split
+- *BSD*: Licencia de Berkely
+  - Permite utilizar, modificar, redistribuir sin necesidad de mencionar a los autores y dar el código fuente
+  - Permite cambiar la licencia
+- *MPL*: Licencia Mozzila
+  - Permite la utilización comercial sin redistribuir el código fuente 
+- *MIT*:
+  - Similar a MPL
+
+** Actividades
+- Busca la diferencia entre:
+  - Derechos de autor
+  - /Copyright/
+-------
+- Busca la diferencia entre:
+  - /Software/ gratis
+  - /Software/ libre
+-------
+- ¿Qué son las licencias /Creative Commons/
+  - Decide qué tipo de licencia /CC/ aplicarás en tus trabajos de esta asignatura
+
+** Licencia de Windows 10
+Estudia la [[https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_Spanish.htm][licencia de Windows 10]] 
+- ¿Puedes instalar Windows 10 en una máquina virtual?
+- ¿Puedes utilizarlo como servidor en una red con 15 clientes?
+- ¿Puedes instalarlo en tres dispositivos?
+- ¿Es obligatorio el proceso de activación, o sólo recomendable para obtener actualizaciones?
 
 
-* Sistemas operativos
+
+* El sistema operativo
+  :PROPERTIES:
+  :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico1-bach1/apuntes/3/data/
+  :END:
+- Programas que iteractúan entre el hardware del ordenador y
+  - el resto de programas
+  - los usuarios
+
+[[file:data/esquema-os-aplicaciones-usuarios.png]]
+
+#+reveal: split
+Los sistemas operativos se han creado con los siguientes objetivos
+- Simplificar el uso de los odenadores
+- Utilizar el /hardware/ y los recursos con mayor eficiencia
+- Aumentar la seguridad (confidencialidad e integridad de los datos)
+
+** Ejemplos de sistemas operativos
+- Para ordenadores personales
+  - Windows
+  - GNU/Linux
+  - OS X
+  - FreeBSD
+
+- Para teléfonos móviles
+  - Android (basado en GNU/Linux)
+  - iOS
+  - En menor medida, Windows Phone
+
+- Para aplicaciones industriales
+  - Windows CE
+  - QNX
+  - RTMES
+
+*** ¿Qué sistema operativo es mejor para...?
+Decide cuál de estos sistemas operativos te parece más adecuado para:
+- una máquina de resonancia magnética nuclear
+- los sistemas de un coche autónomo
+- los servidores de una empresa
+- una nevera inteligente 
+
 
 
 * Evolución de los sistemas operativos
+  :PROPERTIES:
+  :ATTACH_DIR: /home/alvaro/SincronizadoCloud/MEGASync/2016-2017-Rosa-Chacel/tico1-bach1/apuntes/3/data/
+  :END:
+Los sistemas operativos evolucionan junto con el /hardware/ y las aplicaciones
+- *Sin S.O.*: Los programas se escribían el lenguaje máquina y se lanzaban sin más al arrancar el ordenador
+   - Cada programa era su "propio" S.O.
+- *Procesamiento en serie manual*
+   - Los programas se cargaban (con tarjetas perforadas)
+   - Se compilaban y ejecutaban
+   - Al terminar, o si había algún error, se pasaba al siguiente programa
+- *Procesamiento por lotes* (años 50)
+   - Similar al procesamiento serie, pero un programa se encarga de ir dando paso al resto de programas
+   - Este programa era el *monitor residente* (germen del S.O.)
+#+reveal: split
+- *Multiprogramación*
+   - Se pierde mucho tiempo en la E/S (la CPU no se usa)
+   - Se introducen varios programas simultáneos en la memoria, y cuando uno realiza E/S otro puede utilizar la CPU [[file:data/multiprogramacion.png]]
+- *Tiempo compartido*
+   - Reparto del tiempo de CPU y E/S entre diferentes usuarios
+#+reveal: split
+- *S.O. en red*
+   - El S.O. muestra los recursos de otros ordenadores 
+   - Impresoras, ficheros, escáneres...
+- *S.O. distribuido*
+   - El S.O. proporciona acceso a todos los recursos de la red como si fueran locales
+   - Un fallo en un servidor no afecta a los recursos (pueden accederse en otras copias)
 
+   
 * Funciones de los sistemas operativos
 
 ** Sistema de ficheros

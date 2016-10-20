@@ -5,3 +5,4 @@ bruño
 *.out
 *.synctex.gz
 *.toc
+*.el
