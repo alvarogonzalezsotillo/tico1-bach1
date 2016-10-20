@@ -1,4 +1,5 @@
 #+attr_latex: :width 1pt :placement [H]
+#+latex_header_extra: \usepackage{svg}
 #+LATEX_HEADER_EXTRA: \usepackage{letltxmacro}
 #+LATEX_HEADER_EXTRA: \LetLtxMacro{\originalincludegraphics}{\includegraphics}
 #+LATEX_HEADER_EXTRA: \renewcommand{\includegraphics}[2][]{\IfFileExists{#2.pdf}{\originalincludegraphics[#1]{#2.pdf}}{\originalincludegraphics[#1]{#2}}}
