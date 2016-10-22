@@ -96,7 +96,7 @@ Sirven para crear el resto del /software/
 - Su filosofía no es amigable con las empresas
   - La /Open Source Initiative/ intenta conjugar la libertad con la monetización del /software/
 
-| [[file:Free_Software_Foundation_logo_and_wordmark.svg]] |   | [[file:open-source-initiative.png]] |
+| [[file:Free-Software-Foundation-logo-and-wordmark.svg]] |   | [[file:open-source-initiative.png]] |
 
 ** Licencias de /software/ libre
 - *GPL*: Licencia pública general
