@@ -207,10 +207,113 @@ Los sistemas operativos evolucionan junto con el /hardware/ y las aplicaciones
    - El S.O. proporciona acceso a todos los recursos de la red como si fueran locales
    - Un fallo en un servidor no afecta a los recursos (pueden accederse en otras copias)
 
-   
+* Tipos de sistemas operativos
+
+** Según el número de usuarios
+-Un *usuario* del sistema operativo comprende
+  - *Entorno de seguridad*: Permisos sobre cada uno de los elementos del S.O.
+    - Ficheros
+    - Discos
+    - Dispositivos
+    - Conexiones de red
+    - ...
+  - *Configuración*
+    - Fondo de escritorio
+    - Aplicaciones favoritas
+    - ...
+#+reveal: split
+- Un S.O. puede ser
+  - *Monousuario*: (en realidad, sin usuarios) El operador del S.O. tiene todos los permisos
+  - *Multiusuario*: Los recursos del sistema se reparten entre cada usuario, con diferentes niveles de acceso y personalización.
+
+ 
+** Según el número de tareas simultáneas  
+- *Monotarea*
+  - El S.O. solo permite la ejecución de un programa a la vez
+- *Multitarea* o *multiprogramación*
+  - Varias tareas se van alternando en el uso de la CPU y los dispositivos
+  - Intervalo: 10 a 200ms
+  - El usuario percibe que todas se ejecutan a la vez 
+- *Multiproceso*
+  - El /hardware/ tiene capacidad para ejecutar más de un programa a la vez
+    - /Hyperthreading/
+    - /Multicore/
+  
+** Según el modo de arranque
+- Instalables
+  - Se instalan en el disco duro del ordenador
+- Autoarrancables
+  - Pueden arrancar desde medios de almacenamiento extraíbles: CD, memoria USB...
+
+** Según el uso de la red
+ - Centralizado
+   - El S.O. no tiene facilidades para uso en red
+ - En red
+   - El S.O. puede conectarse a otros ordenadores por red
+   - El usuario y los programas deben distinguir entre recursos locales y remotos
+ - Distribuido
+   - El S.O. hace que los recursos remotos parezcan locales
+   - Los programas tratan los recursos remotos *sin saber* que son remotos
+ -------
+ ¿Una unidad compartida de Windows puede utilizarse como una local?
+ ¿Servicios como *DropBox* o *OneDrive* pueden utilizarse como una unidad local?
+
+** Según la interfaz con el usuario
+- Interfaz *CLI* (/command line interface/)
+  - Órdenes textuales mediante teclado
+  - Matriz de caracteres, generalmente con desplazamiento hacia arriba
+[[file:interfaz-cli.png]]
+- Interfaz *GUI* (/graphical user interface/)
+  - Permite imágenes, sonidos y dispositivos apuntadores
+  - Inicialmente, más simple para usuarios inexpertos
+
 * Funciones de los sistemas operativos
 
+** Función principal
+- La función principal del sistema operativo es *abstraer* y *aislar* a los dispositivos y programas unos de otros
+- El objetivo es que los programas:
+  - Interfieran lo mínimo entre sí
+  - Accedan a todo el /hardware/ como si fuera exclusivamente suyo
+  - Se comuniquen entre sí de forma *estructurada*
+
+** Funciones
+- Gestionar el procesador
+  - Asignar a cada proceso el tiempo necesario
+  - Asegurarse de que los procesos no se [[https://es.wikipedia.org/wiki/Bloqueo_mutuo][bloquean]]
+- Gestionar la memoria principal
+  - Asignar parte de la memoria a cada proceso
+  - Manejar la jerarquía de memoria (paginación a disco)
+- Gestionar la entrada/salida
+  - El S.O. es el único que maneja los dispositivos
+  - A través de los /drivers/
+- Gestionar la seguridad
+  - Permisos de accceso y modificación
+#+reveal: split
+- Gestionar la comunicación
+  - Entre ordenadores (red)
+  - Entre procesos (ficheros, [[https://es.wikipedia.org/wiki/Tuber%25C3%25ADa_(inform%25C3%25A1tica)][tuberías]]...)
+- Gestionar el almacenamiento secundario
+  - Sistemas de ficheros
+
+
 ** Sistema de ficheros
+- Los discos son una lista de posiciones de memoria no volátil
+  - Cada posición tiene unos 512-8092 Bytes
+  - Se denomina *sector*
+- Los programas no utilizan directamente esta memoria
+  - El S.O. crea sobre los sectores un *sistema de ficheros*
+  - Una estructura jerárquica que contiene:
+    - *Unidades de disco*: Generalmente, una por dispositivo de almacenamiento
+    - *Directorios*: Listas de ficheros y otros directorios. Cada *unidad* tiene un directorio inicial
+    - *Ficheros*: Lista de bytes con un nombre
+#+reveal: split
+| [[file:sistema-de-ficheros.svg]] | [[file:arbol-directorio-c.png]] |
+#+reveal: split
+El escritorio de Windows ¿es una unidad o un directorio?
+
+[[file:arbol-escritorio.png]]
+
+
 
 
 * Referencias
