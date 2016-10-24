@@ -343,6 +343,15 @@ Completa la siguiente tabla
 |   | HFS+  |                     |                          |            |          |         |                           |      |
 |---+-------+---------------------+--------------------------+------------+----------+---------+---------------------------+------|
 
+* Prácticas propuestas
+- Instalar *Ubuntu* en una máquina virtual
+- Formatear un disco en máquina virtual (Windows o Linux)
+  - Con creación de dos particiones
+- Instalar [[http://linuxzone.es/2010/01/11/baobab-analisis-de-tu-disco-duro/][baobab]] en Linux y utilizarlo 
+  - O [[http://portableapps.com/apps/utilities/windirstat_portable][WinDirStat]] en Windows
+- Agregar una impresora en red y utilizarla
+  - La impresora puede ser [[http://www.pdfforge.org/pdfcreator][PDFCreator]] en modo servidor en el PC del profesor
+  - Así no se gasta papel
 
 * Referencias
 - Tecnologías de la Información y la Comunicación (I)
