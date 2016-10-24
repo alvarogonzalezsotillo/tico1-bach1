@@ -1645,7 +1645,7 @@ body {
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title"><i>Software</i> e interfaz con el usuario</h1><h2 class="author">Álvaro González Sotillo</h2><p class="date">Created: 2016-10-24 lun 13:34</p>
+<section id="sec-title-slide"><h1 class="title"><i>Software</i> e interfaz con el usuario</h1><h2 class="author">Álvaro González Sotillo</h2><p class="date">Created: 2016-10-24 lun 19:42</p>
 </section>
 <section id="table-of-contents">
 <div id="table-of-contents">
@@ -1658,15 +1658,12 @@ body {
 <li><a href="#/slide-orgheadline17">4. El sistema operativo</a></li>
 <li><a href="#/slide-orgheadline18">5. Evolución de los sistemas operativos</a></li>
 <li><a href="#/slide-orgheadline24">6. Tipos de sistemas operativos</a></li>
-<li><a href="#/slide-orgheadline28">7. Funciones de los sistemas operativos</a></li>
-<li><a href="#/slide-orgheadline29">8. Referencias</a></li>
+<li><a href="#/slide-orgheadline30">7. Funciones de los sistemas operativos</a></li>
+<li><a href="#/slide-orgheadline31">8. Referencias</a></li>
 </ul>
 </div>
 </div>
 </section>
-<p style="position:fixed;bottom:20px;right:20px;">
-.reveal section img
-</p>
 
 <div class="figure">
 <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL8AAAD5CAYAAAB26+R3AAAABmJLR0QA/wD/AP+gvaeTAAAACXBI
@@ -4590,9 +4587,9 @@ IEQ1UugEQRCEqMYAKENthCAIgiAMJF2FV/8PD0Yyahizi0oAAAAASUVORK5CYII=" />
 </section>
 </section>
 <section>
-<section id="slide-orgheadline28">
+<section id="slide-orgheadline30">
 <div class="slide-header"></div>
-<h2 id="orgheadline28"><span class="section-number-2">7</span> Funciones de los sistemas operativos</h2>
+<h2 id="orgheadline30"><span class="section-number-2">7</span> Funciones de los sistemas operativos</h2>
 <div class="outline-text-2" id="text-7">
 </div><div class="slide-footer"></div>
 </section>
@@ -4662,9 +4659,9 @@ IEQ1UugEQRCEqMYAKENthCAIgiAMJF2FV/8PD0Yyahizi0oAAAAASUVORK5CYII=" />
 
 <div class="slide-footer"></div>
 </section>
-<section id="slide-orgheadline27">
+<section id="slide-orgheadline29">
 <div class="slide-header"></div>
-<h3 id="orgheadline27"><span class="section-number-3">7.3</span> Sistema de ficheros</h3>
+<h3 id="orgheadline29"><span class="section-number-3">7.3</span> Sistema de ficheros</h3>
 <ul>
 <li>Los discos son una lista de posiciones de memoria no volátil
 <ul>
@@ -5795,16 +5792,165 @@ Yc0YazSOKhqBKholDOHCQG0yBAIlGoFAiUYgECjRCITu4D84RrenrcXp7AAAAABJRU5ErkJggg==" />
 </p>
 </div>
 
+<div class="slide-footer"></div>
+</section>
+<section id="slide-orgheadline27">
+<div class="slide-header"></div>
+<h4 id="orgheadline27"><span class="section-number-4">7.3.1</span> Ejemplos de sistemas de ficheros</h4>
+<ul>
+<li><b><a href="https://es.wikipedia.org/wiki/Tabla_de_asignaci%C3%B3n_de_archivos">FAT</a></b> 
+<ul>
+<li>Sistema original de <b>MsDOS</b></li>
+<li>Actualmente, se usa la versión <b>FAT32</b></li>
+<li>No soporta permisos</li>
+<li>Puede <i>romperse</i> con facilidad</li>
+<li>Muy utilizado por su simplicidad</li>
 
+</ul></li>
+<li><b>NTFS</b>
+<ul>
+<li>Windows</li>
+<li>Soporta permisos, compresión, metadatos&#x2026;</li>
+
+</ul></li>
+<li><b>Ext</b>
+<ul>
+<li>Linux</li>
+<li>Similar (para este curso) a NTFS</li>
+<li>Actualmente, versión <b>Ext3</b></li>
+
+</ul></li>
+
+</ul>
+
+<div class="slide-footer"></div>
+</section>
+<section id="slide-orgheadline28">
+<div class="slide-header"></div>
+<h4 id="orgheadline28"><span class="section-number-4">7.3.2</span> Completa la siguiente tabla</h4>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">Tamaño máximo total</th>
+<th scope="col" class="org-left">Tamaño máximo de fichero</th>
+<th scope="col" class="org-left">Compresión</th>
+<th scope="col" class="org-left">Permisos</th>
+<th scope="col" class="org-left">Cifrado</th>
+<th scope="col" class="org-left">Longitud máxima de nombre</th>
+<th scope="col" class="org-left">S.O.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">FAT16</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">FAT32</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Ext4</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">NTFS</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">XFS</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">HFS+</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
 
 
 <div class="slide-footer"></div>
 </section>
 </section>
 <section>
-<section id="slide-orgheadline29">
+<section id="slide-orgheadline31">
 <div class="slide-header"></div>
-<h2 id="orgheadline29"><span class="section-number-2">8</span> Referencias</h2>
+<h2 id="orgheadline31"><span class="section-number-2">8</span> Referencias</h2>
 <ul>
 <li>Tecnologías de la Información y la Comunicación (I)
 <ul>

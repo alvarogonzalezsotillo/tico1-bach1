@@ -313,7 +313,35 @@ El escritorio de Windows ¿es una unidad o un directorio?
 
 [[file:arbol-escritorio.png]]
 
+*** Ejemplos de sistemas de ficheros
+- *[[https://es.wikipedia.org/wiki/Tabla_de_asignaci%25C3%25B3n_de_archivos][FAT]]* 
+  - Sistema original de *MsDOS*
+  - Actualmente, se usa la versión *FAT32*
+  - No soporta permisos
+  - Puede /romperse/ con facilidad
+  - Muy utilizado por su simplicidad
+- *NTFS*
+  - Windows
+  - Soporta permisos, compresión, metadatos...
+- *Ext*
+  - Linux
+  - Similar (para este curso) a NTFS
+  - Actualmente, versión *Ext3*
 
+#+reveal: split
+Completa la siguiente tabla
+
+|---+-------+---------------------+--------------------------+------------+----------+---------+---------------------------+------|
+|   |       | Tamaño máximo total | Tamaño máximo de fichero | Compresión | Permisos | Cifrado | Longitud máxima de nombre | S.O. |
+|---+-------+---------------------+--------------------------+------------+----------+---------+---------------------------+------|
+| / | <>    | <>                  | <>                       | <>         | <>       | <>      | <>                        |      |
+|   | FAT16 |                     |                          |            |          |         |                           |      |
+|   | FAT32 |                     |                          |            |          |         |                           |      |
+|   | Ext4  |                     |                          |            |          |         |                           |      |
+|   | NTFS  |                     |                          |            |          |         |                           |      |
+|   | XFS   |                     |                          |            |          |         |                           |      |
+|   | HFS+  |                     |                          |            |          |         |                           |      |
+|---+-------+---------------------+--------------------------+------------+----------+---------+---------------------------+------|
 
 
 * Referencias
