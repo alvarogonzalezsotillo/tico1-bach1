@@ -4,9 +4,9 @@
 #+LATEX_HEADER_EXTRA: \LetLtxMacro{\originalincludegraphics}{\includegraphics}
 #+LATEX_HEADER_EXTRA: \renewcommand{\includegraphics}[2][]{\IfFileExists{#2.pdf}{\originalincludegraphics[#1]{#2.pdf}}{\originalincludegraphics[#1]{#2}}}
 #+REVEAL_EXTRA_CSS: ../common/mi-css.css
+#+REVEAL_PREAMBLE: <div class="creditos"><img src="../common/background.png"><a href="mailto:alvaro.gonzalezsotillo@educa.madrid.org">alvaro.gonzalezsotillo@educa.madrid.org</a></div>
 
-#+attr_html: :style position:fixed;bottom:20px;right:20px;
-[[file:../common/background.png]]
+
 #+AUTHOR: Álvaro González Sotillo
 #+EMAIL: alvaro.gonzalezsotillo@educa.madrid.org
 #+LANGUAGE:  es
