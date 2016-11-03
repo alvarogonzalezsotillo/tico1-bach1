@@ -365,7 +365,7 @@ La capacidad distribución de información ha progresado junto con la civilizaci
 
 Para todos los efectos, los sitios web son aplicaciones
 
-** Redes sociales
+** Redes sociales y contenidos digitales
 - /Comunity manager/
   - Si no estás en Internet, no existes
   - Encargado de la presencia pública de una empresa
@@ -377,7 +377,7 @@ Para todos los efectos, los sitios web son aplicaciones
     - Mayor claridad
     - Mayor interrelación con otras páginas
 - /SEM/
-  - Search Engine Optimization
+  - Search Engine Management
   - Como el /SEO/, pero pagando por los anuncios
 - Gestor de contenidos digitales
   - Blogs, Wikis, portales
