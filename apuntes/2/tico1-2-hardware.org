@@ -99,6 +99,7 @@ En esta unidad trataremos de los /PC/ de sobremesa
 - Tamaño máximo
 - Consumo de electricidad
 - Acceso aleatorio
+  - por contraposición al [[https://es.wikipedia.org/wiki/Acceso_secuencial][acceso secuencial]]
 - *Volátil* o *permanente*
 
 
