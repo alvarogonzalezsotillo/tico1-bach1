@@ -168,7 +168,24 @@ Se pueden usar varios criterios para clasificar una red
 ¿Esta es la misma topología que la de la imagen anterior?
 [[file:topologia-arbol-niveles.svg]]
 
+*** Topología irregular
+Cuando se unen diferentes redes, queda una topología mixta
+[[file:topologia-irregular.svg]]
+-------
+- ¿Qué topología tiene la red del aula?
+- ¿Qué topología tiene la red del instituto?
+
 * Modelo /OSI/
+- /Open Systems Interconnection/
+- Publicado en 1974 por la /ISO/ (/International Organization for Standardization/)
+- Resuelve los problemas de comunicaciones por capas
+
+|-----------------------------+---------------------------+-----------------------------------------------------|
+| Cómo enviar un bit          | Cómo detectar errores     | Cómo corregir errores                               |
+| Saturación del receptor     | Congestión de la red      | Compartir el medio de transmisión entre ordenadores |
+| Confidencialidad            | Compresión de los datos   | Traducción de datos entre sistemas                  |
+| Cómo identificar al destino | Cómo encontrar el destino | Cómo compartir la conexión entre las aplicaciones   |
+|-----------------------------+---------------------------+-----------------------------------------------------|
 
 ** Capa física
 
