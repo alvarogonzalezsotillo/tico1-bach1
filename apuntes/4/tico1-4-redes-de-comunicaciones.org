@@ -189,9 +189,48 @@ Cuando se unen diferentes redes, queda una topología mixta
 | Cómo identificar al destino | Cómo encontrar el destino | Cómo compartir la conexión entre las aplicaciones   |
 |-----------------------------+---------------------------+-----------------------------------------------------|
 
+** Capas 
+- Una capa es un programa que resuelve algún problema de la comunicación
+- Las capas se sitúan unas /encima/ de otras
+  - Cada capa proporciona /servicios/ a la capa de arriba
+  - Cada capa utiliza los servicios de la de abajo para crear los suyos propios
+
+
+|---+--------------+----------------------------------------------|
+| 7 | Aplicación   | La utiliza el usuario final                  |
+| 6 | Presentación | Traduce la información entre aplicaciones    |
+| 5 | Sesión       | Mantiene un diálogo entre aplicaciones       |
+| 4 | Transporte   | Comunica programas (en vez de ordenadores)   |
+| 3 | Red          | Encuentra el destino dando varios *saltos*   |
+| 2 | Enlace       | Envia un mensaje al siguiente *salto*        |
+| 1 | Física       | Cables, voltajes, frecuencias, conectores... |
+|---+--------------+----------------------------------------------|
+
+** Protocolos
+- Cada capa tiene la *ilusión* de comunicarse con la capa equivalente del destino
+- Las normas y convenios que utilizan en la comunicación se denominan *protocolos*
+#+attr_html: :width 50%  :style "margin-left: auto; margin-right: auto;"
+[[file:ejemplo-capas.png]]
+
+#+reveal: split
+#+attr_html: :width 90%  :style "margin-left: auto; margin-right: auto;"
+[[file:comunicacion-capas-osi.png]]
+-------
+Observa que no todos los equipos utilizan todas las capas. Los nodos intermedios solo utilizan hasta la capa de red
+
 ** Capa física
+- Se encarga de enviar bits entre dos equipos
+- Estandariza
+  - Conectores
+  - Voltajes
+  - Frecuencias
+  - Longitud de cable 
+| [[file:cable-fibra-optica.png]] | [[file:rj45.png]] |
 
 ** Capa de enlace
+- Agrupa los bits en *tramas*
+- Cada trama se envía a otro equipo conectado directamente
+- Si el medio es de difusión necesita *direccionar*
 
 ** Capa de red
 
