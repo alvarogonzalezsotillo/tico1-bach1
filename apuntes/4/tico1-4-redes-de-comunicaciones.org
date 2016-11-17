@@ -47,11 +47,11 @@ La *compartición de recursos* aporta las siguientes ventajas:
 
 * Tipos de redes
 Se pueden usar varios criterios para clasificar una red
-- Extensión
-- Propietario
-- Medio de transmisión
-- Conexión entre origen y destino (modelo de transmisión)
-- Topología
+- [[Según su extensión (cobertura)][Extensión]] 
+- [[Según el propietario][Propietario]]
+- [[Según el medio de transmisión][Medio de transmisión]]
+- [[Según la conexión entre origen y destino (modelo de transmisión)][Conexión entre origen y destino (modelo de transmisión)]]
+- [[Según la topología][Topología]]
 
 ** Según su extensión (cobertura)
 - *PAN* /Personal Area Network/
@@ -151,6 +151,8 @@ Se pueden usar varios criterios para clasificar una red
 - En estrella
 - En árbol
 - Irregular
+-------
+No estudiaremos la topología en bus ni en malla completa, pero sería bueno que les echases un ojo en la Wikipedia
 
 *** En estrella
 - Todos se unen a un nodo central
