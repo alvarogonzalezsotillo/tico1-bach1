@@ -148,6 +148,26 @@ Se pueden usar varios criterios para clasificar una red
 - La topología hace referencia a la *estructura* de las conexiones, no a la *forma*
   - Es como si los cables se pudieran deformar (como gomas elásticas)
 
+- En estrella
+- En árbol
+- Irregular
+
+*** En estrella
+- Todos se unen a un nodo central
+- Es importante que el nodo central no se rompa
+[[file:topologia-estrella.svg]]
+
+*** En árbol
+- Es una unión de estrellas
+- También se llama *jerárquica*, porque pueden definirse *niveles*
+  - El nivel superior solo tiene un equipo
+  - Cada nodo de un nivel se une a un único equipo del nivel inmediatamente superior
+[[file:topologia-arbol.svg]]
+
+#+reveal: split
+¿Esta es la misma topología que la de la imagen anterior?
+[[file:topologia-arbol-niveles.svg]]
+
 * Modelo /OSI/
 
 ** Capa física
