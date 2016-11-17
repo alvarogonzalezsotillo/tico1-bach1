@@ -9,7 +9,7 @@
 
 #+AUTHOR: Álvaro González Sotillo
 #+EMAIL: alvaro.gonzalezsotillo@educa.madrid.org
-#+LANGUAGE:  es
+#+LANGUAGE: es
 #+OPTIONS:   H:3
 #+OPTIONS:   toc:1 TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc timestamp:t
 #+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js

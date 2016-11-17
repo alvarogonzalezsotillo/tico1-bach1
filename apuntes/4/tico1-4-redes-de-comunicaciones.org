@@ -1,0 +1,192 @@
+#+include: "../common/header.org"
+#+Title: Redes de comunicaciones
+#+REVEAL_THEME: simple
+
+* Introducción
+
+
+** Preguntas previas
+Es posible que ya conozcas muchas cosas acerca de las redes. Veamos si sabes...
+
+- ¿Por qué nos molestamos en crear redes de ordenadores?
+  - En casa
+  - En el trabajo
+- ¿Qué es una dirección /IP/? ¿Qué es una dirección /MAC/? ¿Qué es un /puerto/?
+- ¿Sabes que es un /proxy/ o un /firewall/?
+- ¿Qué es un servidor /DNS/?
+- ¿Qué es un servidor /DHCP/?
+
+** Un poco de historia
+- En los años 50, las empresas grandes tenían *un* (1) ordenador
+  - Muy grande. Muy caro. 
+  - Debía ser compartido por todos los empleados
+  - Que se debían trasladar físicamente para usarlo
+- Idea: conectar terminales (ordenadores baratos) 
+  - No es necesario el desplazamiento físico
+  - Se puede compartir simultáneamente
+
+** ¿Por qué usar redes? 
+Las redes permiten compartir recursos entre ordenadores.
+- /Hardware/
+  - /CPU/ y memoria
+  - Disco 
+  - Impresora, escáner
+  - Conexión a otras redes
+- /Software/
+  - Programas
+  - Datos
+  - Aplicaciones
+
+** Ventajas de una red
+La *compartición de recursos* aporta las siguientes ventajas:
+- Reduccción de costes
+- Mejora de la comunicación (trabajo en colaborativo en equipo)
+- Gestión simplificada
+  - Los técnicos pueden centralizar su trabajo
+- Como consecuencia, *mejora de la productividad*
+
+* Tipos de redes
+Se pueden usar varios criterios para clasificar una red
+- Extensión
+- Propietario
+- Medio de transmisión
+- Conexión entre origen y destino (modelo de transmisión)
+- Topología
+
+** Según su extensión (cobertura)
+- *PAN* /Personal Area Network/
+  - Hasta 10 metros
+  - Alrededor de una persona
+- *LAN* /Local Area Network/
+  - Hasta 1 Km
+  - Un edificio
+- *MAN* /Metropolitan Area Network/
+  - Hasta 10 km
+  - Una población
+- *WAN* /Wide Area Network/
+  - Más de 10 Km
+  - Una región, un país, todo el mundo
+#+reveal: split
+- Clasifica estas redes según su extensión
+  - /GPRS/
+  - /X25/
+  - Wi-fi
+  - /IrDA/
+  - /ADSL/
+  - /Ethernet/
+  - /Frame Relay/
+
+** Según el propietario
+- Redes privadas
+  - De particulares o empresas
+  - Sólo se conectan equipos y usuarios autorizados
+  - Un responsable maneja toda la red
+- Redes públicas
+  - Compañías telefónicas y de acceso a Internet (/ISP Intertet Service Provider/)
+  - Se /alquilan/ a usuarios
+  - Es difícil controlar a los usuarios de la red
+
+#+reveal: split
+- Clasifica estas redes según su propiertario
+  - /GPRS/
+  - /X25/
+  - Wi-fi
+  - /IrDA/
+  - /ADSL/
+  - /Ethernet/
+  - /Frame Relay/
+
+
+** Según el medio de transmisión
+- Redes cableadas (medios guiados)
+  - La señal viaja por un cable
+  - Eléctrico
+    - Par trenzado
+    - Cable coaxial
+  - Óptico
+    - Fibra óptica
+- Redes inalábricas (radiofrecuencia)
+
+#+reveal: split
+- ¿Qué velocidades se pueden alcanzar en los medios guiados descritos?
+  - Par trenzado
+  - Cable coaxial
+  - Fibra óptica
+- ¿Qué ventajas e inconvenientes tienen los medios no guiados respecto a los guiados?
+
+#+reveal: split
+- Clasifica estas redes según su medio de transmisión
+  - /GPRS/
+  - /X25/
+  - Wi-fi
+  - /IrDA/
+  - /ADSL/
+  - /Ethernet/
+  - /Frame Relay/
+
+** Según la conexión entre origen y destino (modelo de transmisión)
+- Redes de *difusión*
+  - El medio de transmisión de comparte entre todos los equipos
+  - Si algún equipo emite, todos los demás reciben la emisión
+- Redes *punto a punto*
+  - Un equipo puede elegir a qué equipos hace llegar su mensaje
+  - Depende del /hardware/ disponible
+
+| [[file:difusion.svg]] | [[file:punto-a-punto.svg]] |
+
+** Según la topología
+
+* Modelo /OSI/
+
+** Capa física
+
+** Capa de enlace
+
+** Capa de red
+
+** Capa de transporte
+
+** Capa de sesión
+
+** Capa de presentación
+
+** Capa de aplicación
+
+* /TCP/IP/
+
+** Correspondencia de capas con /OSI/
+
+** Servidor /DNS/
+
+** Servidor /DHCP/
+
+* Redes de área local
+
+** /Hardware/ de una /LAN/
+
+** Conexión a Internet
+
+** Seguridad en la /LAN/
+
+* Redes inalámbricas
+
+
+** /WPAN/
+
+** /Hardware/ de una /WLAN/
+
+** Seguridad en la /WLAN/
+
+* Prácticas
+
+** Configurar una máquina virtual
+
+** Compartir carpetas
+
+** Utilizar otro ordenador
+
+** Compartir impresoras
+
+* Créditos
+
+- Iconos diseñados por [[http://www.freepik.com][Freepik]] desde [[http://www.flaticon.com][http://www.flaticon.com]] con licencia [[http://creativecommons.org/licenses/by/3.0/][Creative Commons BY 3.0]]
