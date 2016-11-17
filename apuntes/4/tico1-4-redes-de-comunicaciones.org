@@ -134,7 +134,19 @@ Se pueden usar varios criterios para clasificar una red
 
 | [[file:difusion.svg]] | [[file:punto-a-punto.svg]] |
 
+#+reveal: split
+- Clasifica estas redes según su modelo de transmisión
+  - /GPRS/
+  - /X25/
+  - Wi-fi
+  - /IrDA/
+  - /ADSL/
+  - /Ethernet/
+  - /Frame Relay/
+
 ** Según la topología
+- La topología hace referencia a la *estructura* de las conexiones, no a la *forma*
+  - Es como si los cables se pudieran deformar (como gomas elásticas)
 
 * Modelo /OSI/
 
