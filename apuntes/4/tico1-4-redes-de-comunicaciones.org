@@ -273,7 +273,92 @@ Observa que no todos los equipos utilizan todas las capas. Los nodos intermedios
 
 ** Correspondencia de capas con /OSI/
 [[file:comparacion-osi-tcpip.png]]
+
+** Capa de Interfaz de red
+- /TCP/IP/ no define las capas física ni de enlace
+- En entornos /SOHO/ (/small office, home office/) suele utilizarse /ethernet/
+  - Preparada para medios punto-a-punto (conectores *rj45*) y de difusión (*Wi-fi*)
+  - Cada tarjeta de red tiene una dirección única
+
+-------
+- Busca en Internet cómo saber la dirección /MAC/ de tu tarjeta de red
+- ¿Qué fabricante ha hecho tu tarjeta de red?
+- ¿Se puede cambiar la dirección MAC? ¿Para qué?
+  
+** Capa de Internet (/IPv4/)
+- Corresponde con la capa de red
+- El protocolo más importante es /IP/ (versión /IPv4/)
+  - Direcciones de 32 bits asignadas por el administrador
+  - 32 bits <---> 4 bytes
+  - Se suelen representar con los bytes en decimal, separadas por puntos
+
+[[file:ip-binario-decimal.png]]
+
+#+reveal: split
+- Las direcciones /IP/ tienen una parte de red y una parte de /host/
+  - La red es un *prefijo* que identifica a un grupo de ordenadores
+  - Sirve para agrupar zonas de la red y enrutar (como con los teléfonos fijos)
+file:ip-host-red.png
+#+reveal: split
+- No todas las direcciones pueden utilizarse en Internet
+  - Algunas están reservadas para redes privadas (empresas, /SOHO/...)
+| Direcciones reservadas |                 |
+|                  Desde |           Hasta |
+|            192.168.0.0 | 192.168.255.255 |
+|               10.0.0.0 |  10.255.255.255 |
+|             172.16.0.0 |  172.31.255.255 |
+#+reveal: split
+- Los equipos no tienen una sola dirección /IP/
+- Suelen tener tantas direcciones como redes (de nivel 2) a las que están conectados
+  - Un ordenador tiene una dirección /IP/
+  - Un /router/ tiene tantas /IP/ como redes que conectan
+
+
+
+*** Ejercicios
+- Las direcciones 172.16.0.0 -- 172.31.255.255 parecen salirse de la norma. Prueba a traducirlas a binario.
+- ¿Cuántas direcciones /IPv4/ hay?
+- ¿Qué dirección IP tiene tu ordenador? 
+- ¿Qué dirección IP tiene tu móvil? 
+- ¿Qué direcciones IP tiene el router de tu casa?
+
+** /IPv6/
+- El número de direcciones /IPv4/ parecían suficientes en 1980, pero no en el 2016
+- El protocolo /IPv6/ es una evolución de /IPv4/
+  - Mantiene la mayoría de ideas
+  - Cambia direcciones de 32 bits por direcciones de 128 bits
+  - Se representan como números hexadecimales separados de 4 en 4
+  - Pueden abreviarse algunos 0's
+
+| Completa                  | fe80:0000:0000:626c:004:366ff:feb5:8565 |
+| Grupos completos de 0     | fe80::626c:0043:66ff:feb5:8565          |
+| Grupos que empiezan por 0 | fe80::626c:43:66ff:feb5:8565            |
+
+** /TCP/ y /UDP/
+- Corresponden con el nivel de transporte
+- Implementa direcciones llamadas *puertos*
+  - Cada aplicación puede conectarse a un *puerto*
+  - La combinación de /IP-puerto/ origen e /IP-puerto/ destino es única, y determina una conexión de red
+  - Los puertos *servidores* son conocidos
+  - Los puertos *cliente* son cualquiera de los que estén libres
+
+|   Puerto | Servicio                        |
+|       80 | http                            |
+|      443 | https                           |
+| 139, 445 | Carpetas compartidas de Windows |
+
+*** Ejercicios
+- Utiliza =netstat= para saber qué conexiones tiene abiertas tu ordenador
+  - ¿Con qué servidores?
+  - ¿Qué programas han abierto esas conexiones?
+
+- Pista: ayuda de =netstat= para /Windows/
+  - https://aprendizdesysadmin.com/el-comando-netstat-en-windows/
+  - https://norfipc.com/redes/netstat-conocer-ver-conexiones-activas.html
+
+
 ** Servidor /DNS/
+
 
 ** Servidor /DHCP/
 
