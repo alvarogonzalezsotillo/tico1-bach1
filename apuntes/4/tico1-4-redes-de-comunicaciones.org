@@ -336,16 +336,31 @@ file:ip-host-red.png
 
 ** /TCP/ y /UDP/
 - Corresponden con el nivel de transporte
-- Implementa direcciones llamadas *puertos*
+- /TCP/ está *orientado a conexión*
+  - Se controla cada mensaje enviado
+  - Se garantiza que los mensajes se reciben en orden
+  - Si alguno se pierde, se detecta y se retransmite
+  - Se utiliza como base de protocolos de aplicación que necesitan *integridad* de los datos
+- /UDP/ no está orientado a conexión
+  - Cada mensaje se envía por separado
+  - No hay control de los mensajes perdidos
+  - Los mensajes pueden llegar desordenados
+  - Se utiliza si la *rapidez* importa más que la *integridad*: /streaming/ de vídeo y voz, videojuegos... 
+#+reveal: split
+- Tanto /TCP/ como /UDP/ Implementa direcciones llamadas *puertos*
   - Cada aplicación puede conectarse a un *puerto*
+  - Hay 2^16 puertos (65536)
   - La combinación de /IP-puerto/ origen e /IP-puerto/ destino es única, y determina una conexión de red
   - Los puertos *servidores* son conocidos
   - Los puertos *cliente* son cualquiera de los que estén libres
 
-|   Puerto | Servicio                        |
-|       80 | http                            |
-|      443 | https                           |
-| 139, 445 | Carpetas compartidas de Windows |
+|   Puerto | Protocolo | Servicio                        |
+|----------+-----------+---------------------------------|
+|       80 | tcp       | http                            |
+|      443 | tcp       | https                           |
+| 139, 445 | tcp       | Carpetas compartidas de Windows |
+|       53 | udp       | DNS                             | 
+
 
 *** Ejercicios
 - Utiliza =netstat= para saber qué conexiones tiene abiertas tu ordenador
@@ -356,11 +371,21 @@ file:ip-host-red.png
   - https://aprendizdesysadmin.com/el-comando-netstat-en-windows/
   - https://norfipc.com/redes/netstat-conocer-ver-conexiones-activas.html
 
+** Aplicación en /TCP/IP/
+- Incluye las capas de sesión, presentación y aplicación de /OSI/
 
-** Servidor /DNS/
+| Aplicación                      | Protocolo       |
+|---------------------------------+-----------------|
+| Carpetas compartidas de Windows | CIFS, SAMBA     |
+| Web                             | HTTP, HTTPS     |
+| Intercambio de ficheros         | FTP             |
+| Correo electrónico              | SMTP, POP, IMAP |
+
+** Infraestructura /TPC/IP/
+*** Servidor /DNS/
 
 
-** Servidor /DHCP/
+*** Servidor /DHCP/
 
 * Redes de área local
 
