@@ -1,0 +1,61 @@
+#+include: "../common/header.org"
+#+Title: Instalar Virtual Box
+#+REVEAL_THEME: simple
+
+* Qué es Virtual Box
+- *Virtual Box* es un /software/ de virtualización
+- Simula un ordenador completo, pero "dentro" de una aplicación
+- Sirve para
+  - Probar nuevos sistemas operativos sin un nuevo ordenador
+  - Realizar cambios a un ordenador sin comprometer el sistema operativo principal 
+
+* Instalación en las aulas
+- Los ordenadores están protegidos con *DeepFreeze*
+- Los alumnos no tenéis contraseña de administrador
+  - y no os la voy a dejar
+- *Plan*
+  - Los alumnos utilizáis vuestro usuario y llamáis al profesor para que ponga la contraseña de administrador cuando haga falta
+
+** Descongelar los PC's
+- Arrancar el ordenador
+- Llamar al profesor
+  - Él lo reiniciará descongelado
+  
+
+** Cambio de contraseña
+- Hasta ahora toda la clase tiene la misma contraseña
+- Es el momento de cambiarla, para que nadie pueda acceder a vuestros ficheros
+
+** Arreglo de permisos en unidad *D:*
+- Los datos de *C:* se borran.
+- Debeis dejar todos vuestros fichreros (incluidas las máquinas virtuales) en la unidad *D:*
+- *Pero* Hay un problema con los permisos en vuestro directorio de datos en la unidad *D:*
+#+reveal: split
+[[file:pantallazos-permisos/permisos-1.png]]
+#+reveal: split
+[[file:pantallazos-permisos/permisos-2.png]]
+#+reveal: split
+[[file:pantallazos-permisos/permisos-3.png]]
+#+reveal: split
+[[file:pantallazos-permisos/permisos-4.png]]
+#+reveal: split
+[[file:pantallazos-permisos/permisos-5.png]]
+
+
+
+** Instalación de *Virtual Box*
+- El PC debe estar descongelado, y los permisos de *D:* arreglados
+- Descargar *Virtual Box* 
+  - Desde su web 
+  - Desde el PC del profesor
+- Comenzar la instalación normalmente
+  - Cuando pida una contraseña, avisar al profesor
+  - Decir a todo que *SI* 
+
+** Directorio *Virtual Box*
+- Decir a Virtual Box que utilice el disco *D:* para las máquinas virtuales
+[[file:pantallazos-permisos/directorio-virtualbox.png]]
+
+** Reiniciar el ordenador
+- Volverá a aparecer congelado, pero con todo instalado
+
