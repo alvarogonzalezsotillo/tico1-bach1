@@ -22,11 +22,31 @@
   - Él lo reiniciará descongelado
   
 
-** Cambio de contraseña
+
+** Instalación de *Virtual Box*
+- El PC debe estar descongelado, y los permisos de *D:* arreglados
+- Descargar *Virtual Box* 
+  - Desde su web 
+  - Desde el PC del profesor
+    - Directorio compartido =\\aguaprof\TICO=
+    - Usuario =alumno=
+    - Contraseña =1234=
+- Comenzar la instalación normalmente
+  - Cuando pida una contraseña, avisar al profesor
+  - Decir a todo que *SI* 
+
+** Directorio *Virtual Box*
+- Decir a Virtual Box que utilice el disco *D:* para las máquinas virtuales
+[[file:pantallazos-permisos/directorio-virtualbox.png]]
+
+
+
+
+* Cambio de contraseña
 - Hasta ahora toda la clase tiene la misma contraseña
 - Es el momento de cambiarla, para que nadie pueda acceder a vuestros ficheros
 
-** Arreglo de permisos en unidad *D:*
+* Arreglo de permisos en unidad *D:*
 - Los datos de *C:* se borran.
 - Debeis dejar todos vuestros fichreros (incluidas las máquinas virtuales) en la unidad *D:*
 - *Pero* Hay un problema con los permisos en vuestro directorio de datos en la unidad *D:*
@@ -41,20 +61,6 @@
 #+reveal: split
 [[file:pantallazos-permisos/permisos-5.png]]
 
-
-
-** Instalación de *Virtual Box*
-- El PC debe estar descongelado, y los permisos de *D:* arreglados
-- Descargar *Virtual Box* 
-  - Desde su web 
-  - Desde el PC del profesor
-- Comenzar la instalación normalmente
-  - Cuando pida una contraseña, avisar al profesor
-  - Decir a todo que *SI* 
-
-** Directorio *Virtual Box*
-- Decir a Virtual Box que utilice el disco *D:* para las máquinas virtuales
-[[file:pantallazos-permisos/directorio-virtualbox.png]]
 
 ** Reiniciar el ordenador
 - Volverá a aparecer congelado, pero con todo instalado
