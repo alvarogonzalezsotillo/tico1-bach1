@@ -42,7 +42,7 @@ Nota: También se pueden dar permisos a *grupos* de usuarios, pero eso queda fue
   - Si un usuario no puede leer un fichero del disco, no lo podrá leer a través de una carpeta compartida
   - Aunque al compartir la carpeta pongamos =control total=
 - Para no tener problemas, crearemos nuestras carpetas compartidas directamente en la unidad =C:=
-  - Esta carpeta tiene permisos de lectura para todos los usuarios
+  - Esta carpeta tiene permisos de lectura para todos los usuarios (en Windows 7 también de escritura)
 
 * Si surgen problemas
 En el caso de que otros ordenadores no se puedan conectar a nuestras carpetas pueden revisarse los siguientes puntos:
