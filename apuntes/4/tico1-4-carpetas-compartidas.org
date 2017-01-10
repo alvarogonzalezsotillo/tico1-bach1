@@ -1,0 +1,52 @@
+#+include: "../common/header.org"
+#+Title: Carpetas compartidas de Windows
+#+REVEAL_THEME: simple
+
+* Introducción
+
+- Una carpeta compartida de Windows permite conectarse al disco de un ordenador desde otro ordenador
+- Los ficheros de la máquina remota se pueden manejar como si estuvieran en un disco local
+- Para poder compartir carpetas es necesario ser *administrador*, por lo que utilizaremos máquinas virtuales
+** /Firewall/
+- Es posible que el el /firewall/ interfiera en la compartición de carpetas
+- Se puede /afinar/ más, pero para estar seguros de que no interfiere, desactivaremos el /firewall/
+
+| [[file:pantallazos-compatir-carpetas/4-firewall.png]]  | [[file:pantallazos-compatir-carpetas/5-firewall-apagado.png]]  |
+
+
+* Compartir una carpeta
+- En el explorador de archivos, menú =propiedades= de una carpeta
+- Para poder asignar permisos, es mejor utilizar la =compartición avanzada=
+|[[file:pantallazos-compatir-carpetas/1-propiedades-carpeta.png]] | [[file:pantallazos-compatir-carpetas/2-comparticion-avanzada.png]] |
+
+
+** Permisos de la carpeta compartida
+- A cada usuario del sistema se pueden aplicar los siguientes permisos:
+  - *Lectura*: Puede leer las carpetas y ficheros.
+  - *Modificación*: Puede modificar los ficheros, crearlos y borrarlos
+  - *Control total*: Permisos adicionales (por ejemplo, cambiar los permisos de los ficheros)
+- Estos permisos son progresivos: *Modificación* incluye a *Lectura*, y *Control total* incluye a *Modificación*
+
+Nota: También se pueden dar permisos a *grupos* de usuarios, pero eso queda fuera del alcance del curso
+
+
+
+
+*** Permitir, denegar
+- Los permisos pueden *permitirse* o *denegarse*
+- Las reglas de los permisos pueden ser complicadas, así que en este curso solo utilizaremos la columna de *permitir* 
+[[file:pantallazos-compatir-carpetas/3-permisos.png]]
+
+*** Permisos de los *ficheros* con los de la *carpeta compartida*
+- Los permisos de la carpeta compartida *limitan* aún más los de los ficheros en el disco, pero no los amplían
+  - Si un usuario no puede leer un fichero del disco, no lo podrá leer a través de una carpeta compartida
+  - Aunque al compartir la carpeta pongamos =control total=
+- Para no tener problemas, crearemos nuestras carpetas compartidas directamente en la unidad =C:=
+  - Esta carpeta tiene permisos de lectura para todos los usuarios
+
+* Si surgen problemas
+En el caso de que otros ordenadores no se puedan conectar a nuestras carpetas pueden revisarse los siguientes puntos:
+- Comprobar si el servicio de compartición está activo
+- Desactivar la compartición simple, mediante asistente
+- Comprobar la conectividad de red
+Si es necesario, el profesor revisará estos puntos
