@@ -44,6 +44,32 @@ Nota: También se pueden dar permisos a *grupos* de usuarios, pero eso queda fue
 - Para no tener problemas, crearemos nuestras carpetas compartidas directamente en la unidad =C:=
   - Esta carpeta tiene permisos de lectura para todos los usuarios (en Windows 7 también de escritura)
 
+
+* Conectarse a una carpeta compartida
+- Ruta *UNC*
+  - Cada ordenador Windows tiene un nombre, que se utiliza para accederle por red
+  - El nombre de la carpeta compartida se añade al nombre del ordenador
+#+begin_src
+\\nombre-del-ordenador\nombre-de-la-carpeta
+#+end_src
+- Dónde puedo poner una ruta *UNC*
+  - En la barra de dirección del explorador de archivos
+  - En el diálogo de ejecutar aplicación (teclas /Windows-R/)
+
+También se puede utilizar el /entorno de red/ del navegador de archivos, pero si se conoce el nombre del ordenador es mucho más rápida la ruta *UNC*
+** Nombre del ordenador
+- Al instalar Windows, se elige el nombre del ordenador
+- Debería ser único en la red, porque si no habrá conflictos al intentar compartir carpetas
+- Para cambiarlo:
+  1. Propiedades de *Mi PC*
+  2. Avanzadas
+  3. Nombre de ordenador
+#+reveal: split
+
+| [[file:pantallazos-compatir-carpetas/6-propiedades-de-mi-pc.png]]  | [[file:pantallazos-compatir-carpetas/7-cambiar-nombre-pc.png]]  |
+Para cambiar el nombre al ordenador
+
+
 * Si surgen problemas
 En el caso de que otros ordenadores no se puedan conectar a nuestras carpetas pueden revisarse los siguientes puntos:
 - Comprobar si el servicio de compartición está activo
