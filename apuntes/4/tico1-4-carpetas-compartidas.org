@@ -46,17 +46,19 @@ Nota: También se pueden dar permisos a *grupos* de usuarios, pero eso queda fue
 
 
 * Conectarse a una carpeta compartida
+- /Entorno de red/ del navegador de archivos: si se conoce el nombre del ordenador es mucho más rápida la ruta *UNC*
 - Ruta *UNC*
   - Cada ordenador Windows tiene un nombre, que se utiliza para accederle por red
   - El nombre de la carpeta compartida se añade al nombre del ordenador
 #+begin_src
 \\nombre-del-ordenador\nombre-de-la-carpeta
 #+end_src
-- Dónde puedo poner una ruta *UNC*
+- ¿Dónde puedo poner una ruta *UNC*?
   - En la barra de dirección del explorador de archivos
   - En el diálogo de ejecutar aplicación (teclas /Windows-R/)
 
-También se puede utilizar el /entorno de red/ del navegador de archivos, pero si se conoce el nombre del ordenador es mucho más rápida la ruta *UNC*
+
+
 ** Nombre del ordenador
 - Al instalar Windows, se elige el nombre del ordenador
 - Debería ser único en la red, porque si no habrá conflictos al intentar compartir carpetas
@@ -76,3 +78,18 @@ En el caso de que otros ordenadores no se puedan conectar a nuestras carpetas pu
 - Desactivar la compartición simple, mediante asistente
 - Comprobar la conectividad de red
 Si es necesario, el profesor revisará estos puntos
+
+* Compartir el escritorio (/Remote Desktop/)
+- Las versiones /potentes/ de Windows (/Ultimate/, /Enterprise/) permiten compartir el escritorio
+- Otros ordenadores pueden conectarse al nuestro y utilizar nuestro teclado y ratón
+- Útil para
+  - Soporte técnico remoto
+  - Utilizar otras máquinas más potentes desde nuestro ordenador
+
+** Activar el escritorio compartido
+|[[file:pantallazos-compatir-carpetas/6-propiedades-de-mi-pc.png]] |[[file:pantallazos-compatir-carpetas/8-remote-desktop.png]] |
+
+** Conectarse a un escritorio compartido
+- Ejecutar =mstsc=
+- O buscar /Escritorio Remoto/ entre los programas
+

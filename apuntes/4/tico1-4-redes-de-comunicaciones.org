@@ -1,6 +1,7 @@
 #+include: "../common/header.org"
 #+Title: Redes de comunicaciones
 #+REVEAL_THEME: simple
+#+EXCLUDE_TAGS: no_export
 
 * Introducción
 
@@ -322,7 +323,7 @@ file:ip-host-red.png
 - ¿Qué dirección IP tiene tu móvil? 
 - ¿Qué direcciones IP tiene el router de tu casa?
 
-** /IPv6/
+** /IPv6/ :no_export:
 - El número de direcciones /IPv4/ parecían suficientes en 1980, pero no en el 2016
 - El protocolo /IPv6/ es una evolución de /IPv4/
   - Mantiene la mayoría de ideas
@@ -381,21 +382,39 @@ file:ip-host-red.png
 | Intercambio de ficheros         | FTP             |
 | Correo electrónico              | SMTP, POP, IMAP |
 
-** Infraestructura /TPC/IP/
-*** Servidor /DNS/
+* Infraestructura /TPC/IP/
+Las redes /TCP/IP/, especialmente las /LAN/, suelen tener varios servicios que se dan por supuestos:
+- Traducción de nombres a direcciones /IP/
+- Asignación automática de direcciones /IP/
 
+** Servidor /DNS/
+- Traduce nombres de ordenadores a las direcciones /IP/
+- Puede utilizarse con =nslookup=
+-----
+Untiliza el siguiente comando  para ver qué direcciones /IP/ responden a este nombre.
+    
+#+begin_src 
+nslookup microsoft.com
+#+end_src
 
-*** Servidor /DHCP/
-
-* Redes de área local
+** Servidor /DHCP/
+- Asigna direcciones /IP/ a los ordenadores de una /LAN/
+- De esta forma, no es necesario asignar manualmente direcciones a todos los ordenadores
+-------
+Utiliza el siguiente comando  para descubrir cuál es el servidor /DHCP/ de la clase
+#+begin_src 
+ipconfig /all
+#+end_src
+    
+* Redes de área local :no_export:
 
 ** /Hardware/ de una /LAN/
 
 ** Conexión a Internet
 
 ** Seguridad en la /LAN/
-
-* Redes inalámbricas
+   
+* Redes inalámbricas :no_export:
 
 
 ** /WPAN/
@@ -403,11 +422,9 @@ file:ip-host-red.png
 ** /Hardware/ de una /WLAN/
 
 ** Seguridad en la /WLAN/
-
-* Prácticas
-
+   
+* Prácticas :no_export:
 ** Configurar una máquina virtual
-
 ** Compartir carpetas
 
 ** Utilizar otro ordenador
