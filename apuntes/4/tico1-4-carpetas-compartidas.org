@@ -95,3 +95,11 @@ Si es necesario, el profesor revisará estos puntos
 - Ejecutar =mstsc=
 - O buscar /Escritorio Remoto/ entre los programas
 
+** Opciones de conexión
+- Resolución y calidad de la pantalla 
+- Compartición de:
+  - Impresoras
+  - Unidades locales
+  - Sonido remoto
+  - Portapapeles
+
