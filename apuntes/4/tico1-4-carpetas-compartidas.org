@@ -77,11 +77,13 @@ En el caso de que otros ordenadores no se puedan conectar a nuestras carpetas pu
 - Comprobar si el servicio de compartición está activo
 - Desactivar la compartición simple, mediante asistente
 - Comprobar la conectividad de red
+- Comprobar si el usuario /Guest/ está activo
 Si es necesario, el profesor revisará estos puntos
 
 * Compartir el escritorio (/Remote Desktop/)
 - Las versiones /potentes/ de Windows (/Ultimate/, /Enterprise/) permiten compartir el escritorio
-- Otros ordenadores pueden conectarse al nuestro y utilizar nuestro teclado y ratón
+- Otros ordenadores pueden conectarse al nuestro y utilizar nuestra CPU
+  - Es como conectar por red un monitor, un teclado y un ratón
 - Útil para
   - Soporte técnico remoto
   - Utilizar otras máquinas más potentes desde nuestro ordenador
