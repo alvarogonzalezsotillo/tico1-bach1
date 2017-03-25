@@ -12,7 +12,6 @@
   - Escribir documentos extensos
   - Escribir libros
   - Escribir artículos
-  -
 
 * Opciones avanzadas
 - Para uso /profesional/ del /Word/
