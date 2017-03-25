@@ -1,0 +1,83 @@
+#+include: "../common/header.org"
+#+Title: Microsoft Word (opciones avanzadas)
+#+REVEAL_THEME: simple
+#+EXCLUDE_TAGS: no_export
+
+* Introducción
+- Los cursos de /Microsoft Word/ suelen incluir:
+  - Tamaño de letra, negrita, cursiva, subrayado...
+  - Tablas, columnas, alineación...
+  - Portadas, imágenes, colores,...
+- Estas son opciones *básicas* que no son suficientes para:
+  - Escribir documentos extensos
+  - Escribir libros
+  - Escribir artículos
+  -
+
+* Opciones avanzadas
+- Para uso /profesional/ del /Word/
+  - Existen en todas las herramientas /profesionales/ de edición
+- Estas funcionalidades incluyen: 
+  - Estilos
+  - Campos
+  - Marcadores
+  - Formularios
+  - Secciones
+  - Correspondencia
+  - Documento maestro
+  - Control de cambios
+
+* Estilos
+- Engloban todo el formato aplicable a un párrafo (o frase)
+  - Tipo de letra
+  - Espaciado, tabulaciones 
+  - Colores, líneas
+  - Viñetas, nivel de título
+
+** ¿Por qué son útiles los estilos?
+- Permiten centrarse en el *contenido*
+  1. Se escribe el texto
+  2. Se *clasifica* cada texto con el estilo correspondiente:
+     - Diálogo
+     - Título
+     - Cita
+  3. Se configura cada estilo 
+- Si cambia el criterio estético, se cambia el estilo una sola vez
+- Si hay varios autores, no necesitan ponerse de acuerdo en el formato *antes* de poder escribir contenidos   
+
+* Marcadores
+- Dan nombre a un texto
+- Pueden servir para
+  - Navegar hasta el sitio del texto
+  - Utilizar el texto en otro sitio
+  - Referenciar el texto (/como se dijo en la página *X*.../)
+
+* Campos
+- Son textos calculados por /Word/
+  - Número de páginas, página actual
+  - Fecha actual, información del fichero
+  - Secuencias de números (capítulos, listas...)
+  - Operaciones matemáticas
+
+** ¿Para qué valen los campos?
+- Automatizan la edición de textos
+- Preparan el documento para cambios futuros
+
+** Ejemplos de campos
+- Los ponemos con =CTRL+F9=
+- Los actualizamos con =F9=, o al imprimir
+- Los editamos con =MAY+F9=
+  - =page=, =numpages=, =filename=
+  - =date=, =createdate=, =savedate=
+  - =toc=
+  - =seq=
+  - ~=expresión aritmética~ (usando marcadores)
+
+* Formularios
+
+* Secciones
+
+* Correspondencia
+
+* Documento maestro
+

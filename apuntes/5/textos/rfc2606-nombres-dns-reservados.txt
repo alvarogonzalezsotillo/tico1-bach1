@@ -1,0 +1,283 @@
+
+
+
+
+
+
+Network Working Group                                        D. Eastlake
+Request for Comments: 2606                                     A. Panitz
+BCP: 32                                                       Junio 1999
+Categoría: Mejor Práctica Actual
+
+
+                 Nombres DNS reservados de primer nivel
+
+Estatus de este memorándum
+
+   Este documento especifica unas "Mejores Prácticas Actuales", Best
+   Current Practices (BCP), para la comunidad Internet, y solicita su
+   discusión y sugerencias para mejorarlas. La distribución de este
+   memorándum es ilimitada.
+
+Nota de copyright
+
+   Copyright (C) The Internet Society (1999).  Todos los derechos
+   reservados.
+
+Resumen
+
+   Para reducir la probabilidad de conflictos y confusiones, se han
+   reservado unos cuantos nombres de dominio de primer nivel para el uso
+   en pruebas privadas, como ejemplos en documentación, y similares.
+   Además, se documentan unos cuantos nombres de dominio de segundo
+   nivel para el uso como ejemplos.
+
+Tabla de contenidos
+
+   1. Introducción............................................1
+   2. TLDs para pruebas, y ejemplos de documentación..........2
+   3. Nombres de dominio de segundo nivel para ejemplos.......3
+   4. Consideraciones del IANA................................3
+   5. Consideraciones de seguridad............................3
+   Referencias................................................3
+   Direcciones de los autores.................................4
+   Declaración completa de copyright..........................5
+
+1. Introducción
+
+   El "Sistema de Nombres de Dominio", Domain Name System (DNS), global
+   de Internet está documentado en [RFC 1034, 1035, 1591] y en numerosos
+   RFC adicionales. Define un árbol de nombres comenzando por la raíz,
+   ".", inmediatamente debajo de la cual hay nombres de dominio de
+   primer nivel tales como ".com" y ".us". Bajo los nombres de dominio
+   de primer nivel normalmente hay niveles de nombres adicionales.
+
+
+
+
+Eastlake & Panitz         Mejor Práctica Actual               [Página 1]
+
+RFC 2606         Nombres DNS reservados de primer nivel       Junio 1999
+
+
+2. TLDs para pruebas, y ejemplos de documentación
+
+   Existe la necesidad de nombres de "Dominio de Primer Nivel", Top
+   Level Domain (TLD), que puedan usarse para crear nombres que, sin
+   temor de entrar en conflicto con nombres TLD actuales o futuros en el
+   DNS global, se puedan usar para pruebas privadas de código existente
+   relacionado con DNS, ejemplos en documentación, experimentos
+   relacionados con DNS, nombres DNS no válidos, u otros casos
+   similares.
+
+   Por ejemplo, sin una norma, un lugar podría configurar algunos
+   dominios adicionales de primer nivel no usados para pruebas de su
+   configuración y código local de DNS. Más tarde, esos TLD podrían
+   comenzar a ser usados en la Internet global. Como resultado, los
+   intentos locales de referenciar los datos reales en esas zonas
+   podrían ser frustrados por las versiones locales de prueba. O
+   también, se podría escribir código o ejemplos que accedan a TLD que
+   estén en uso en la creencia de que dicho código de prueba sólo se
+   ejecutará en una red de pruebas restringida o el ejemplo nunca se
+   llegará a ejecutar. Posteriormente, el código de prueba puede escapar
+   del entorno de prueba o el ejemplo podría ser finalmente codificado y
+   ejecutado en Internet. Dependiendo de la naturaleza de la prueba o
+   ejemplo, podría ser mejor para él hacer referencia a TLD reservados
+   permanentemente para tales propósitos.
+
+   Para satisfacer con seguridad estas necesidades, se han reservado
+   cuatro nombres de dominio, como se enumeran y describen a
+   continuación.
+
+                  .test
+               .example
+               .invalid
+             .localhost
+
+      ".test" se recomienda para uso en pruebas de código nuevo o actual
+      relacionado con DNS.
+
+      ".example" se recomienda para uso en documentación o en ejemplos.
+
+      ".invalid" está pensado para usarlo en la construcción "online" de
+      nombres de dominio que estamos seguros no son válidos y que son
+      obviamente no válidos de un simple vistazo.
+
+      El TLD ".localhost" se ha definido tradicionalmente de manera
+      estática en las implementaciones DNS de máquinas como asociado a
+      un registro A que apunta a la dirección IP de loopback, y está
+      reservado para tal uso. Cualquier otro uso podría entrar en
+      conflicto con código ampliamente desplegado que asume este uso.
+
+
+
+Eastlake & Panitz         Mejor Práctica Actual               [Página 2]
+
+RFC 2606         Nombres DNS reservados de primer nivel       Junio 1999
+
+
+3. Nombres de dominio de segundo nivel para ejemplos
+
+   La "Autoridad de los Números Asignados en Internet", Internet
+   Assigned Numbers Authority (IANA), en la actualidad también tiene
+   reservados los siguientes nombres de dominio de segundo nivel para
+   usarlos como ejemplo.
+
+         example.com
+         example.net
+         example.org
+
+4. Consideraciones del IANA
+
+   El IANA está de acuerdo con la reserva de los cuatro nombres de
+   dominio de primer nivel especificada en este documento y los
+   reservará para los usos indicados.
+
+5. Consideraciones de seguridad
+
+   Se puede producir confusión y conflicto por el uso de un nombre de
+   dominio de primer nivel actual o futuro en experimentos o pruebas,
+   como ejemplo en documentación, para indicar nombres no válidos, o
+   como sinónimo para la dirección de loopback. El software de pruebas y
+   experimentación puede salir de sus ámbitos y acabar siendo usado en
+   el servicio DNS global en funcionamiento. Incluso los ejemplos que
+   "sólo" se usen en documentación pueden acabar siendo codificados y
+   publicados, o causar conflictos debido al posterior uso real y a la
+   posible adquisición de los derechos de propiedad intelectual sobre
+   tales nombres "de ejemplo".
+
+   La reserva de varios nombres de dominio de primer nivel para dichos
+   propósitos minimizará tales confusiones y conflictos.
+
+Referencias
+
+   [RFC 1034] Mockapetris, P., "Domain names - concepts and facilities",
+              STD 13, RFC 1034, Noviembre 1987.
+
+   [RFC 1035] Mockapetris, P., "Domain names - implementation and speci­
+              fication", STD 13, RFC 1035, Noviembre 1987.
+
+   [RFC 1591] Postel, J., "Domain Name System Structure and Delegation",
+              RFC 1591, Marzo 1994.
+
+
+
+
+
+
+
+
+Eastlake & Panitz         Mejor Práctica Actual               [Página 3]
+
+RFC 2606         Nombres DNS reservados de primer nivel       Junio 1999
+
+
+Direcciones de los Autores
+
+   Donald E. Eastlake 3rd
+   IBM
+   65 Shindegan Hill Road, RR #1
+   Carmel, NY 10512
+
+   Teléfono: +1 914-276-1668(h)
+             +1 914-784-7913(w)
+   Fax:      +1 914-784-3833(3)
+   EMail:    dee3@us.ibm.com
+
+
+   Aliza R. Panitz
+   500 Stamford Dr. No. 310
+   Newark, DE 19711 USA
+
+   Teléfono: +1 302-738-1554
+   EMail:    buglady@fuschia.net
+
+
+Traducción al castellano:
+
+   José Luis Domingo López
+
+   EMail: jdomingo@internautas.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eastlake & Panitz         Mejor Práctica Actual               [Página 4]
+
+RFC 2606         Nombres DNS reservados de primer nivel       Junio 1999
+
+
+Declaración completa de copyright
+
+   Copyright (C) The Internet Society (1999). Todos los derechos reser­
+   vados.
+
+   Este documento y sus traducciones pueden ser copiados y facilitados a
+   otros, y los trabajos derivados que los comentan o los explican o
+   ayudan a su implementación pueden ser preparados, copiados, publica­
+   dos y distribuidos, enteros o en parte, sin restricción de ningún
+   tipo, siempre que se incluyan este párrafo y la nota de copyright
+   expuesta arriba en todas esas copias y trabajos derivados. Sin
+   embargo, este documento en sí no debe ser modificado de ninguna
+   forma, tal como eliminando la nota de copyright o referencias a la
+   'Internet Society' u otras organizaciones de Internet, excepto cuando
+   sea necesario en el desarrollo de estándares Internet, en cuyo caso
+   se seguirán los procedimientos para copyrights definidos en el pro­
+   ceso de Estándares Internet, o con motivo de su traducción a otras
+   lenguas aparte del Inglés.
+
+   Los permisos limitados concedidos arriba son perpetuos y no serán
+   revocados por la 'Internet Society' o sus sucesores o asignatarios.
+
+   Este documento y la información contenida en él se proporcionan en su
+   forma "TAL CUAL" y LA INTERNET SOCIETY Y LA INTERNET ENGINEERING TASK
+   FORCE RECHAZAN CUALESQUIERA GARANTÍAS, EXPRESAS O IMPLÍCITAS,
+   INCLUYENDO, PERO NO LIMITADAS A, CUALQUIER GARANTÍA DE QUE EL USO DE
+   LA INFORMACIÓN AQUÍ EXPUESTA NO INFRINGIRÁ NINGÚN DERECHO O GARANTÍAS
+   IMPLÍCITAS DE COMERCIALIZACIÓN O IDONEIDAD PARA UN PROPÓSITO ESPECI­
+   FICO.
+
+Reconocimientos
+
+   En la actualidad, la financiación para las funciones del editor RFC
+   es proporcionada por la Internet Society.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Eastlake & Panitz         Mejor Práctica Actual               [Página 5]
+

@@ -1,0 +1,451 @@
+
+
+
+
+
+
+Network Working Group                                          D. Libes
+Request for Comments: 1178                Integrated Systems Group/NIST
+FYI: 5                                                   Agosto de 1990
+
+                Cómo escoger un nombre para su ordenador
+
+Estado de este memorándum
+
+   Este FYI RFC es una reedición de un artículo de Communications of the
+   ACM acerca de las directrices sobre que hacer y que no cuando se da
+   nombre a su ordenador [1]. Este memorándum facilita información a la
+   comunidad de Internet. No especifica ningún estándar.
+
+   La distribución de este memorándum es ilimitada.
+
+Resumen
+
+   Para distinguir con facilidad entre varios ordenadores, les damos
+   nombres. La experiencia nos ha enseñado que es tan fácil elegir
+   nombres malos como buenos. Este ensayo presenta directrices para
+   decidir que es lo que hace bueno o malo a un nombre.
+
+   Palabras clave: sistema de nombres de dominio, convenciones
+   nominales, administración de ordenadores, gestión de redes de
+   ordenadores
+
+Introducción
+
+   Tan pronto como se empieza a trabajar con más de un ordenador, se
+   hace necesario distinguir entre ellos. Por ejemplo, para decir a su
+   administrador del sistema que su ordenador está estropeado, debería
+   decir  "Oye Ken, que se ha caido Goon".
+
+   Los ordenadores también han de ser capaces de distinguirse entre
+   ellos.  Así, al enviar correo a un colega en otro ordenador, se
+   usaría la orden "mail libes@goon".
+
+   En ambos casos, "goon" se refiere a un ordenador en particular. El
+   como una persona o un ordenador realmente resuelven  el nombre no nos
+   concierne aquí. Este ensayo solo se refiere a la elección de un
+   "buen" nombre. (Se asume que el lector tiene unas nociones básicas
+   sobre el sistema de nombres de dominio como se describe en [2].)
+
+   Aquí hay algunas directrices sobre lo que NO se debe hacer.
+
+      No sobrecargar otros términos de uso ya común.
+
+
+
+
+
+Libes                                                           [Pág. 1]
+
+RFC 1178        Cómo escoger un nombre para su ordenador  Agosto de 1990
+
+
+         Usar una palabra que tiene fuertes implicaciones semánticas en
+         el contexto actual puede causar confusión. Esto es
+         especialmente cierto en la conversación, donde la puntuación no
+         es obvia y la gramática es, a menudo, incorrecta.
+
+         Por ejemplo, una base de datos distribuida ha sido desarrollada
+         sobre varios ordenadores. Cada uno tenía un nombre diferente.
+         Una máquina se llamaba "Arriba", ya que era la única que
+         admitía actualizaciones. Nos encontraríamos con diálogos como
+         estos: "¿Está Arriba abajo? y "Arranca la máquina Arriba"
+         seguido por "¿Qué máquina?"
+
+         Aunque no le costaría mucho darse cuenta y acostumbrarse a esta
+         extravagancia, sería enojoso cuando ocasionalmente su mente
+         tropezara y tuviera que pararse a pensar sobre cada palabra de
+         una frase. Es como si, de repente, el inglés se volviera un
+         idioma extranjero.
+
+      No elija un nombre a partir de un único proyecto de esa máquina.
+
+         Un proyecto de fabricación puso "tienda" a una máquina,  ya que
+         era la que iba a ser usada para controlar un cierto número de
+         máquinas en una planta de tiendas. Un poco después, se adquirió
+         una máquina nueva para ayudar con alguno de los procesos. Ni
+         que decir tiene que no podría llamarse también "tienda". De
+         hecho, ambas máquinas acabaron realizando tareas más
+         específicas que permitirían nombres más específicos. Un año
+         después, se instalaron cinco máquinas nuevas y la primera fue
+         dedicada a un proyecto sin relación con este. Es simplemente
+         imposible elegir nombres genéricos que sean apropiados durante
+         mucho tiempo.
+
+         Por supuesto, se podría haber llamado a la segunda "tienda2" y
+         seguir así con las demás. Pero entonces se distinguiría a las
+         máquinas sólo por el número. Mejor llamarlas entonces "1", "2",
+         y "3". El único caso en el que es apropiado usar esto es cuando
+         se tiene un montón de máquinas y no hay razón para que ningún
+         humano tenga que distinguirlas.  Por ejemplo, un ordenador
+         central podría controlar una cadena de 90 ordenadores. En este
+         caso, tiene sentido referirse a ellos como índices de una
+         serie.
+
+         Mientras los ordenadores no se parecen mucho a la gente, sus
+         nombres sí.  Nadie espera conocer a una persona por su nombre.
+         Sólo porque una persona se llame "Don" no significa que sea el
+         amo del mundo (a pesar de lo que diga el libro "Como escoger un
+         nombre para su bebé). En realidad, los nombres son sólo
+         etiquetas arbitrarias. No pueden decir lo que hace una persona
+
+
+
+Libes                                                           [Pág. 2]
+
+RFC 1178        Cómo escoger un nombre para su ordenador  Agosto de 1990
+
+
+         para ganarse la vida, cuales son sus aficiones, y cosas así.
+
+      No use su propio nombre
+
+         Incluso si un ordenador está en su escritorio, es un error
+         darle su mismo nombre. Este es otro ejemplo de sobrecarga, en
+         el cual las afirmaciones se hacen ambiguas. "Dale la unidad de
+         disco a Don" ¿Se refiere a la persona, o al ordenador?
+
+         Incluso usar sus iniciales ( o un apodo ) es poco
+         satisfactorio.  ¿Qué pasa si se consigue una máquina diferente
+         al cabo de un año? Otro se queda con "Don" y usted acaba
+         viviendo con "Jim". Las máquinas pueden ser renombradas, pero
+         es trabajo extra  y además, un programa que usaba un periférico
+         especial, o una base de datos en "Don" empezaría a fallar
+         cuando no fuera encontrada en el nuevo "Don".
+
+         Es especialmente tentador nombrar su primer ordenador como
+         usted mismo, pero piense en ello. ¿Llama a todas sus posesiones
+         como usted? No. Su perro tiene su propio nombre, como lo tienen
+         sus hijos. Si es de esos que siente inclinación a poner nombre
+         a su coche y otros objetos, seguro que no reutiliza su propio
+         nombre. De otro modo se haría un jaleo tremendo intentando
+         distinguirlos en una conversación.
+
+         Por la misma razón, se sigue que llamar a su ordenador como a
+         su coche o a otras de sus posesiones es un error.
+
+      No use nombres largos.
+
+         Esto es difícil de cuantificar, pero la experiencia enseña que
+         los nombres de más de ocho caracteres simplemente irritan a la
+         gente.
+
+         La mayoría de los sistemas permitirían abreviaturas
+         preestablecidas, pero ¿por qué no empezar eligiendo un nombre
+         que no haya que abreviar?  Esto evita cualquier malentendido.
+
+      Evite ortografías alternativas.
+
+         Una vez llamamos a una máquina "czek". En discursiones, la
+         gente siempre pensaba que estábamos hablando de una máquina
+         llamada "check". De hecho, "czek" no es una palabra (aunque sí
+         lo sea "Czeck").
+
+         Las incorrecciones ortográficas intencionadas (aunque
+         graciosas) también tienden a irritar a gran cantidad de gente.
+         Además , la persona que ha aprendido el inglés como su segunda
+
+
+
+Libes                                                           [Pág. 3]
+
+RFC 1178        Cómo escoger un nombre para su ordenador  Agosto de 1990
+
+
+         lengua, a menudo se cuestiona su conocimiento, al ver una
+         palabra  que  conocía deletreada de manera distinta. ("Creo que
+         siempre he deletreado "funxion2" mal. Que vergüenza")
+
+         Ahora mismo puede estar pensando "Esto es una tontería, el que
+         no sepa como se deletrea un nombre, que aprenda, es todo."
+         Aunque es cierto que algunas personas aprenderán, con el tiempo
+         esto acabará dando problemas en algún sitio.
+
+         Por ejemplo, un día , una máquina llamada "pythagoris" (sic)
+         empezó a fallar  y  a enviar una enorme cantidad de mensajes al
+         ordenador del administrador del sitio. El administrador, que
+         para empezar, no era muy buen deletreador, nunca antes había
+         visto esta máquina (algún otro la había configurado y
+         nombrado), pero tenía que manejarse con ella, ya que estaba
+         atascando la red, a la vez que empantanando su propia máquina,
+         al llevar el registro de todos los mensajes de error.  Huelga
+         decir que tenía que pensárselo cada vez que necesitaba
+         deletrear "pythagoris". (Sospechaba que había una abreviatura,
+         pero tendría que haber iniciado un sesión en otro ordenador (el
+         servidor de nombres local) para saberlo y la red estaba
+         demasiado atascada para perder tiempo haciendolo.)
+
+      Evite nombres de dominio.
+
+         Por razones técnicas, se deberían evitar nombres de dominio. En
+         particular, la resolución de nombres de host no-absolutos es
+         problemática. Los sistemas de resolución compararán los nombres
+         con los dominios antes que con los nombres de host. Así, y
+         todo, hemos visto ejemplos de programas de correo que se niegan
+         a tratar nombres sencillos como dominios. Por ejemplo, suponga
+         que envía un correo a "libes@rutgers" desde yale.edu.
+         Dependiendo de la herramienta, el correo puede ir a rutgers.edu
+         o a rutgers.yale.edu (asumiendo que ambos existan).
+
+      Evite nombres similares a los dominios.
+
+         Los nombres de dominio son, o bien corporativos (p.ej. cia.gov)
+         o geográficos (p.ej., dallas.tx.us). Usar algo parecido lleva a
+         establecer cierta conexión. Por ejemplo, el nombre "tahiti"
+         suena como si usted estuviera situado allí. Esto es confuso si,
+         en realidad, está en otro sitio (p.ej., "¿tahiti.cia.gov está
+         en Langley, Virginia? ¡Pensaba que era la oficina de la CIA en
+         Tahiti!"). Si realmente se encuentra allí, el nombre implica el
+         que sea el único ordenador allí. Si esto no es un error,
+         inevitablemente acabará siendolo.
+
+         Algunos nombres corporativos y geográficos funcionan de
+
+
+
+Libes                                                           [Pág. 4]
+
+RFC 1178        Cómo escoger un nombre para su ordenador  Agosto de 1990
+
+
+         maravilla.  Justo aquellos que no funciona bien como nombres de
+         dominio. Por ejemplo, nombres  como ríos, lugares mitológicos,
+         y otras imposibilidades son muy convenientes. (De momento
+         "tierra" no es un nombre de dominio.)
+
+      No use nombres insultantes o embarazosos.
+
+         Palabras como "imbécil" o "tonto" son buenos nombres si nadie
+         más va a verlos. Pero si alguna vez le hace una demostración a
+         alguien en su máquina, verá que se distraen viendo una palabra
+         fea en su pantalla.  (Quizá su esposa les llamó así esa
+         mañana.) ¿Por qué molestarse en tener la oportunidad de que se
+         distraigan por algo completamente irrelevante para su
+         demostración.
+
+      No use dígitos al principio de los nombres.
+
+         Muchos programas aceptan tanto direcciones numéricas de
+         internet como un nombre. Desafortunadamente, algunos programas
+         no distinguen correctamente entre las dos y pueden ser
+         engañados, por ejemplo, por una cadena que empiece con un
+         dígito decimal.
+
+         Los nombres compuestos enteramente de dígitos hexadecimales,
+         como "beef", son también problemáticos, ya que pueden ser
+         interpretados tanto como números hexadecimales como cadenas
+         alfabéticas.
+
+      No use caracteres no alfanuméricos en un nombre.
+
+         Su propio ordenador puede manejar signos de puntuación o
+         caracteres de control, pero muchos otros no. Si alguna vez
+         piensa conectar su ordenador a una red heterogénea, cuente con
+         una variedad de interpretaciones de caracteres no alfanuméricos
+         en los nombres.  Las convenciones de red en este aspecto son
+         sorprendentemente no estándares.
+
+      No espere que se respeten mayúsculas y minúsculas.
+
+         Los caracteres en mayúscula y minúscula parecen iguales a una
+         gran cantidad de software de internet, a menudo bajo la
+         presunción de que están haciéndole un favor. Puede parecer
+         apropiado poner en mayúsculas un nombre al igual que haría en
+         inglés, pero la convención dicta que los nombres de ordenador
+         aparezcan todo en minúsculas. (Y ahorra tener que pulsar la
+         tecla "shift".)
+
+   Ahora que hemos oido lo que no hay que hacer, he aquí algunas
+
+
+
+Libes                                                           [Pág. 5]
+
+RFC 1178        Cómo escoger un nombre para su ordenador  Agosto de 1990
+
+
+   sugerencias sobre nombres que funcionan bien.
+
+      Utilice  palabras/nombres que no se usen a menudo.
+
+         Mientras que una palabra como "típico" o "encendido" (ver más
+         arriba) no es jerga de ordenadores, es más que probable que
+         surja en una discursión y haga perder la concentración mientras
+         se determina la referencia adecuada. En vez de eso, use
+         palabras como "sacudida" o "terrateniente" que difícilmente
+         llevarán a confusión.
+
+         Puede creer que es seguro usar un nombre como "jose" sólo
+         porque en su grupo no hay nadie con ese nombre, pero tendrá
+         problemas si llega a contratar a Jose. Un nombre como "esfinge"
+         es poco probable que entre en conflicto con nuevos contratos.
+
+      Use nombres temáticos.
+
+         Nombrar grupos de máquinas de un modo grupal es muy popular, y
+         aumenta la noción de comunidad a la vez que exhibe un nivel de
+         conocimiento e imaginación. Un ejemplo claro es el uso de
+         colores, como "rojo" y "azul". Se puede aportar personalidad
+         eligiendo algunos como "agua" o "carmesí".
+
+         Algunos grupos son finitos, como los siete enanos. Cuando
+         compre sus primeros siete ordenadores, tenga en mente que
+         probablemente comprará más el año que viene. Los colores nunca
+         se acaban.
+
+         Algunas sugerencias son: lugares míticos (p.ej. Midgard,
+         Estigia, Paraiso), personajes mitológicos (p. ej, Procneus,
+         Tereus, Zeus), asesinos (p.ej., Cain, Burr, Boley), bebes
+         (p.ej., potro, cachorro, renacuajo, angula), colectivos (p.ej.
+         muchedumbre, plaga, bandada, nidada), elementos (p.ej., helio,
+         argón, zinc), flores (p.ej., tulipán, peonia, lila, madroño).
+         ¿Va cogiendo la idea?
+
+      Use palabras reales.
+
+         Las cadenas aleatorias no son apropiadas por la misma razón que
+         son útiles como contraseña. Son difíciles de recordar. Use
+         palabras reales.
+
+      No se preocupe por reutilizar el nombre de otro.
+
+         Nombres muy conocidos como "sri-nic" y "uunet" se deberían
+         evitar ya que se entienden en conversación como direcciones
+         absolutas sin un dominio.  En todos los demás casos, se asume
+
+
+
+Libes                                                           [Pág. 6]
+
+RFC 1178        Cómo escoger un nombre para su ordenador  Agosto de 1990
+
+
+         que el dominio local califica los nombres de host no
+         compuestos. Esto es similar a la forma en que los números de
+         teléfono son precedidos  por un código de área cuando se llama
+         de un área a otra.
+
+         En otras palabras, si ha escogido un nombre razonable, no se
+         tiene que preocupar si ya está siendo usado en otro dominio. El
+         número de hosts en un dominio del nivel más bajo es pequeño,
+         así que no debería costar elegir un nombre único solo para ese
+         dominio.
+
+      Siempre hay lugar para la  excepción.
+
+         No creo que se necesite ninguna explicación. Sin embargo,
+         déjeme añadir que si más tarde decide cambiar un nombre (a algo
+         lógico que debería haber elegido desde un primer momento), se
+         va a asombrar de la cantidad de molestias que le aguardan. No
+         importa lo fácil que los manuales sugieran que es cambiar un
+         nombre, encontrará que montones de oscuro software han
+         acumulado rápidamente referencias a ese ordenador usando el
+         ahora feo nombre. Todo ello debe ser encontrado y cambiado. La
+         gente que le envía correo desde otros sitios debe ser avisada.
+         Y tiene que recordar que nombres en viejas etiquetas de copias
+         de seguridad corresponden a nombres diferentes.
+
+         Podría seguir, pero sería más fácil olvidar que existe esta
+         directriz.
+
+Conclusión
+
+   La mayoría de la gente no tiene la oportunidad de dar nombre a más de
+   uno o dos ordenadores, mientras que los administradores de sitios dan
+   nombre a gran cantidad de ellos. Eligiendo un nombre sabiamente,
+   tanto el usuario como el administrador tendrán más fácil recordar,
+   tratar y teclear el nombre de sus ordenadores.
+
+   He intentado formalizar directrices útiles para nombrar ordenadores,
+   junto con abundancia de ejemplos para hacer obvios mis propósitos.
+   Habiendo sido tanto un usuario como un administrador de sitios,
+   muchas de estas anécdotas vienen de experiencias reales que no tengo
+   deseo de revivir. Espero que usted evite todos los agujeros que he
+   tratado, eligiendo sabiamente el nombre de su ordenador.
+
+Créditos
+
+   Gracias a las siguientes personas por sugerir algunas de estas
+   directrices y participar en numerosas discursiones sobre el nombrar
+   ordenadores: Ed Barkmeyer, Peter Brown, Chuck Hedrick, Ken Manheimer,
+
+
+
+Libes                                                           [Pág. 7]
+
+RFC 1178        Cómo escoger un nombre para su ordenador  Agosto de 1990
+
+
+   y Scott Paisley.
+
+   Este ensayo apareció por primera vez en el Comunicados de la ACM,
+   Noviembre de 1989, junto con una viñeta de Gary Larson, reimpreso con
+   permiso del United Press Syndicate. El texto no está sujeto a
+   copyright, ya que es un trabajo para el National Institute of
+   Standards and Technology. Sin embargo, el autor, CACM, y el NIST
+   piden que este crédito aparezca con el artículo cada vez que éste sea
+   reimpreso.
+
+Referencias
+
+   [1]  Libes, D., "Choosing a Name for Your Computer", Communications
+   of the ACM, Vol. 32, Nº 11, Pag. 1289, Noviembre de 1989.
+
+   [2]  Mockapetris, P., "Domain Names - Concepts and Facilities", RFC
+   1034, USC/Information Sciences Institute, Noviembre de  1987.
+
+Consideraciones acerca de la seguridad.
+
+   No se discuten aspectos sobre la seguridad en este memorándum.
+
+Dirección del Autor
+
+   Don Libes
+   Integrated Systems Group
+   National Institute of Standards and Technology
+   Gaithersburg, MD 20899
+
+   Teléfono: (301) 975-3535
+
+   EMail: libes@cme.nist.gov
+
+Traductor al español
+
+   Benjamín Albiñana Pérez
+   Calle San Antoniño, 11
+   36002 Pontevedra
+   España
+
+   Email: benjamin@lamanonegra.net.dhis.org
+
+
+
+
+
+
+
+
+
+
+Libes                                                           [Pág. 8]
+
