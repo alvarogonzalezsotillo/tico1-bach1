@@ -63,14 +63,19 @@
 - Preparan el documento para cambios futuros
 
 ** Ejemplos de campos
+- =page=, =numpages=, =filename=
+- =date=, =createdate=, =savedate=
+- =toc=
+- =seq=
+- ~=expresión aritmética~ (usando marcadores)
+
+-----
+Teclas rápidas:
+
 - Los ponemos con =CTRL+F9=
 - Los actualizamos con =F9=, o al imprimir
 - Los editamos con =MAY+F9=
-  - =page=, =numpages=, =filename=
-  - =date=, =createdate=, =savedate=
-  - =toc=
-  - =seq=
-  - ~=expresión aritmética~ (usando marcadores)
+- Más teclas: =F11=, =ALT+F9= ¿qué hacen?
 
 * Formularios
 
