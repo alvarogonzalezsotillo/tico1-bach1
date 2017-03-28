@@ -31,7 +31,11 @@ Se pretende que el alumno ejercite las funcionalidades de \textit{Microsoft Word
 
 
 
-\newcommand{\urlagithub}[1]{\attachfile{./textos/#1}\enlace{https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/5/#1}{#1}}
+\newcommand{\urlagithub}[1]{%
+  \enlace{https://alvarogonzalezsotillo.github.io/tico1-bach1/apuntes/5/textos/#1}{#1}%
+  \hspace{0.5em}%
+  \textattachfile[color=0 0 1]{./textos/#1}{({\scriptsize adjunto}\hspace{0.2em}\includegraphics[height=1em,width=1em]{attach-icon.pdf})}%
+}
 
 \begin{homeworkProblem}[: Documento técnico (5 puntos)]
   Observa los siguientes documentos:
@@ -106,7 +110,7 @@ Se pretende que el alumno ejercite las funcionalidades de \textit{Microsoft Word
   \item El profesor necesita los ficheros \texttt{docx} o \texttt{doc} para corregir la práctica, no lo envíes en otro formato como \texttt{pdf}
   \end{itemize}
 
-\item Sube el documento a \enlace{http://aulavirtual2.educa.madrid.org/course/view.php?id=22210}{la tarea correspondiente en el aula virtual}
+\item Sube el documento a \enlace{http://aulavirtual2.educa.madrid.org/mod/assignment/view.php?id=1156675}{la tarea correspondiente en el aula virtual}
 \item Presta atención al plazo de entrega (con fecha y hora).
   
 \end{itemize}
