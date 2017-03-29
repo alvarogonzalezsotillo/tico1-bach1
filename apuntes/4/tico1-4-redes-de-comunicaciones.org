@@ -273,6 +273,7 @@ Observa que no todos los equipos utilizan todas las capas. Los nodos intermedios
   - Era *gratis* (estaba incluido en /Unix/)
 
 ** Correspondencia de capas con /OSI/
+#+attr_html: :width 50%  :style "margin-left: auto; margin-right: auto;"
 [[file:comparacion-osi-tcpip.png]]
 
 ** Capa de Interfaz de red
@@ -292,7 +293,7 @@ Observa que no todos los equipos utilizan todas las capas. Los nodos intermedios
   - Direcciones de 32 bits asignadas por el administrador
   - 32 bits <---> 4 bytes
   - Se suelen representar con los bytes en decimal, separadas por puntos
-
+#+attr_html: :width 40%  :style "margin-left: auto; margin-right: auto;"
 [[file:ip-binario-decimal.png]]
 
 #+reveal: split

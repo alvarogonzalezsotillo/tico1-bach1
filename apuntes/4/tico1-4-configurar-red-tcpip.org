@@ -1,0 +1,116 @@
+#+include: "../common/header.org"
+#+Title: Configurar TCP/IP en Windows
+#+REVEAL_THEME: simple
+
+* Introducción
+- Sabemos que cada ordenador necesita una dirección /TCP/IP/ para poder comunicarse
+- Y todos tenemos en casa (y en el bolsillo) ordenadores a los que nunca hemos configurado una dirección
+- ¿Cómo es posible?
+
+* Configuración automática de /TCP/IP/
+- Se puede configurar /automáticamente/ la red de un ordenador
+- Cuando arranca pregunta por la red *¿Quién me presta una dirección IP?*
+  - Es un cliente /DHCP/
+- Un servidor /DHCP/ le asigna una dirección /IP/
+  - Los /routers/ de /ADSL/ y fibra son servidores /DHCP/
+
+** Comprobar si /Windows/ tiene habililitado /DHCP/
+- =ipconfig /all=
+  - Muestra (casi) toda la información acerca de la red
+  - Por cada adaptador de red (/Ethernet/,/Wifi/...) 
+    - Si tiene /DHCP/ habilitado
+    - Su dirección /MAC/
+    - Su dirección /IP/
+    - ...
+
+** =ipconfig /all= con /DHCP/
+[[file:ipconfig-all-dhcp.png]]
+
+
+* Configuración manual de /TCP/IP/
+- Panel de control → Redes e Internet → Centro de redes y recursos compartidos → Cambiar configuración del adaptador
+  - También con botón derecho en el icono de red de la barra de Windows
+- Aparecerán todas las tarjetas de red del equipo
+  - Algunas serán tarjetas de red *reales*: /Ethernet/, /Wifi/, /Bluetooth/...
+  - Otras serán *virtuales*: Generalmente, de /Virtual Box/ o /VMWare/
+
+
+** Configuración de /IP/ en Windows
+[[file:propiedades-ip-dhcp.png]]
+
+
+** Configuración del adaptador
+- Una tarjeta de red puede tener muchos *protocolos* de red
+- El más usado es *TCP/IP versión 4* 
+- Para evitar problemas, en esta clase desactivaremos *TCP/IP versión 6*
+[[file:quitar-ipv6.png]]
+
+** Configuración /TCP/IP/ versión 4
+- Se puede elegir entre:
+  - Configuración automática: Se activa el cliente /DHCP/
+  - Conguración manual: Hay que introducir
+    - Dirección /IP/
+    - Máscara (no explicaremos lo que es)
+    - Puerta de enlace: ¿Qué ordenador nos comparte sus redes para llegar hasta otras redes?
+    - Servidores de /DNS/
+
+** ¿Puedo poner la dirección /IP/ que yo quiera?
+- Respuesta corta: *Si*
+- Respuesta larga:
+  - Si no es una dirección /compatible/ con la del resto de ordenadores de la red, el ordenador no tendrá conectividad
+  - A grandes rasgos, los primeros dos o tres números de la /IP/ deben ser iguales que los de los demás ordenadores de clase.
+
+
+
+
+* Práctica 
+- En esta práctica utilizaremos las máquinas virtuales con Windows para tener una red /paralela/ a la red del instituto
+- A pesar de no tener conectividad con los ordenadores reales, todas las máquinas virtuales podrán comunicarse entre sí
+- Y el el último paso, también con Internet.
+
+** Cambia la dirección /IP/
+- Desactiva /TCP/IP/ versión 6 (para no liarnos)
+- Utiliza la dirección =172.16.0.100+N=
+  - El número =N= es de la pegatina de tu ordenador
+  - Ejemplo: Si estoy en el PC 15, mi dirección será =172.16.0.115=
+- La máscara de red será la que ponga Windows: =255.255.0.0=
+- Comprueba que ya no puedes acceder desde/hasta tu equipo real 
+  - Ni por /remote desktop/, ni carpetas compartidas, ni =ping=
+- Comprueba que puedes acceder a otras máquinas virtuales de tus compañeros.
+
+** Acceso a Internet
+- Ejecuta en tu máquina real el comando =pathping 8.8.8.8=
+  - Mostrará el camino que hay que seguir para llegar al ordenador =8.8.8.8= de Internet
+- Ejecuta el mismo comando en tu máquina virtual
+  - No funcionará: no tiene conexión a internet
+  - Necesita que algún equipo comparta sus redes para que pueda llegar a Internet. Este equipo es la *puerta de enlace* o el *gateway*.
+  - Usa =172.16.0.1= como *gateway* y comprueba si ya tienes acceso a Internet.
+
+** Acceso a Internet *completo*
+- Ejecuta en tu máquina real =pathping www.marca.es=
+  - Mostrará el camino hasta ese servidor
+- Ejecuta en tu máquina virtual el mismo comando
+  - No funcionará: No sabe qué dirección /IP/ corresponde al nombre =www.marca.es=
+  - *¿Qué le falta por configurar a la máquina virtual?*
+
+** Servidor de /DNS/
+- Utiliza como /DNS/ la dirección =172.16.0.1=
+- Comprueba que hay un acceso a Internet completo
+
+** Otra vez /DHCP/
+- Todas estas configuraciones manuales son las que se ajustan automáticamente con /DHCP/
+- Un servidor de /DHCP/ nos da:
+  - Dirección /IP/
+  - Máscara de red
+  - Puerta de enlace
+  - Servidor de /DNS/
+  - E incluso otros datos: nombre de equipo, /proxy/ de red...
+    - Lista completa en [[http://www.cisco.com/c/en/us/td/docs/net_mgmt/network_registrar/7-1/user/guide/cnr71book/UGB_Opts.html#wp1007347][este enlace]]
+
+** Seguridad en la red
+- Como hemos visto, el ordenador =172.16.0.1= nos da acceso a Internet
+  - /DNS/
+  - Puerta de enlace
+- ¿De quién es este ordenador? 
+- ¿Por qué nos /hace el favor/ de darnos acceso a Internet?
+- *¿Nos podemos fiar de este ordenador?* 

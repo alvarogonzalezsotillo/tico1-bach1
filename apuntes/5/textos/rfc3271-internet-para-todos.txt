@@ -1,0 +1,339 @@
+
+
+
+
+
+
+Grupo de Trabajo de Red                                          V. Cerf
+Request for Comments: 3271                              Internet Society
+Categoría: Informativo                                        Abril 2002
+                                                Traducción: Andrés Facal
+
+                         Internet es para Todos
+
+Estado de este Memorándum
+
+   Este memorándum proporciona información para la comunidad de
+   Internet. No especifica un estándar de Internet de ningún tipo.  La
+   distribución de este memorándum es ilimitada.
+
+Aviso de derechos de propiedad literaria
+
+   Copyright (c) Internet Society (2002).  Todos los derechos
+   reservados.
+
+Resumen
+
+   Este documento expresa la ideología de la Sociedad de Internet de que
+   Internet es realmente para todos.  Sin embargo, solo sera así si lo
+   hacemos así.
+
+1. Internet es para todos
+
+   ¡Que fácil es decirlo  - que difícil es lograrlo!
+
+   ¿Como hemos progresado hacia esta noble meta?
+
+   Internet esta en su año 14 de duplicación anual desde 1988.  Hay más
+   de 150 millones de ordenadores en Internet y una estimación de 513
+   millones de usuarios, en todo el mundo.
+
+   Para el 2006, la Internet global probablemente excederá el tamaño de
+   la red telefónica global, si aún no se ha convertido en la red
+   telefónica en virtud de la telefonía IP. Además, hasta mil quinientos
+   millones de aparatos preparados para Internet se habrán unido a los
+   servidores tradicionales, los equipos de sobremesa y los portátiles
+   como parte de la familia Internet. Bien pueden haberse fusionado los
+   busca personas (pagers), teléfonos móviles y agendas digitales
+   personales para convertirse en las nuevas herramientas de
+   telecomunicaciones de la próxima década.  Pero incluso a escala del
+   sistema telefónico, conviene darse cuenta que sólo la mitad de la
+   población de la Tierra ha hecho una llamada telefónica alguna vez en
+   su vida.
+
+   Se estima que el comercio en la red alcanzará un valor entre 1,8 y
+
+
+
+Cerf                           Informativo                    [Página 1]
+
+RFC 3271                 Internet es para todos               Abril 2002
+
+
+   3,2 billones de dólares para 2003.  Esto en sólo dos años desde ahora
+   (aunque es un plazo largo en años de Internet).
+
+   El numero de usuarios de Internet alcanzará más de 1000 millones
+   probablemente para fines del año 2005, pero éso es sólo
+   aproximadamente el 16% de la población mundial. Sobre el año 2047 la
+   población del mundo puede alcanzar aproximadamente 11 mil millones.
+   Si sólo el 25% de la población mundial de entonces está en Internet,
+   serán casi 3 mil millones de usuarios.
+
+   A medida que el acceso de banda ancha se convierte en la norma para
+   el bucle digital de abonado, modems de cable y radio-enlaces
+   digitales terrestres y por satélite, la convergencia de medios de
+   comunicación disponible en Internet se volverá obvia. La televisión,
+   la radio, la telefonía y los medios impresos tradicionales
+   encontrarán su homólogo en Internet - y cambiarán profundamente por
+   la presencia de software que transformará los medios de comunicación
+   de un solo sentido en recursos interactivos, compartidos por muchos.
+
+   Internet está demostrando ser uno de los amplificadores mas poderosos
+   del discurso que jamás se haya inventado.  Ofrece un megáfono global
+   para voces que de otra forma podrían oírse solo débilmente, si se
+   oyen.  Facilita e invita a tener múltiples puntos de vista y diálogo
+   de maneras imposibles por los medios de comunicación de masas
+   tradicionales de un sólo sentido.
+
+   Internet puede facilitar prácticas democráticas de maneras
+   inesperadas.  ¿Sabía usted que se utiliza la votación delegada por
+   los accionistas de la bolsa de valores ahora está generalmente basada
+   en Internet?  Quizás nosotros podamos encontrar otras maneras de
+   simplificar y extender la transparencia de la votación en otros
+   dominios, incluido el político, conforme aumente el acceso a
+   Internet.
+
+   Internet esta convirtiéndose en el almacén de todo lo que hemos
+   logrado como sociedad.  Se ha convertido en un tipo de "Boswell"
+   desorganizado del espíritu humano.  Piense en lo que usted envía por
+   correo electrónico, los grupos de noticias y otros canales de
+   comunicación de Internet - bien puede aparecer en una búsqueda web
+   algún día.  Gracias al acceso en linea a los medios de almacenamiento
+   comunes, los bancos de datos compartidos en Internet están actuando
+   para acelerar el paso del progreso de la investigación.
+
+      Nota del traductor:
+      Aparentemente, Boswell es un software para Mac de Copernican
+      Technologies para uso de periodistas para el mantenimiento de
+      artículos y documentación. Permite manejar distintas versiones,
+      lleva registro de donde se obtuvo, y como fue creada e información
+
+
+
+Cerf                           Informativo                    [Página 2]
+
+RFC 3271                 Internet es para todos               Abril 2002
+
+
+      relacionada como correo-e, hipertexto, comentarios y referencias
+      más o menos dinámicas como direcciones de correo, de manera que
+      facilita la actualización de estos elementos relacionados. Cada
+      entrada se preserva para siempre y no puede borrarse. Para más
+      detalles vea http://www.boswell.com.
+
+
+   ¡Internet se está desplazando fuera del planeta! Hoy día, Internet
+   interplanetario es parte del programa de la misión a Marte de la NASA
+   desarrollada actualmente en el Laboratorio de Propulsión de Motores
+   de Reacción (Jet Propulsion Laboratory). Sobre el año 2008 deberíamos
+   tener una red Tierra-Marte bien instalada que sirva como naciente
+   espinazo [backbone] de un sistema interplanetario de Internets -
+   ¡InterPlaNet es una red de Internets!  Finalmente, tendremos
+   retransmisores de Internet interplanetarias en la órbita solar polar
+   de manera que puedan ver la mayoría de los planetas y sus pasarelas
+   interplanetarios asociadas durante la mayor parte del tiempo, si no
+   todo el tiempo.
+
+   La Sociedad de Internet está lanzando una nueva campaña para
+   facilitar el acceso y uso de Internet por todas partes.  El eslogan
+   de la campaña es "Internet es para todos", pero es necesario mucho
+   trabajo para lograr este objetivo.
+
+   Internet es para todos, pero no será así si no es económico para todo
+   aquél que desee acceder a sus servicios, por tanto debemos dedicarnos
+   a hacer Internet tan económica como otras infraestructuras tan
+   criticas para nuestro bienestar. Mientras seguimos la Ley de Moore
+   para reducir el costo del equipamiento preparado para Internet,
+   busquemos estimular políticas reguladoras que aprovechen el poder de
+   la competencia para reducir los costes.
+
+   Internet es para todos, pero no será así si los gobiernos restringen
+   el acceso a ella, por eso debemos dedicarnos a mantener la red sin
+   restricciones, sin trabas y desregulada.  Debemos tener la libertad
+   para hablar y la libertad para oír.
+
+   Internet es para todos, pero no será así si no puede soportar la
+   demanda explosiva de sus servicios, por eso debemos dedicarnos a
+   continuar su evolución tecnológica y desarrollo de normas técnicas
+   que yacen en el corazón de la revolución de Internet.  Dediquémonos
+   al soporte del Internet Architecture Board, el Internet Engineering
+   Steering Group, el Internet Research Task Force, el Internet
+   Engineering Task Force y otras organizaciones dedicadas a la
+   tecnología de Internet mientras nos conducen adelante a un futuro
+   ilimitado. También comprometámonos a apoyar el trabajo de la Internet
+   Corporation for Assigned Names and Numbers (ICANN), una función clave
+   para el funcionamiento de Internet.
+
+
+
+Cerf                           Informativo                    [Página 3]
+
+RFC 3271                 Internet es para todos               Abril 2002
+
+
+   Internet es para todos, pero no será así hasta que en cada casa, en
+   cada negocio, en cada escuela, en cada biblioteca, en cada hospital,
+   en cada pueblo y en cada país en el globo, pueda accederse a Internet
+   sin limitaciones, en todo momento y en cada idioma.
+
+   Internet es para todos, pero no será así si es demasiado complejo
+   lograr que todos la usen fácilmente.  Dediquémonos a la tarea de
+   simplificar las interfaces de Internet y a educar a todos los que
+   estén interesados en usarla.
+
+   Internet es para todos, pero no será así si la legislación alrededor
+   del mundo crea un bosque de leyes incompatibles que impiden el
+   crecimiento del comercio electrónico, bloquean la protección de la
+   propiedad intelectual, y ahoga libertades de expresión y el
+   desarrollo de las economías de mercado.  Dediquémonos a la creación
+   de un marco legal global en que las leyes trabajen a través de los
+   limites nacionales para reforzar la escalera de valor en espiral
+   ascendente que Internet es capaz de crear.
+
+   Internet es para todos, pero no será así si sus usuarios no pueden
+   proteger su privacidad y confidencialidad de transacciones sobre la
+   red.  Dediquémonos a la propuesta de que esté disponible
+   gratuitamente, aplicable y exportable la tecnología criptográfica
+   suficiente para mantener la privacidad a resguardo del descubrimiento
+   no autorizado.  Es más, como la autenticidad anida en el corazón de
+   la confianza en los ambientes conectados en una red de computadoras,
+   dediquémonos a trabajar en el desarrollo de métodos de autenticación
+   y sistemas capaces de apoyar el comercio electrónico a través de
+   Internet.
+
+   Internet es para todos, pero no será así si los padres y maestros no
+   pueden crear espacios voluntariamente protegidos para nuestros
+   jóvenes para quienes todo el rango de contenido de Internet puede ser
+   impropio.  Dediquémonos al desarrollo de tecnologías y prácticas que
+   ofrezcan esta flexibilidad proteccionista a aquellos que acepten la
+   responsabilidad por proporcionarla.
+
+   Internet es para todos, pero no será así si no somos responsables en
+   su uso y no atendemos los derechos de otros que comparten su riqueza.
+   Dediquémonos al uso responsable de este nuevo medio y a la premisa de
+   que con las libertades que Internet habilita viene una
+   responsabilidad correspondiente para usar estos habilitadores
+   poderosos con cuidado y consideración.  Para aquellos que escogen
+   abusar de estos privilegios, dediquémonos a desarrollar las
+   herramientas necesarias para combatir el abuso y castigar al
+   abusador.
+
+   ¡Internet es para todos, incluso los marcianos!
+
+
+
+Cerf                           Informativo                    [Página 4]
+
+RFC 3271                 Internet es para todos               Abril 2002
+
+
+   Yo espero que se unan internautas de todas partes a la Sociedad de
+   Internet y a las organizaciones predispuestas a lograr esto, fácil de
+   decir pero difícil de lograr.  A medida que pasamos el hito del
+   principio del tercer milenio, ¿qué mejor tema podríamos pedir
+   posiblemente que hacer de Internet el medio de este nuevo milenio?
+
+   Internet ES para todos, pero no será así a menos que NOSOTROS lo
+   hagamos así.
+
+2. Consideraciones de seguridad
+
+   Este documento no trata temas de seguridad, salvo la referencia a la
+   utilidad de técnicas criptográficas para proteger la confidencialidad
+   y privacidad.
+
+3. Referencias
+
+   [1] Internet Society (Sociedad de Internet)- www.isoc.org
+
+   [2] Internet Engineering Task Force - www.ietf.org
+
+   [3] Corporación de Internet para los Nombres y Números Asignados -
+       www.ICANN.org
+
+   [4] Diapositivas de Cerf: www.wcom.com/cerfsup
+
+   [5] Internet interplanetario - www.ipnsig.org
+
+   [6] Historia de Internet - livinginternet.com
+
+4. Direcciones del autor
+
+   Vint Cerf
+   Ex-director y Presidente, Internet Society
+   Enero de 2002
+
+   Sr. Vice President, Internet Architecture and Technology
+   WorldCom
+   22001 Loudoun County Parkway, F2-4115
+   Ashburn, VA 20147
+
+   EMail: vinton.g.cerf@wcom.com
+
+
+5. Declaración completa de Derechos de propiedad literaria (Copyright)
+
+   Copyright (C) The Internet Society (2002).
+   Todos los derechos reservados.
+
+
+
+Cerf                           Informativo                    [Página 5]
+
+RFC 3271                 Internet es para todos               Abril 2002
+
+
+   Este documento y sus traducciones puede copiarse y facilitarse a
+   otros, y los trabajos derivados que lo comenten o lo expliquen o
+   ayuden a su implementación pueden prepararse, copiarse, publicarse y
+   distribuirse, enteros o en parte, sin restricciones de ningún tipo,
+   siempre que se incluyan este párrafo y la nota de Copyright expuesta
+   arriba en todas esas copias y trabajos derivados. Sin embargo, este
+   documento en si no debe ser modificado de ninguna forma, ya sea
+   eliminando la nota de Copyright o las referencias a la 'Internet
+   Society' u otras organizaciones de Internet, excepto cuando sea
+   necesario para desarrollar  estándares de Internet, en cuyo caso se
+   seguirán los procedimientos para Copyright definidos en el Proceso de
+   Estandarización de Internet, o con motivo de su traducción a otras
+   lenguas aparte del Ingles.
+
+   Los permisos limitados concedidos arriba son perpetuos y no serán
+   revocados por la Internet Society, sus sucesores o designados.
+
+   Este documento y la información contenida en el se proporcionan en su
+   forma "TAL CUAL ES" y LA INTERNET SOCIETY Y LA INTERNET ENGINEERING
+   TASK FORCE NIEGAN TODAS LAS GARANTIAS, EXPRESAS O IMPLICITAS,
+   INCLUYENDO, PERO NO LIMITADO A CUALQUIER GARANTIA DE QUE EL USO DE LA
+   INFORMACION AQUI EXPUESTA NO INFRINJA NINGUN DERECHO O CUALQUIER
+   GARANTIA IMPLICITA DE COMERCIALIZACION O IDONEIDAD PARA UN PROPOSITO
+   ESPECIFICO.
+
+Reconocimiento
+
+   La financiación para la función de Editor de RFC la realiza
+   actualmente la Internet Society.
+
+Traducción al castellano
+
+   Grupo de traducción de RFC al español: http://www.rfc-es.org
+   Mayo 2002
+
+   Andrés Facal
+   Jaime Cibils 2739 esq. 8 de Octubre
+   11600 Montevideo
+   Uruguay
+
+   Tel: (+5982) 486 1452
+   Correo-e: andresfa@adinet.com.uy
+
+
+
+
+
+
+
+
+
+Cerf                           Informativo                    [Página 6]
+

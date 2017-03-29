@@ -1,0 +1,674 @@
+
+
+
+
+
+
+Network Working Group                                            R. Plzak
+Request for Comments: 2664                                           SAIC
+FYI: 4                                                           A. Wells
+Obsoletes: 1594                                                 UWisc-Mad
+Categoría: Informativo                                            E. Krol
+                                                                  Univ IL
+                                                              Agosto 1999
+Traducción al castellano:                                    Octubre 2002
+Rubén Afonso Francos                                   <rujofa2@terra.es>
+
+
+
+                     FYI de Preguntas y Respuestas
+               Respuestas a las Preguntas Usuales de los
+                  "Usuarios Principiantes de Internet"
+
+
+Estado de este memorándum
+
+    Este memorándum proporciona información para la comunidad Internet.
+    No especifica ningún tipo de estándar Internet. La distribución de
+    este memorándum es ilimitada.
+
+Aviso de Copyright
+
+    Copyright (C) Sociedad Internet (1999). Todos los Derechos
+    Reservados.
+
+Resumen
+
+    Este memorándum proporciona una descripción general para el usuario
+    principiante de Internet. Va dirigido al usuario normal de Internet
+    de hoy en día, e intenta mostrarle una aproximación en lugar de
+    profundizar en algún tema específico. Al contrario que sus
+    predecesores, esta edición intenta responder a las cuestiones
+    generales que un usuario poco sofisticado se preguntaría, y no a las
+    preguntas de un usuario de Internet con más conocimientos técnicos.
+    Aquellos que deseen una discusión con mayor profundidad son
+    remitidos al FYI 7, que trata preguntas y respuestas de nivel
+    intermedio y avanzado. Se ha realizado un importante esfuerzo para
+    mantener conciso este memorándum pero al mismo tiempo proporcionar
+    al usuario suficiente información para comprender el funcionamiento
+    de Internet desde un punto de vista general.
+
+Agradecimientos
+
+    Las siguientes personas merecen un agradecimiento por su ayuda y
+    contribución a este FYI: Chris Burke (Motorola), John Curran (BBN
+
+
+
+Plzak, et al.                  Informativo                    [Página 1]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    Planet), Albert Lunde (NWU), y April Marine (Internet Engines,
+    Inc.). Por último, pero no menos importante, gracias a Patricia
+    Harper y Charlotte Nurge. Estas señoras de South Riding, Virginia,
+    realizaron el test de usuario de este documento.
+
+2. Preguntas sobre Internet
+
+2.1 ¿Qué es Internet?
+
+    La gente utiliza los ordenadores para realizar diferentes tareas. Un
+    grupo de ordenadores conectados se denomina red. La gente puede
+    intercambiar ideas e información mediante su ordenador debido a que
+    están conectados a esta red. Algunos ordenadores están conectados
+    directamente a ésta mientras que otros (principalmente los de los
+    hogares) se conectan mediante una línea de teléfono y un dispositivo
+    de comunicación llamado módem. Conectando diferentes redes entre sí
+    mediante ordenadores especiales denominados enrutadores, las
+    personas de una red pueden compartir actividades con personas de
+    otras redes. Este grupo INTERconectado de redes (NETworks) se conoce
+    con el nombre de INTERNET.
+
+2.2 ¿Qué puedo hacer en Internet?
+
+    Hay muchas actividades que los usuarios pueden hacer en Internet.
+    Entre éstas se incluye navegar, buscar, enviar correo electrónico
+    (email), transferir programas y documentos, chat, y juegos.
+
+    NAVEGACIÓN
+
+    La navegación es una de las actividades más populares de Internet.
+    Para navegar, un usuario necesita un programa conocido como
+    navegador. Éste permite que el usuario se conecte a un sitio que
+    alberga información. Muchos de estos sitios poseen enlaces a otros
+    sitios que contienen información relacionada.  Estos enlaces suelen
+    estar identificados por texto subrayado de un color diferente del
+    resto del texto del artículo. Pulsando sobre uno de estos enlaces el
+    usuario puede acceder a dicha información. Ésta puede estar en la
+    misma localización o en otra distinta, y tener a su vez enlaces
+    hacia más información. Así que, al igual que una nota al pie de
+    página o una referencia bibliográfica en una publicación impresa,
+    los enlaces pueden ser utilizados para encontrar información, ya sea
+    relacionada o no.
+
+    BÚSQUEDA
+
+    La búsqueda implica el uso de un programa especial conocido como
+    motor de búsqueda. Hay muchos de estos programas, situados en
+    distintos sitios de búsqueda. Los navegadores más populares poseen
+
+
+
+Plzak, et al.                  Informativo                    [Página 2]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    información sobre la localización de estos motores de búsqueda. El
+    proceso de la búsqueda es muy similar a usar un catálogo en una
+    biblioteca. Al igual que una persona buscaría un tema en un catálogo
+    y encontraría una o más referencias de dicho tema, un motor de
+    búsqueda proporciona al usuario una lista de sitios que pueden tener
+    información relacionada. Esta lista es un conjunto de enlaces a
+    dichos sitios y para acceder a cada uno lo único que el usuario debe
+    hacer es pulsar sobre el enlace al sitio escogido. De la misma forma
+    que en una biblioteca diferentes catálogos tienen diferentes
+    referencias, diferentes motores de búsqueda proporcionan listas de
+    referencias distintas.
+
+    CORREO ELECTRÓNICO (EMAIL)
+
+    EL correo electrónico es otra actividad muy popular. Es muy parecido
+    a enviar cartas a través de la oficina de correo o notas y
+    documentos por la oficina. Se utiliza para intercambiar mensajes
+    entre dos o más personas. Debido que el correo electrónico puede ser
+    malentendido o engañoso, los usuarios deberían estar familiarizados
+    con la netiqueta del correo electrónico. Para más información acudir
+    a Guía de la Netiqueta [FYI 28, RFC 1855].
+
+    Mucha gente también participa en listas de correo. Éstas suelen
+    estar dedicadas a un tema en concreto. Algunas se utilizan para
+    proporcionar información a los suscriptores, así como información
+    sobre actualizaciones de productos que el usuario ha adquirido, o
+    para discusiones. La gente participa en la discusión enviando un
+    email a la dirección de la lista, que se encarga de distribuir el
+    mensaje a todos los demás miembros de la misma. Abusar de las listas
+    de correo es probablemente la mayor fuente de correo basura (también
+    conocido como spam). Todo el mundo debería tener cuidado de no ser
+    la procedencia del correo basura.
+
+TRANSFERENCIA DE ARCHIVOS
+
+    Los programas y documentos se pueden transferir de diferentes
+    maneras. La forma más corriente de hacerlo entre usuarios
+    individuales es adjuntar el programa o documento a un mensaje de
+    correo electrónico, aunque también es usual obtenerlos de un sitio
+    utilizando la opción guardar del navegador o bien usando el
+    Protocolo de Transferencia de Archivos (FTP). Todo esto permite que
+    el usuario pueda obtener una gran variedad de programas, documentos,
+    archivos de sonido y de vídeo.
+
+CHAT
+
+    El chat se realiza entre una o más personas que estén conectadas a
+    Internet. Es algo parecido a ir a una fiesta. Igual que la gente se
+
+
+
+Plzak, et al.                  Informativo                    [Página 3]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    reúne en pequeños grupos y discute cosas, los miembros de un chat se
+    reúnen para hablar sobre un tema determinado. Los canales de chat
+    suelen estar patrocinados o mantenidos por una organización que
+    tiene un especial interés en el tema. Por ejemplo, una organización
+    de noticias a través de la Red puede tener un canal de chat para
+    hablar de los acontecimientos que son de actualidad. Para chatear,
+    una persona escribe un mensaje que puede ser leído por los demás,
+    que pueden responderle.  Las personas que usen un chat por primera
+    vez deben estar advertidos de que, al igual que en una fiesta hay
+    personas que no dicen nada, puede haber personas en el chat que
+    estén simplemente escuchando. Además, algunas pueden decir ser
+    personas diferentes de las que realmente son, igual que en una
+    fiesta. Por último, recordar que los integrantes de un chat van y
+    vienen de un canal a otro de la misma forma que en una fiesta la
+    gente va de un grupo a otro.
+
+    JUEGOS
+
+    Algunas personas utilizan Internet para jugar. Los juegos pueden ser
+    juegos de rol, acción, aventuras, o versiones online de juegos
+    clásicos como el ajedrez. Algunos requieren que el usuario compre
+    una copia del juego y la instale en su ordenador, mientras que con
+    otros se puede jugar simplemente yendo a un sitio de juegos. Al
+    igual que otras formas de juego, jugar por Internet puede ser un
+    desafío, un entretenimiento, y una divertida experiencia social. No
+    tenga miedo de divertirse.
+
+    OTRAS ACTIVIDADES
+
+    Otras actividades populares incluyen compra de componentes
+    electrónicos, operaciones bancarias, e inversiones. Muchos
+    vendedores muestran fotografías de sus productos permitiendo que la
+    gente realice compras a través de Internet. Las compras también
+    incluyen adquirir servicios como billetes de avión o comprar
+    alimentos. Muchos bancos permiten que la gente transfiera fondos,
+    compruebe saldos, pague billetes y otras actividades similares a
+    través de Internet con una identificación y un número de cuenta. Por
+    último, mucha gente invierte a través de Internet en muchas cosas,
+    desde acciones y bonos hasta bienes materiales. Una advertencia, si
+    utiliza una tarjeta de crédito, compruebe si el sitio dispone de
+    medidas de seguridad para proteger la información de su tarjeta. Los
+    sitios con reputación deberían mostrarle cómo protegen su
+    información. Si tiene dudas sobre la forma en que se protegerá su
+    información no utilice su tarjeta de crédito en ese sitio.
+
+¿Qué es una Dirección?
+
+    Dos preguntas frecuentes hoy en día son "¿Cuál es tu dirección de
+
+
+
+Plzak, et al.                  Informativo                    [Página 4]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    correo electrónico?" y "¿Cuál es la URL?". Generalmente la primera
+    cuestión pregunta dónde enviar información, mientras que la segunda
+    pregunta dónde conseguirla.  La respuesta a la primera suele ser
+    algo como minombre@compañía.com. La respuesta a la segunda
+    normalmente es algo como "http://www.newspaper.com".  Pero , ¿qué
+    significan estas direcciones?
+
+    DIRECCIÓN DE CORREO ELECTRÓNICO
+
+    Como se mencionó anteriormente, la dirección de correo electrónico
+    es del estilo de "minombre@compañía.com", pronunciándose como "Mi
+    nombre arroba Compañía punto com". Consta de dos partes divididas
+    por el signo "@".
+
+    La parte de la izquierda es igual que el nombre en una carta,
+    identifica una persona en particular y suele ser una composición de
+    su nombre. Los nombres típicos son parecidos a:
+
+       john_doe
+       john.doe
+       jdoe
+       doej
+
+    El nombre lo asigna por el administrador del sistema que es quien
+    controla el sistema de correo electrónico y sigue las reglas que han
+    sido establecidas por la compañía que suministra el servicio de
+    correo electrónico. Algunas veces la porción del nombre de la
+    dirección de email se denomina cuenta de correo.
+
+    La parte de la derecha de la "@" es el nombre del ordenador que
+    proporciona el servicio de correo electrónico, y suele ser el nombre
+    de la compañía propietaria del ordenador seguido de un punto y una
+    abreviación que representa el dominio o grupo de nombres que
+    pertenecen a dicha compañía. Ejemplos de estos dominios de "alto
+    nivel" son "edu", "com", y códigos de países como "fr" para Francia
+    o "jp" para Japón. Cuando se envía un correo electrónico la parte de
+    la dirección que está a la derecha de la "@" se utiliza para
+    encontrar el ordenador de destino.
+
+    URL
+
+    El Localizador Uniforme de Recursos (URL) se utiliza normalmente
+    para identificar a un ordenador que proporciona un servicio a través
+    de la red de alcance mundial. Normalmente es algo como
+    "http://www.newspaper.com". Esta dirección también está formada por
+    dos partes que se encuentran separadas por "//". La parte de la
+    izquierda quiere decir que se tiene que buscar el servicio de la red
+    de alcance mundial que está localizado en el ordenador identificado
+
+
+
+Plzak, et al.                  Informativo                    [Página 5]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    por la parte a la derecha de la "//". Esta parte es el nombre del
+    ordenador que proporciona el servicio de red de alcance mundial. Su
+    nombre está compuesto por partes muy similares a las que describen
+    el nombre de un email de ordenador. Algunas veces la porción de la
+    derecha contiene información adicional que identifica un documento
+    particular en el sitio.
+
+    Por ejemplo, http://www.newspaper.com/deportes/artículo1.html
+    identificaría un artículo específico en la sección deportes de
+    newspaper.
+
+2.4 ¿Existen Algunas Reglas de Comportamiento en Internet?
+
+    En general, el sentido común, la cortesía y la decencia marcan el
+    buen comportamiento en Internet. No existe un libro formal sobre
+    cómo comportarse. El FYI 28, ya mencionado anteriormente, es una
+    buena guía. Muchas actividades como salas de chats, sitios de juego,
+    o las listas de correo tienen sus propias reglas. Algo completamente
+    aceptable en un chat puede estar totalmente fuera de lugar en otro.
+    Nunca hace daño comprobar la temperatura del agua antes de saltar a
+    la piscina. Los usuarios deberían utilizar las mismas precauciones
+    antes de formar parte de cualquier actividad en Internet. El correo
+    electrónico puede crear malentendidos entre la gente. Los usuarios
+    deberían recordar que el lector sólo tiene el texto para comprender
+    lo que se está diciendo. Las pistas que aparecen en las
+    conversaciones como el tono de voz y las señales corporales como el
+    guiño de un ojo no están presentes en el texto. Debido a esto, los
+    usuarios de Internet han desarrollado pistas para insertar en el
+    texto. A menudo se utilizan las mayúsculas y los símbolos conocidos
+    como emoticonos (también llamados "smilies").
+
+              Un emoticón corriente es algo como esto :-)
+
+    Adicionalmente, los acrónimos también han evolucionado con el tiempo
+    (por ejemplo, IMHO - en mi humilde opinión). Buscando se puede
+    encontrar más información sobre este tema. Utilice palabras clave
+    como "netiqueta" y "emoticonos" en su motor de búsqueda para
+    encontrar más información relacionada. Los usuarios también deben
+    estar advertidos de que algunos de sus programas personales como
+    procesadores de texto o de correo electrónico pueden crear mensajes
+    que no todo el mundo puede leer. Es frecuente que un lector tenga
+    que utilizar el mismo programa que se utilizó para escribir el
+    documento a fin de poder leerlo. Así que antes de enviar un
+    documento adjunto, es una buena idea asegurarse de que el receptor
+    de su documento puede leerlo. En caso de duda, envíe una versión de
+    texto (ascii) del documento.
+
+2.5. ¿Cómo funciona Internet?
+
+
+
+Plzak, et al.                  Informativo                    [Página 6]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    Cada una de las actividades mencionadas en la sección describiendo
+    lo que se puede hacer en Internet requiere el intercambio de
+    información entre ordenadores. Éstos reciben y envían información
+    por turnos. Cuando un ordenador envía información, se conoce como
+    "fuente"; cuando la recibe, se conoce como el "destinatario". (El
+    mismo ordenador puede ser fuente y destinatario en momentos
+    distintos. Esto es especialmente claro cuando se piensa en el envío
+    y recepción del correo electrónico).
+
+    Cada ordenador en Internet tiene una "dirección" única que lo
+    identifica entre los demás millones de ordenadores. En Internet
+    existen ordenadores especializados situados entre la fuente y el
+    destinatario, en los puntos de interconexión de redes. Estos
+    ordenadores reciben el nombre de enrutadores y saben cómo utilizar
+    la dirección de un ordenador para enviar la información
+    correctamente de un ordenador a otro a través de Internet.
+
+    En un intercambio de información ocurre lo siguiente:
+
+      * La fuente encuentra la dirección del destinatario.
+
+      * La fuente contacta con el destinatario y le dice "hola".
+
+      * El destinatario responde con su propio "hola".
+
+      * La fuente informa al destinatario de que tiene información que
+      mandarle.
+
+      * El destinatario informa a la fuente de que puede recibir la
+      información.
+
+      * La fuente divide la información en partes menores denominadas
+      paquetes y envía cada uno al destinatario.
+
+      * Los enrutadores guían cada paquete hacia el destinatario.
+
+      * El destinatario recoge los paquetes y los une de nuevo para
+      obtener la información.
+
+      * El destinatario informa a la fuente de que ha recibido la
+      información y le pregunta si tiene algo más que enviar.
+
+      * Si la fuente dice que no, el destinatario dirá "adiós" a menos
+      de que tenga algo que enviar de vuelta. Si es así, partirá la
+      información en paquetes y los enviará.
+
+      * Una vez que ambos han terminado de "hablar", ambos dicen
+      "adiós".
+
+
+
+Plzak, et al.                  Informativo                    [Página 7]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    Esta introducción simplificada no explica muchos pasos del proceso,
+    como la forma en que un ordenador descubre la dirección de otro
+    ordenador o cómo los paquetes se dividen y se reensamblan.
+    Afortunadamente, son detalles con los que la gente que utiliza
+    Internet nunca necesita llegar a trabajar.
+
+2.6 ¿Quién mantiene Internet?
+
+    Nadie. Internet es un esfuerzo cooperativo entre Proveedores de
+    Acceso a Internet (ISPs), compañías de software, organizaciones de
+    voluntarios, y  unas pocas instalaciones que mantienen todo unido.
+    Los ISPs y las compañías de software son completamente
+    independientes y la mayoría compiten entre sí. Los primeros
+    proporcionan acceso a Internet a la gente de la misma forma que ésta
+    obtiene el servicio telefónico de una compañía telefónica. Los
+    proveedores permiten conectar sus redes entre sí y transmitir
+    información siguiendo un conjunto establecido de normas
+    (protocolos). Las compañías de software aceptan crear programas
+    (como gestores de correo o navegadores) que también siguen esos
+    protocolos. También hay otras organizaciones que mantienen el buen
+    rumbo de las cosas. Algunas asignan direcciones de Internet de la
+    misma forma que se asignan los números de teléfono, otras mantienen
+    los nombres utilizados por los usuarios y grupos de Internet, y una
+    gran organización de voluntarios denominada Grupo de Tareas sobre
+    Ingeniería de Internet (IETF) desarrolla los protocolos utilizados
+    por los ordenadores para permitir las comunicaciones entre redes.
+
+3. Consideraciones de Seguridad
+
+    La pregunta "¿es Internet segura?" puede ser un poco confusa para la
+    gente, que a menudo oye muchas cosas sobre que sí es segura y muchas
+    otras espeluznantes historias sobre que no lo es. Hay unas reglas
+    básicas que deben ser recordadas.
+
+    Primero, nunca se debe dar la contraseña de una cuenta a nadie.
+    Aprenderse una contraseña es la forma más fácil de penetrar en un
+    sistema. La mayoría de las personas creen que sus archivos no
+    interesan a nadie, pero alguien puede encontrar un hueco partiendo
+    de una cuenta inocua y acceder a otros lugares en el mismo sistema.
+    Muchas practicas de seguridad adecuadas se pueden encontrar en el
+    Manual de Seguridad del Usuario [RFC 34, RFC 2504].
+
+    Segundo, hay que comprender que hay muchas formas de seguir la
+    información que un usuario envía vía correo electrónico, los
+    archivos que descarga, y los sitios visitados en Internet. El
+    administrador del sistema y los ingenieros de red que supervisan los
+    ordenadores de un sitio necesitan acceder a información que alguno
+    puede creer que es secreta. En la práctica, un administrador o
+
+
+
+Plzak, et al.                  Informativo                    [Página 8]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    ingeniero irresponsable puede violar la privacidad de una persona
+    movido por la curiosidad personal. Sin embargo, si alguien menos
+    legitimado accede ilegalmente al sistema, también puede acceder a
+    información privada. Esta situación no es un problema para la
+    mayoría de la gente, pero debe comprenderse que cosas como un correo
+    electrónico enviado hace un año o un registro de las páginas web
+    vistas por un usuario pueden estar todavía en las copias de
+    seguridad del sistema y pueden ser fácilmente recuperadas y
+    publicadas abiertamente.
+
+    Tercero, antes de dar información personal a través de Internet,
+    como rellenar formularios en una página web, los usuarios deberían
+    darse cuenta de que no existe garantía de confidencialidad o
+    privacidad. Podría compararse con enviar dicha información en un fax
+    a una fiesta en la que nunca ha estado. Mientras muchas
+    organizaciones en Internet son responsables con la información
+    recibida a través del correo electrónico y web, esto nunca puede
+    determinarse prematuramente.
+
+4. Referencias
+
+   [1] Guttman, E., Leong G, y G. Malking, "Manual de Seguridad
+       del Usuario", FYI 34, RFC 2504, Febrero 1999.
+
+   [2] Hambridge, S., "Guía de Netiqueta", FYI 28, RFC 1855, Octubre
+       1995.
+
+5.  Dirección del autor
+
+    Raymond Plzak
+    SAIC
+    1710 Goodridge Drive
+    McLean, Virginia 22102
+
+    Teléfono: (703) 821-6535
+    EMail: plzakr@saic.com
+
+
+    Amy Tracy Wells
+    Proyecto de Búsqueda en Internet
+    Universidad de Wisconsin-Madison
+    Departamento de Ciencias de la Computación
+    1210 W. Dayton St.
+    Madison, WI 53706
+
+    Teléfono: (608) 263-2611
+    EMail: awel@cs.wisc.edu
+
+
+
+
+Plzak, et al.                  Informativo                    [Página 9]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+    Ed Krol
+    Universidad de Illinois
+    1120 DCL
+    1304 Springfield
+    Urbana IL   61801
+
+    Teléfono: (217) 333-7886
+    EMail: krol@uiuc.edu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Plzak, et al.                  Informativo                   [Página 10]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+Apéndice A
+
+    Glosario de términos
+
+    Emoticón      Combinación de signos de puntuación utilizados para
+                  indicar el tono de voz del remitente del correo electrónico
+
+    IETF          Grupo de Tareas sobre Ingeniería de Internet
+
+    Internet      Un grupo de redes conectadas entre sí
+
+    ISP           Proveedor de Acceso a Internet [para una descripción
+                  ver el texto]
+
+    Red           Un grupo de ordenadores interconectados
+
+    Enrutador     Un ordenador especializado que conecta redes entre sí
+                  y dirige los paquetes de información a su destinatario
+
+    Spam          Término de argot para hacer referencia al correo
+                  basura
+
+    URL           Localizador Universal de Recursos [para una
+                  descripción ver el texto]
+
+    Navegador     Un programa que permite leer la información que está
+                  alojada en un sitio de la red de alcance mundial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Plzak, et al.                  Informativo                   [Página 11]
+
+RFC 2664       FYI Q/A - para el Principiante de Internet    Agosto 1999
+
+
+Exposición Completa de Copyright
+
+    Copyright (C) Sociedad Internet (1999).  Todos los Derechos
+    Reservados.
+
+    Este documento y sus traducciones pueden ser copiados y
+    suministrados a terceros; los documentos derivados de éste que lo
+    comenten,  aclaren, o ayuden en su implementación deberán ser
+    preparados, copiados, publicados y distribuidos, tanto en su
+    totalidad como en parte, sin ninguna restricción de ningún tipo,
+    informando de que la anterior noticia de Copyright y este párrafo
+    están incluidos en dichas copias y derivados. Sin embargo, este
+    documento no debe ser modificado de ninguna manera, ya sea
+    eliminando la noticia de Copyright o las referencias a la Sociedad
+    Internet o a cualquier otra organización de Internet, exceptuando lo
+    necesario para el desarrollo de los estándares de Internet, en el
+    cual se deberán seguir los procedimientos de copyright especificados
+    en el sistema de Estándares de Internet, o lo necesario para
+    traducirlo a otros idiomas distintos del inglés.
+
+    Los permisos limitados expresados arriba son perpetuos y no serán
+    revocados por la Sociedad Internet ni por sus sucesores o
+    apoderados.
+
+    Este documento y la información contenida en él se proporcionan "tal
+    cual"; LA SOCIEDAD INTERNET Y EL GRUPO DE TAREAS SOBRE INGENIERÍA DE
+    INTERNET RECHAZAN TODA GARANTÍA EXPLÍCITA O IMPLÍCITA, INCLUYENDO
+    PERO NO LIMITANDO CUALQUIER GARANTÍA, DE QUE EL USO DE LA
+    INFORMACIÓN AQUÍ CONTENIDA NO INFRINGIRÁ NINGÚN DERECHO O GARANTÍA
+    IMPLÍCITA DE COMERCIABILIDAD O APTITUD PARA ALGÚN PROPÓSITO EN
+    PARTICULAR.
+
+Agradecimiento
+
+    Los fondos para la función de Editor RFC son proporcionados en la
+    actualidad por la Sociedad Internet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Plzak, et al.                  Informativo                   [Página 12]
