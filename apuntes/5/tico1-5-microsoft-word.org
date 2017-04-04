@@ -77,11 +77,36 @@ Teclas rápidas:
 - Los editamos con =MAY+F9=
 - Más teclas: =F11=, =ALT+F9= ¿qué hacen?
 
+** Ejemplo de campos
+El siguiente document usa varios de los campos explicados anteriormente
+[[file:ejemplos-campos.docx]]
+
+* Correspondencia
+- Genera múltiples copias de un documento en base a una lista de datos
+- Útil para
+  - Malings (postales o email)
+  - Documentos personalizados para muchos destinatarios
+  
+** Cómo realizar la correspondencia
+1. *Iniciar combinación de correspondencia*
+  - Debe elegirse entre varios tipos de documento de Word
+  - O envío de emails
+2. *Seleccionar destinatarios*: Se elige la lista de datos:
+  - Una lista escrita en el momento
+  - Un documento Word con una tabla
+  - Una hoja Excel
+  - Una tabla de Access
+3. *Crear la plantilla con los datos*
+4. *Finalizar y combinar*
+
+** Ejemplo de correspondencia
+- Fichero de plantilla: [[file:ejemplo-fusion.docx]]
+- Fichero de datos: [[file:ejemplo-datos-correspondencia.docx]]
+
 * Formularios
 
 * Secciones
 
-* Correspondencia
 
 * Documento maestro
 
