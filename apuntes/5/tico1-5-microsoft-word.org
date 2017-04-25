@@ -104,9 +104,14 @@ El siguiente document usa varios de los campos explicados anteriormente
 - Fichero de datos: [[file:ejemplo-datos-correspondencia.docx]]
 
 * Formularios
+[[https://support.office.com/es-es/article/Crear-un-formulario-para-rellenar-39a58412-107e-426b-a10b-ac44937e3a9f][Enlace a documentación oficial de Microsoft]]
+#+HTML: <iframe width="853" height="480" src="https://www.youtube.com/embed/U8eUfYVSVYc?ecver=1" frameborder="0" allowfullscreen></iframe>
+
 
 * Secciones
+[[https://cienporcienoffice.wordpress.com/2013/03/06/que-son-ya-para-que-sirven-las-secciones/][Enlace a ¿Qué son las secciones?]]
+#+HTML: <iframe width="853" height="480" src="https://www.youtube.com/embed/HAHYlTJTauw?rel=0?ecver=1" frameborder="0" allowfullscreen></iframe>
 
 
 * Documento maestro
-
+[[http://www.aulaclic.es/word-2010/t_16_1.htm][Enlace a curso de documento maestro en Word]]
