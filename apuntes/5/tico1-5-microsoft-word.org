@@ -115,3 +115,18 @@ El siguiente document usa varios de los campos explicados anteriormente
 
 * Documento maestro
 [[http://www.aulaclic.es/word-2010/t_16_1.htm][Enlace a curso de documento maestro en Word]]
+
+* Vistas del documento
+- Vista de impresión
+- Vista de esquema
+- Vista de página web
+- Vista de lectura
+
+* Macros: /Visual Basic/
+- Word puede grabar las órdenes que se le dan para repetirlas en un futuro 
+- Cada paquete de órdenes guardados se llama *macro*
+- Se puede grabar una macro:
+  - Registrando las operaciones de ratón y teclado
+  - Escribiéndolas en el lenguaje de programación /Visual Basic/
+
+[[http://www.pcworld.com/article/2952126/software-productivity/word-macros-three-examples-to-automate-your-documents.html][Enlace a ejemplos de macros]]
