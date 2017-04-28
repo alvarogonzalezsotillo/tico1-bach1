@@ -95,5 +95,27 @@
 Realiza una hora que calcule la suma de un ticket de la compra, y luego aplique el impuesto a cada artículo de la celda =A2= 
 
 
+* ¿Y si...?
+Excel permite experimentar con los valores de las celdas para sacar conclusiones sobre los datos
+- Búsqueda de objetivos
+- Escenarios
+
+** Búsqueda de objetivos
+- Excel puede hacer variar el valor de una celda para que otra celda alcance un valor buscado
+- Útil para
+  - Optimizar el gasto de una empresa
+  - Calcular tarifas telefónicas
+  - Buscar solución a los ejercicios de la asignatura de matemáticas
+
+[[file:imagenes-excel/objetivo.png]]
+
+[[file:imagenes-excel/objetivo.xlsx][Ejemplo de búsqueda de objetivos]]
+
+** Escenarios
+- Son diferentes versiones de los datos
+- Por ejemplo, varios empleados pueden tener diferentes previsiones de ventas o costes, y pueden reflejarse en la misma hoja.
 
 
+
+* Gráficos
+- Mejor que dar una clase sobre ello, experimentar.
