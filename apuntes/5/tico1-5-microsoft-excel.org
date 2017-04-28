@@ -1,0 +1,99 @@
+#+include: "../common/header.org"
+#+Title: Microsoft Word (opciones avanzadas)
+#+REVEAL_THEME: simple
+#+EXCLUDE_TAGS: no_export
+
+* Introducción
+- Las hojas de cálculo fueron de las primeras /killer app/ de la microinformática
+  - Justificaban por sí mismas [[https://es.wikipedia.org/wiki/VisiCalc][la compra de un ordenador]] en una pequeña empresa
+
+* Definiciones
+- *Hoja de cálculo*: Matriz bidimensional de celdas.
+- *Libro*: Varias hojas de cálculo, que se guardan en el mismo fichero (=xlsx=)
+- *Celda*: Unidad básica que puede contener un dato o una fórmula
+- *Datos*: Cadenas de caracteres, números, fechas, horas...
+- *Formato*: Cada dato se puede mostrar de muchas formas.
+  - El número /PI/ puede verse como =3.14=, =3.1415= o como =π=
+  - La fecha del 2 de Abril de 1987 puede verse como =2/4/87= o como =2-Abr-1987=
+- *Fórumula*: Operación con varios datos y/o celdas, que da como resultado un nuevo dato.
+
+* Fórmulas
+- Para escribir un dato en una celda, simplemente se teclea
+- Pero las celda que empiezan por un signo igual (=) contienen una *fórmula*
+- Una fórmula puede ser:
+  - Un solo dato
+  - Operaciones entre fórmulas 
+  - Funciones
+  - Referencias a otras celdas
+
+** Datos
+- *Texto*
+- *Numéricos*
+- *Moneda*: 
+  - En realidad, son numéricos con un formato especial 
+- *Fechas*
+  - En realidad, son el número de días desde el 1-1-1970, con un formato especial
+- *Booleanos* 
+  - Pueden tener los valores =Verdadero= y =Falso=
+
+** Operaciones
+[[https://support.office.com/es-es/article/Operadores-de-c%25C3%25A1lculo-y-prioridad-en-Excel-48be406d-4975-4d31-b2b8-7af9e0e2878a][Documentación oficial]]
+
+*** Operaciones aritméticas
+
+
+|   | Operador  aritmético | Significado    | Ejemplo | 
+|   | +                    | Suma           |     3+3 | 
+|   | –                    | Resta          |     3-1 | 
+|   | *                    | Multiplicación |     3*3 | 
+|   | /                    | División       |     3/3 | 
+|   | %                    | Porcentaje     |     20% | 
+|   | ^                    | Exponenciación |     3 ^ 2 | 
+
+*** Operadores de comparación
+
+|   | Operador de comparación      | Significado       | Ejemplo |
+|   | = (signo igual)              | Igual a           | A1=B1   |
+|   | > (signo mayor que)          | Mayor que         | A1>B1   |
+|   | < (signo menor que)          | Menor que         | A1<B1   |
+|   | >= (signo mayor o igual que) | Mayor o igual que | A1>=B1  |
+|   | <= (signo menor o igual que) | Menor o igual que | A1<=B1  |
+|   | <> (signo distinto de)       | Distinto de       | A1<>B1  |
+
+
+** Funciones
+- Tienen un *nombre* y *parámetros*
+- Hay /muchas/ funciones
+  - Lo más recomendable es [[https://support.office.com/es-es/article/Funciones-de-Excel-por-categor%25C3%25ADa-5f91f4e9-7b42-46d2-9bd1-63f26a86c0eb][recorrer la lista al menos una vez]]
+- A lo largo del tema veremos muchos ejemplos de funciones
+
+[[file:imagenes-excel/insertar-funcion.png]]
+
+
+** Referencias
+- Las *celdas* se pueden localizar por su fila y columna (parecido a el [[http://es.battleship-game.org/][juego de los barcos]])
+  - *Fila*: Número
+  - *Columna*: Letra
+
+[[file:imagenes-excel/celda.png]]
+
+*** Rangos
+- Se puede especificar un *rango* inicando la esquina superior izquierda e inferior derecha, separadas por =:=
+
+[[file:imagenes-excel/rango.png]]
+
+*** Referencias absolutas/relativas
+- Cuando se copia una celda con una fórmula, las referencias pueden
+  - Quedarse exactamente igual (*absolutas*)
+  - Cambiar de acuerdo al sitio donde se pegan (*relativas*)
+- Por defecto, las referencias son relativas
+  - Para hacerlas absolutas se añade =$= a la fila y/o columna
+  - La fila y columna pueden ser absolutas/relativas de forma independiente
+
+-----
+
+Realiza una hora que calcule la suma de un ticket de la compra, y luego aplique el impuesto a cada artículo de la celda =A2= 
+
+
+
+
