@@ -1,5 +1,5 @@
 #+include: "../common/header.org"
-#+Title: Microsoft Word (opciones avanzadas)
+#+Title: Microsoft Excel
 #+REVEAL_THEME: simple
 #+EXCLUDE_TAGS: no_export
 
