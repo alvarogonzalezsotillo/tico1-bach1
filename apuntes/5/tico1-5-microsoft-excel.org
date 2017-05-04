@@ -69,6 +69,16 @@
 
 [[file:imagenes-excel/insertar-funcion.png]]
 
+*** Algunas funciones útiles
+
+| SI( /condicion/ ; /valorsicierto/ ; /valorsifalso/ ) | Condicional                                      |
+| SUMA( /celdas/ );                                    | Suma                                             |
+| CONTAR.SI( /celdas/; /condicion/ )                   | Cuenta las filas que cumplen la condición        |
+| CONTARA( /celdas/ )                                  | Cuenta las celdas no vacías                      |
+| PROMEDIO( /celdas/ )                                 | Media de las celdas                              |
+| MAX( /celdas/ ) y MIN( /celdas/ )                    | Máximo o mínimo de las celdas                    |
+| ESERROR( /celda/ )                                   | Decide si una celda contiene un error de cálculo |
+
 
 ** Referencias
 - Las *celdas* se pueden localizar por su fila y columna (parecido a el [[http://es.battleship-game.org/][juego de los barcos]])
