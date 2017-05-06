@@ -15,7 +15,9 @@
 - *Formato*: Cada dato se puede mostrar de muchas formas.
   - El número /PI/ puede verse como =3.14=, =3.1415= o como =π=
   - La fecha del 2 de Abril de 1987 puede verse como =2/4/87= o como =2-Abr-1987=
-- *Fórumula*: Operación con varios datos y/o celdas, que da como resultado un nuevo dato.
+- *Fórmula*: Operación con varios datos y/o celdas, que da como resultado un nuevo dato.
+
+     
 
 * Fórmulas
 - Para escribir un dato en una celda, simplemente se teclea
@@ -101,6 +103,7 @@
   - La fila y columna pueden ser absolutas/relativas de forma independiente
 
 -----
+
 
 Realiza una hora que calcule la suma de un ticket de la compra, y luego aplique el impuesto a cada artículo de la celda =A2= 
 
